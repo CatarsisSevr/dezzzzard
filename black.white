@@ -1,4 +1,6 @@
-/* AUTO=body_background */ body { background: url(https://h0fpubgow0-flywheel.netdna-ssl.com/wp-content/uploads/2018/11/manga-wallpaper-67.jpg) no-repeat fixed; }
+body { 
+ background: radial-gradient(circle at top, #2a2f38 1%, #0b0d0e 5%, #23272d 100%) fixed, radial-gradient(circle at bottom, #000000 11%, rgb(38, 43, 50) 55%, rgb(0, 0, 0)) fixed !important;
+}
 .p-user_rates-index .l-content .order-control {
     border: 1px solid #000;
 }
@@ -29,9 +31,6 @@
 .b-comments-notifier {
   top: 0px !important;
 }
-@media screen{.b-badge:before{display:block!important}
-.b-badge:not:before, .b-badge:before, .b-badge:before{display:block!important;opacity:noneimportant;}
-.b-badge:not([data-progress]):before, .b-badge[data-progress="0"]:before, .b-badge[data-progress="100"]:before {opacity: 1!important;}}
 .user_rates-minified .b-catalog_entry.planned .image-decor::before, .user_rates-minified .b-catalog_entry.planned .image-decor::after, .user_rates-minified .b-catalog_entry.watching .image-decor::before, .user_rates-minified .b-catalog_entry.watching .image-decor::after, .user_rates-minified .b-catalog_entry.completed .image-decor::before, .user_rates-minified .b-catalog_entry.completed .image-decor::after, .user_rates-minified .b-catalog_entry.rewatching .image-decor::before, .user_rates-minified .b-catalog_entry.rewatching .image-decor::after, .user_rates-minified .b-catalog_entry.on_hold .image-decor::before, .user_rates-minified .b-catalog_entry.on_hold .image-decor::after, .user_rates-minified .b-catalog_entry.dropped .image-decor::before, .user_rates-minified .b-catalog_entry.dropped .image-decor::after{
 display:none;
 }
@@ -106,22 +105,6 @@ display:none;
     white-space: nowrap;
     background: #000;
     border-left: none;
-    color: #123;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1.65;
-    margin-bottom: 5px;
-    padding: 4px 10px 2px;
-    text-transform: uppercase;
-    -webkit-transition: color 0.2s ease;
-    transition: color 0.2s ease;
-}
-.headline, .midheadline, .subheadline {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    background: #000;
-    border-left: none;
     color: #fff;
     font-size: 12px;
     font-weight: bold;
@@ -131,6 +114,7 @@ display:none;
     text-transform: uppercase;
     -webkit-transition: color 0.2s ease;
     transition: color 0.2s ease;
+    text-shadow: #BDBDBD 0 0 5px;
 }
 a {
     color: #000;
@@ -175,6 +159,14 @@ a {
 }
 .b-anime_status_tag.ongoing:before {
     border: none;
+}
+.p-contests .results a {
+    color: #000;
+    cursor: pointer;
+}
+.p-contests .results a:hover {
+    color: #000;
+    cursor: pointer;
 }
 .b-db_entry-note .name-container .name {
     color: #000;
@@ -1176,18 +1168,22 @@ body {
     text-align: center;
 }
 .avatar img {
-    filter: grayscale(70%) sepia(13%) !important;
+    filter: grayscale(70%) sepia(13%);
     border: 1px solid #000 !important;
     border-radius: 0.9px !important;
 }
 .b-catalog_entry .cover .image-decor {
     display: block;
-    filter: grayscale(70%) sepia(13%) !important;
+    filter: grayscale(70%) sepia(13%);
     opacity: 0.9 !important;
-    border: 1px solid #000 !important;1200
+    border: 1px solid #000 !important;
     border-radius: 0.9px !important;
     line-height: 0px;
     position: relative;
+}
+.headline>a:hover, .midheadline>a:hover, .subheadline>a:hover {
+    text-decoration: none;
+    border-bottom-color: none;
 }
 .p-profiles .profile-head .c-brief header h1 {
     margin-bottom: 0;
@@ -1198,7 +1194,7 @@ body {
    display: none;
 }
 .p-profiles .profile-head .c-history .entry img {
-    filter: grayscale(70%) sepia(13%) !important;
+    filter: grayscale(70%) sepia(13%);
     opacity: 0.9 !important;
     border: 1px solid #000 !important;1200
     border-radius: 0.9px !important;
@@ -1294,6 +1290,9 @@ headline>a:before, .midheadline>a:before, .subheadline>a:before {
     content: '/' !important;
     color: #000 !important;
 }
+.b-video.fixed .video-link img {
+    border: 1px solid #000;
+}
 .l-top_menu .inner .logo {
     background: none;
 }
@@ -1358,6 +1357,10 @@ headline>a:before, .midheadline>a:before, .subheadline>a:before {
     box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.65);
     text-align: center;
 }
+.p-profiles-show .lifetime .bar {
+    height: 5px;
+    line-height: 3px;
+}
 .c-history .b-block_list {
     margin-top: -3px;
 }
@@ -1382,7 +1385,7 @@ headline>a:before, .midheadline>a:before, .subheadline>a:before {
     margin-bottom: 75px !important;
 }
 img {
-    filter: grayscale(50%) sepia(13%) !important;
+    filter: grayscale(70%) sepia(13%);
 }
 .p-profiles-show .c-info {
     margin-top: 20px !important;
@@ -1396,6 +1399,9 @@ img {
     width: 170px;
     text-align: center;
 }
+.b-catalog_entry .cover .image-decor img {
+    filter: grayscale(40%) sepia(13%);
+}
 .p-profiles header.head .misc span, .p-profiles header.head .misc a {
     display: none;
 }
@@ -1404,6 +1410,9 @@ img {
 }
 .p-profiles .profile-head .c-brief header .notice span:after {
     display: none;
+}
+.p-user_rates-index .list-lines tr td .anons {
+    color: #825353;
 }
 .p-profiles-favourites .tooltip-details .b-catalog_entry-tooltip > a, 
 .p-profiles-show .tooltip-details .b-catalog_entry-tooltip > a,
@@ -1424,15 +1433,32 @@ img {
     padding: 7px 15px 5px 15px;
 }
 .b-list li {
-    line-height: 1;
+    line-height: 1.65;
     list-style-position: outside;
     list-style-type: square;
-    margin-bottom: 1px;
+    margin-bottom: 5px;
+}
+.b-list li {
+    list-style-image: none;
 }
 .b-add_to_list.rewatching .trigger, .b-add_to_list.rewatching .option {
     background: #ffffff;
     border-color: #000000;
     color: #000000;
+}
+.b-block_list li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    font-family: Courier New;
+    font-size: 12px;
+    line-height: 20.34px;
+    margin: 1px 0 2px;
+    overflow: hidden;
+    padding: 1px 3px 0 3px;
 }
 .b-add_to_list .trigger, .b-add_to_list .option {
     border: 1px solid #000000;
@@ -1454,6 +1480,13 @@ body[data-locale=ru] .b-offtopic_marker.off:before {
 }
 .b-db_entry-note .name-container .b-user_rate .b-add_to_list .trigger:hover .plus::before, .b-db_entry-note .name-container .b-user_rate .b-add_to_list .trigger:hover .edit::before, .b-db_entry-note .name-container .b-user_rate .b-add_to_list .trigger:hover .trigger-arrow::before, .b-db_entry-note .name-container .b-user_rate .b-add_to_list .option:hover .plus::before, .b-db_entry-note .name-container .b-user_rate .b-add_to_list .option:hover .edit::before, .b-db_entry-note .name-container .b-user_rate .b-add_to_list .option:hover .trigger-arrow::before {
     color: #000;
+}
+.b-spoiler .content:hover .before, .b-spoiler .content:hover .after{color:black}
+body[data-locale=ru] .b-feedback>.marker-positioner>.marker-text {
+    display: none;
+}
+body[data-locale=ru] .b-feedback>.hover-activator {
+    display: none;
 }
 body[data-locale=ru] .b-new_marker.active:hover:before {
     background-color: #000;
@@ -1515,12 +1548,6 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
 .b-height_shortener .expand span {
     border-bottom: 1px dotted rgba(6, 6, 6, 0.3);
     display: inline-block;
-}
-.b-form .cancel:hover {
-  border-bottom: 1px solid #000;
-}
-.b-form .cancel {
-  border-bottom: none;
 }
 .b-height_shortener .expand:hover {
     color: #000;
@@ -1597,11 +1624,73 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
     -webkit-transition: height 0.25s ease;
     transition: height 0.25s ease;
 }
+.c-actions .fav-remove:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    color: #000;
+    letter-spacing: normal;
+    content: "";
+    text-align: center;
+}
+.p-studios .studio .name {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.65;
+}
+.p-studios .studio .name:hover {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.65;
+}
+.c-actions .fav-remove:hover:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    color: #000;
+    letter-spacing: normal;
+    content: "";
+    text-align: center;
+}
+.p-user_rates-index .stat-categories .category.active {
+    color: #000;
+}
+.p-user_rates-index .stat-categories .category.active:hover {
+    color: #000;
+}
 .b-form .cancel {
     color: #000;
     cursor: pointer;
+    font-family: Courier New;
     display: inline;
     margin-left: 20px;
+}
+.b-form input[type=submit] {
+    -webkit-transition: backround-color 0.3s ease, color 0.3s ease;
+    transition: backround-color 0.3s ease, color 0.3s ease;
+    background-color: #000;
+    border: 0;
+    clear: right;
+    color: #FFFFFF;
+    font-family: Courier New;
+    cursor: pointer;
+    display: inline;
+    font-size: 13px;
+    padding: 4px 10px 4px 10px;
 }
 .b-form .cancel:hover {
     color: #000;
@@ -1648,6 +1737,11 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
 .b-animes-menu .menu-topics-block .entry .name:hover {
     color: #000;
 }
+.b-stats_bar .bar {
+    border: 1px solid #000;
+    height: 13px;
+    line-height: 11px;
+}
 .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a {
     color: #000;
     cursor: pointer;
@@ -1665,6 +1759,11 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
     white-space: nowrap;
     font-size: 12px;
     display: block;
+}
+.b-catalog_entry-tooltip .image {
+    width: 160px;
+    float: left;
+    border: 1px solid #000 !important;
 }
 .b-club .logo:hover {
     opacity: 0.9 !important;
@@ -1703,15 +1802,6 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
 .b-form a.remove {
     color: #000;
     border-bottom: none;
-}
-.c-right .block .subheadline a:after {
-    content: 'Лучший вкус на шикимори';
-    font-size: 14px;
-}
-.c-right .block .subheadline a {
-    font-size: 0px;
-    padding: 0;
-    height: 14px;
 }
 .b-form a.remove:hover {
     color: #000;
@@ -1778,7 +1868,7 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
     color: #000;
 }
 .p-topics header h1 a.reload {
-    color: #123;
+    color: #000;
     cursor: pointer;
     border-bottom: 1px dashed #000;
     cursor: default;
@@ -1802,21 +1892,25 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
     padding: 6px 10px 4px 8px;
     line-height: 14px;
 }
-.b-stats_bar .bar {
-    border-radius: 25px;
+img.b-poster {
+    max-width: 100%;
+    border: 1px solid #000;
 }
-.p-profiles-show .achievements .header .title {
+.b-link_button.dark.disabled, .b-link_button.dark.disabled:hover, .b-link_button.dark.disabled:active {
+    cursor: default;
+    background-color: #000000;
+}
+.b-collection_search .field input {
+    border: 1px solid #000;
+    font-size: 13px;
+    font-family: Courier New;
+    padding: 10px;
+    width: 100%;
+}
+.p-user_rates-index .list-groups .summary.lines {
     color: #000;
-    font-weight: bold;
-}
-.b-achievement .c-about .hint {
+    font-family: Courier New;
     font-size: 12px;
-    margin-bottom: 1px;
-    color: #000;
-}
-.b-achievement .c-about a.title {
-    color: #000;
-    cursor: pointer;
 }
 .b-options-floated{font-size: .8em!important;}
 .subheadline.m5 {text-align:left!important;}
@@ -1837,16 +1931,6 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
     line-height: 0;
     border: 1px solid #000;
 }
-.b-achievement.badge .c-image .inner .border {
-    border-width: 1px;
-}
-.b-achievement .c-image .inner .border {
-    border: 0;
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    border-radius: 9px;
-}
 .p-profiles-show .about a {
     color: #000;
     cursor: pointer;
@@ -1854,9 +1938,6 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
 .p-profiles-show .about a:hover {
     color: #000;
     cursor: pointer;
-}
-.l-top_menu {
-    margin-top: 10px;
 }
 .b-topic {
     margin-bottom: 30px;
@@ -2169,6 +2250,62 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
     content: "";
     text-align: center;
 }
+.b-list_switchers .switcher.alphabet:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    content: "";
+    color: #fff;
+    text-align: center;
+    width: 20px;
+}
+.b-list_switchers .switcher.alphabet:hover:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    content: "";
+    color: #fff;
+    text-align: center;
+    width: 20px;
+}
+.b-list_switchers .switcher.popularity:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    content: "";
+    color: #fff;
+    text-align: center;
+    width: 20px;
+}
+.b-list_switchers .switcher.popularity:hover:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    content: "";
+    color: #fff;
+    text-align: center;
+    width: 20px;
+}
 .c-actions .fav-add:hover:before {
     font-family: shikimori;
     -webkit-font-smoothing: antialiased;
@@ -2376,6 +2513,34 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
     text-align: center;
     width: 20px;
 }
+.b-list_switchers .switcher.list:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    color: #fff;
+    letter-spacing: normal;
+    content: "";
+    text-align: center;
+    width: 20px;
+}
+.b-list_switchers .switcher.list:hover:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    color: #fff;
+    letter-spacing: normal;
+    content: "";
+    text-align: center;
+    width: 20px;
+}
 .buttons .editor-spoiler:before {
     font-family: shikimori;
     -webkit-font-smoothing: antialiased;
@@ -2538,19 +2703,7 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
 .x1200 .l-page, .x1200 .l-top_menu .inner{
     max-width: 1000px;
 }
-/* Обложка */
-.p-profiles-show .profile-head:before {
-  content: '';
-  display: block;
-  height: 250px;
-  background: url(https://images.alphacoders.com/555/thumb-1920-555557.png);
-  background-size: cover;
-  border: 1px solid #000;
-  filter: grayscale(90%) sepia(13%);
-  margin: -15px;
-  margin-bottom: -100px;
 /* Имена персонажей/аниме/манги*/
-}
 .p-profiles .cover[data-tooltip_url *= 'characters/497-'] .title:after {
     content: 'Arthuria Pendragon';
 }
@@ -2604,7 +2757,7 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
 }
 .b-catalog_entry-tooltip .inner a.name[href *= 'mangas/81117-'] > span {
     display: none;
-}
+}  
 /* Обложки персов */
 .b-catalog_entry .cover[href *= 'characters/67067-'] .image-decor img {
   content:url(https://i.ibb.co/s9qmMYp/4.png);
@@ -2613,19 +2766,25 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
   content:url(https://image.ibb.co/hSpj1L/eto4ka.png);
 }
 .b-catalog_entry .cover[href *= 'characters/112551-'] .image-decor img {
-  content:url(https://i.ibb.co/JFKbmTN/112551.png);
+  content:url(https://i.ibb.co/wSyqWZG/image.png);
+}
+.b-catalog_entry .cover[href *= 'characters/2910-'] .image-decor img {
+  content:url(https://i.ibb.co/pXjNQ90/1233.png);
 }
 .b-catalog_entry .cover[href *= 'characters/86-'] .image-decor img {
-  content:url(https://myanimelist.cdn-dena.com/images/characters/7/79491.jpg);
+  content:url(https://cdn.myanimelist.net/images/characters/7/79491.jpg);
 }
 .b-catalog_entry .cover[href *= 'characters/497-'] .image-decor img {
   content:url(https://69.media.tumblr.com/c0a08f2aa8601a76eeb48dbf3e9639fa/tumblr_pljsj6qfAJ1vla2m2o8_250.jpg);
 }
 .b-catalog_entry .cover[href *= 'characters/90181-'] .image-decor img {
-  content:url(https://myanimelist.cdn-dena.com/images/characters/12/275292.jpg);
+  content:url(https://cdn.myanimelist.net/images/characters/12/275292.jpg);
 }
-.b-catalog_entry .cover[href *= 'characters/3195-'] .image-decor img {
-  content:url(https://i.ibb.co/xJcYm6P/3.png);
+.b-catalog_entry .cover[href *= 'characters/28-'] .image-decor img {
+  content:url(https://moe.shikimori.org/system/user_images/original/100971/486432.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/38005-'] .image-decor img {
+  content:url(https://i.ibb.co/mbPT915/38005.png);
 }
 .b-catalog_entry .cover[href *= 'characters/14040-'] .image-decor img {
   content:url(https://cdn.myanimelist.net/images/characters/3/319644.jpg);
@@ -2633,30 +2792,18 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
 .b-catalog_entry .cover[href *= 'characters/13783-'] .image-decor img {
   content:url(https://i.ibb.co/2SPbyq9/13555.png);
 }
-.b-catalog_entry .cover[href *= 'characters/3212-'] .image-decor img {
-  content:url(https://i.ibb.co/Yj3Y4DP/3212.png);
-}
 .b-catalog_entry .cover[href *= 'characters/5571-'] .image-decor img {
   content:url(https://i.ibb.co/bmwhq30/5571.png);
 }
 /*Обложки аниме/манги*/
-.b-catalog_entry .cover[href *= 'mangas/81117-'] .image-decor img {
-    content: url(https://i.ibb.co/PGV7JYJ/123123.png);
-}
-.b-catalog_entry .cover[href *= 'mangas/2-'] .image-decor img {
-    content: url(https://i.ibb.co/hKF8bW5/12.png);
-}
-.b-catalog_entry .cover[href *= 'mangas/33327-'] .image-decor img {
-    content: url(https://i.ibb.co/YZ5vcHM/1747.png);
-}
-.b-catalog_entry .cover[href *= 'mangas/44485-'] .image-decor img {
-    content: url(https://i.ibb.co/JHnYfd0/3124.png);
-}
 .b-catalog_entry .cover[href *= 'mangas/24705-'] .image-decor img {
     content: url(https://desu.shikimori.org/system/user_images/original/100971/627908.jpg);
 }
-.b-catalog_entry .cover[href *= 'animes/2251-'] .image-decor img {
-    content:url(https://i.ibb.co/C7vhBpc/312312.png);
+.b-catalog_entry .cover[href *= 'mangas/81117-'] .image-decor img {
+    content: url(https://i.ibb.co/2qzNjc9/3.png);
+}
+.b-catalog_entry .cover[href *= 'mangas/33327-'] .image-decor img {
+    content: url(https://i.ibb.co/vJdxtr4/2.png);
 }
 .b-catalog_entry .cover[href *= 'animes/6746-'] .image-decor img {
     content:url(https://i.ibb.co/qN3k3rm/1222.png);
@@ -2667,18 +2814,6 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
 .b-catalog_entry .cover[href *= 'animes/13125-'] .image-decor img {
     content:url(https://i.ibb.co/VgX7RnF/111112.png);
 }
-.b-catalog_entry .cover[href *= 'mangas/26-'] .image-decor img {
-    content: url(https://desu.shikimori.org/system/user_images/original/100971/472733.jpg);
-}
-.b-catalog_entry .cover[href *= 'animes/5114-'] .image-decor img {
-    content: url(https://images-na.ssl-images-amazon.com/images/I/71w52XUrHkL._SY679_.jpg);
-}
-.b-catalog_entry-tooltip img[alt*="Code Geass: Hangyaku no Lelouch R2"] {
-    content: url(https://i.ibb.co/SdS2CCt/11.png);
-}
-.b-catalog_entry-tooltip img[alt*="Baccano!"] {
-    content: url(https://i.ibb.co/C7vhBpc/312312.png);
-}
 .b-catalog_entry-tooltip img[alt*="Magic Kaito 1412"] {
     content: url(https://i.ibb.co/kXPvqF8/472733.png);
 }
@@ -2688,14 +2823,11 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
 .b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 5: Mujun Rasen"] {
     content: url(https://cdn.myanimelist.net/images/anime/6/27321l.jpg);
 }
+.b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 3: Tsuukaku Zanryuu"] {
+    content: url(https://i.ibb.co/6XP3261/45551.png);
+}
 .b-catalog_entry-tooltip img[alt*="Hunter x Hunter (2011)"] {
     content: url(https://desu.shikimori.org/system/user_images/original/100971/472733.jpg);
-}
-.b-catalog_entry-tooltip img[alt*="Bleach"] {
-    content: url(https://i.ibb.co/RTQNjVd/d4e65ed1ecdca59e8e98d7d5fc414adc.jpg);
-}
-.b-catalog_entry-tooltip img[alt*="Fullmetal Alchemist: Brotherhood"] {
-    content: url(https://images-na.ssl-images-amazon.com/images/I/71w52XUrHkL._SY679_.jpg);
 }
 .b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 7: Satsujin Kousatsu (Kou)"] {
     content: url(https://i.ibb.co/Fq7V3TZ/472733.png);
@@ -2703,13 +2835,192 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
 .b-catalog_entry .cover .image-decor img[alt*="Kara no Kyoukai 7: Satsujin Kousatsu (Kou)"] {
     content: url(https://i.ibb.co/Fq7V3TZ/472733.png);
 }
-/*Ватермарка*/
-.x1200 .l-top_menu .inner:after {
-    content: "Theme by dezzzard";
+.l-page {
+    margin-top: 30px;
+    border: 0.1px solid #000;
+}
+.history-page a:before {
+  display: inline-block;
+  vertical-align: top;
+  width: 72px;
+}
+.history-page a[href ^= "/a"]:before {
+  content: '[Аниме] ';
+  color: #000;
+  font-weight: bold;
+}
+.history-page a[href ^= "/m"]:before {
+  content: '[Манга] ';
+  color: #000;
+  font-weight: bold;
+}
+.history-page a[href ^= "/r"]:before {
+  content: '[Ранобэ] ';
+  color: #000;
+  font-weight: bold;
+}
+[data-locale="en"] .history-page a[href ^= "/a"]:before {
+  content: '[Anime] ';
+}
+[data-locale="en"] .history-page a[href ^= "/m"]:before {
+  content: '[Manga] ';
+}
+[data-locale="en"] .history-page a[href ^= "/r"]:before {
+  content: '[Ranobe] ';
+}
+.c-history .b-block_list {
+    margin-top: -6px;
+    margin-left: 5px;
+}
+/*Ачивки*/
+.b-achievement .c-image .inner a .border {
+    border: 2px solid #000000!important;
+    height: 100%;
     position: absolute;
-    margin-left: 610px;
-    margin-top: -23px;
-    color: white;
-    font-family: 'Courier New';
-    font-size: 13px;
+    width: 100%;
+    z-index: 1;
+}
+.p-profiles-show .achievements .cc-franchises .b-badge {
+    float: inherit;
+    position: relative;
+    width: calc(100% / 6 - 6px);
+    margin: 0px;
+    padding: 5px 5px 0px 5px!important;
+    left: 20px;
+}
+.p-profiles .profile-content>.achievements>.cc-3>.c-column:last-child {
+    width: 90%;
+    margin: 50px;
+    top: -80px;
+    margin-bottom: -105px;
+}
+.p-profiles-show .achievements .cc-achievements .b-achievement {
+    float: left;
+    margin-right: 1.5%;
+    position: relative;
+    width: 45.25%;
+    margin-bottom: 5px;
+    left: 18px;
+}
+.b-achievement.is-badge:before {
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 2px;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+    height: 15px;
+    left: 0;
+    line-height: 15px;
+    padding: 0 8px;
+    position: absolute;
+    z-index: 10;
+}
+.b-achievement .c-about .hint {
+    font-size: 12px;
+    margin-bottom: 1px;
+    color: #000;
+}
+.b-achievement .c-about a.title {
+    color: #000;
+    cursor: pointer;
+}
+.b-achievement .c-about a.title:hover {
+    color: #000;
+    cursor: pointer;
+}
+.b-achievement .c-about .progress .bar {
+    background: #000;
+    height: 100%;
+}
+.p-profiles-show .achievements .header .title {
+    color: #fff;
+    font-weight: bold;
+}
+.p-profiles .profile-content>.achievements>.cc-3>.c-column {
+    width: calc(90% / 2 - 20px);
+    margin: 34px;
+    top: -25px;
+    margin-bottom: 10px;
+}
+.p-profiles-show .achievements .header {
+    display: inherit;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+    background: #000 !important;
+    border-radius: 0px;
+    height: 20px;
+    text-shadow: #BDBDBD 0 0 5px;
+    font-size: 12px;
+    line-height: 23px;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+    user-select: none;
+}
+.block {
+    margin-bottom: 30px;
+    line-height: 1.65;
+    position: relative;
+}
+.b-achievement .c-image a[href $= '/romance']::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://i.ibb.co/wK10wjk/Kara-no-Kyoukai-full.png) top center / cover;
+}
+.b-achievement .c-image a[href $= '/supernatural']::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://i.ibb.co/1TQ7sQK/knk-background-6.jpg) top center / cover;
+}
+.b-achievement .c-image a[href $= '/drama']::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(http://38.media.tumblr.com/421ff2e0f566e876b66e2e0ec0cbe640/tumblr_nj0jssTdpN1rfx24fo1_500.gif) top center / cover;
+}
+.p-profiles-show .profile-head:before {
+    content: '';
+    display: block;
+    height: 350px;
+    background: url(https://i.ibb.co/yVNWRTY/Konachan.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: -15px;
+    filter: grayscale(40%) sepia(13%);
+    border: 1px solid #000;
+    margin-bottom: -94px;
+}
+.l-top_menu .menu-items {
+    margin-left: 270px;
+}
+.l-page {
+    opacity: 0.90;
+}
+.p-profiles .profile-head .c-brief .avatar {
+  position: relative;
+}
+.p-profiles .profile-head .c-brief .avatar::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  padding-bottom: 100%;
+  background: url(https://i.ibb.co/VTwR8Ny/150615766068.png) top center / cover;
+  border: 1px solid #000;
+}
+.p-profiles .profile-head .c-brief .avatar img {
+  opacity: 0;
 }
