@@ -1,2 +1,2 @@
 # dezzzard
-code shikimori
+# 1 white/black code shikimori
