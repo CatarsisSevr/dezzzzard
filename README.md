@@ -1,2 +1,2 @@
-# dezzzzard
+# dezzzard
 code shikimori
