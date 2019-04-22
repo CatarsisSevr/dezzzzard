@@ -1331,6 +1331,7 @@ headline>a:before, .midheadline>a:before, .subheadline>a:before {
     margin-left: 0px;
     position: absolute;
     width: 97%;
+    pointer-events: none;
 }
 @media only screen and (min-width: 1024px) {
 .p-profiles-show .profile-content {
@@ -1358,11 +1359,21 @@ headline>a:before, .midheadline>a:before, .subheadline>a:before {
     text-align: center;
 }
 .p-profiles-show .lifetime .bar {
-    height: 5px;
+    height: 9px;
     line-height: 3px;
 }
 .c-history .b-block_list {
     margin-top: -3px;
+}
+.p-profiles-show .lifetime .times .time {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+    display: inline-block;
+    font-size: 11px;
+    text-align: center;
+    width: 20%;
 }
 .p-profiles .profile-head .c-history .entry {
     display: inline-block;
@@ -1374,6 +1385,7 @@ headline>a:before, .midheadline>a:before, .subheadline>a:before {
     border-top: 1px solid #4d4d4d;
     box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.65);
     text-align: center;
+    pointer-events: none;
 }
 .p-profiles .profile-head .c-brief .avatar {
     float: left;
@@ -3019,6 +3031,7 @@ img.b-poster {
   width: 100%;
   padding-bottom: 100%;
   background: url(https://i.ibb.co/VTwR8Ny/150615766068.png) top center / cover;
+  filter: grayscale(40%) sepia(13%);
   border: 1px solid #000;
 }
 .p-profiles .profile-head .c-brief .avatar img {
