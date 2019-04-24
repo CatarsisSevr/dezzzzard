@@ -283,21 +283,33 @@ body {
     display: none;
 }
 .p-profiles-show .cc-friends .b-user .avatar > img {
-    box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 2px 1px #000;
     transform: scale(1);
     filter: saturate(100%) opacity(1);
     transition: 0.25s ease;
 }
 .p-profiles-show .cc-friends .b-user .avatar > img:hover {
-    box-shadow: 0 0 0px 2px #cc4b4b;
+    box-shadow: 0 0 0px 1px #cc4b4b;
     transform: scale(1);
-    filter: saturate(200%) opacity(0.8);
+    filter: opacity(0.8);
+}
+.b-club .logo:hover {
+    box-shadow: 0 0 0px 1px #cc4b4b;
+    transform: scale(1);
+    filter: opacity(0.8);
+}
+.b-club .logo {
+    box-shadow: 0 0 2px 1px #000;
+    transform: scale(1);
+    max-width: 65%;
+    filter: saturate(100%) opacity(1);
+    transition: 0.25s ease;
 }
 .p-profiles-show .profile-head:before {
   content: '';
   display: block;
-  height: 400px; /* высота обложки */
-  background: url("https://i.imgur.com/WOnMTVY.jpg") no-repeat;
+  height: 400px; 
+  background: url("https://wallpapermemory.com/uploads/556/homura-akemi-background-hd-1080p-31673.jpg") no-repeat;
   background-size: cover; 
   margin: -15px;
   margin-bottom: 5px;
@@ -321,7 +333,7 @@ body {
 .p-profiles .profile-head[data-user-id = "224800"] .c-brief header .misc {
     display: block;
     position: absolute;
-    top: 310px;
+    top: 414px;
     left: auto;
     padding-top: 0;
     padding: 0;
@@ -403,29 +415,21 @@ body {
     border: 1px solid #e61953;
     color: #e61953;
 }
-/* Нажатая кнопка */
 .b-options-floated.mobile-desktop a.selected {
     background: #cc4b4b;
     color: #fff;
-    border: 1px solid #461623;
+    border: 1px solid #cc4b4b;
 }
-
-/* Наводка на нажатую кнопку */
 .b-options-floated.mobile-desktop a.selected:hover {
     background: #fff;
     color: #e61953;
-    border: 1px solid #cc4b4b;
 }
-
-/* Цифры */
 .p-user_rates-index .l-content .b-options-floated span {
     display: inline;
     border-left: 1px solid #ddd;
     padding: 2px 6px;
     white-space: normal;
 }
-
-/* Кнопка "свернуть" */
 .p-user_rates-index .l-content .b-options-floated span[class*="action"] {
   color: #000;
   background: #fff;
@@ -433,7 +437,7 @@ body {
   display: inline;
   border: 1px solid #ddd;
   border-radius: 2px;
-  padding: 5px 10px;
+  padding: 1px 3px;
   white-space: normal;
   transition: 0.2s ease;
 }
@@ -467,6 +471,320 @@ body {
     margin: 1px 10px;
     border-radius: 2px;
 }
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2px 4px;
+    margin-left: 3px;
+    cursor: default;
+    transition: 0.25s ease;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.full {
+    color: #000;
+    text-decoration: none;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.full:hover {
+    color: #000;
+    text-decoration: none;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a {
+    color: #cc4b4b;
+    text-decoration: none;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover {
+    color: #cc4b4b;
+    text-decoration: none;
+}
+.b-catalog_entry .cover:hover .title {
+    color: #cc4b4b;
+    text-decoration: none;
+}
+.b-catalog_entry .cover .title {
+    color: #000;  
+}
+.subheadline.m10 {
+    padding: 6px 10px 7px 8px;
+}
+.p-user_rates-index .stat-categories .category {
+    color: #cc4b4b;
+    text-decoration: none; 
+}
+.p-user_rates-index .stat-categories .category:hover {
+    color: #cc4b4b;
+    text-decoration: none; 
+}
+.b-collection-filters .b-block_list li {
+    font-family: 'IBM Plex Sans';
+    position: relative;
+    padding: .25em .5em;
+    margin: 0 -.5em;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.p-user_rates .mylist-block + .block + .block + .block > .b-list > li > a, .b-collection-filters > .block:nth-child(3) > .b-list > li > a {
+    position: relative;
+    display: block;
+    color: #212121 !important;
+    z-index: 1;
+}
+.p-user_rates .mylist-block + .block + .block + .block > .b-list > li, .b-collection-filters > .block:nth-child(3) > .b-list > li {
+    position: relative;
+    margin-bottom: .5rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    border-radius: 2px;
+    font-size: .875rem;
+    font-weight: bold;
+    line-height: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    transition: .2s ease;
+}
+.b-collection-filters .block.genres label {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px !important;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid !important;
+    border-radius: 2px;
+    padding: .6rem .8rem;
+    color: #212121 !important;
+    border-color: #ddd !important;
+    transition: .25s ease;
+}
+.b-collection-filters .block.genres label:hover {
+    color: #cc4b4b !important;
+    border-color: #cc4b4b !important;
+}
+body, input, select, button, textarea {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.p-user_history-index .history-page .history-interval p a {
+    color: #cc4b4b;
+    text-decoration: none;
+}
+.p-user_history-index .history-page .history-interval p a:hover {
+    color: #cc4b4b;
+}
+.l-top_menu .submenu {
+    background: #f10404;
+    border: 2px solid #ddd;
+    border-top: none;
+}
+.l-top_menu .submenu>.entry {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    color: #040404;
+    font-family: 'IBM Plex Sans';
+}
+.l-top_menu .submenu>.entry:hover {
+    background: #ddd;
+    color: #000;
+    border-left: 2px solid #cc4b4b;
+}
+.p-profiles-show .profile-content .cc-2 > .c-column {
+    width: 100%;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-left {
+    position: relative;
+    width: 77%;
+    padding-right: 30px;
+    margin-right: 0;
+    z-index: 1;
+  }
+
+  .p-profiles-show .lifetime {
+    margin-bottom: 15px;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right {
+    float: none;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a {
+    width: 23%;
+    overflow: hidden;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column {
+    width: 100%;
+    margin: 0;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column:last-child {
+    margin-top: 15px;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right > .block:last-child {
+    clear: both;
+  }
+}
+.b-main_search .popup li.active {
+    background-color: #ddd;
+    cursor: inherit;
+    color: #000;
+}
+.b-user.named_avatar .name {
+    color: #000;
+    text-align: center;
+    max-width: 100px;
+    text-decoration: none;
+}
+.b-user.named_avatar .name:hover {
+    color: #cc4b4b;
+    text-decoration: none;
+}
+.b-user.named_avatar:hover .name {
+    text-decoration: none;
+}
+.b-breadcrumbs > span::after {
+    content: '»';
+    color: #9E9E9E;
+}
+.b-breadcrumbs a.b-link {
+    color: #757575;
+}
+.b-breadcrumbs a.b-link:hover {
+    color: #757575;
+}
+.tooltip-arrow {
+    display: none;
+}
+.b-catalog_entry-tooltip .inner a.name {
+    color: #000;
+}
+.b-catalog_entry-tooltip .inner a.name:hover {
+    color: #cc4b4b;
+    text-decoration: none;
+}
+.b-catalog_entry-tooltip .inner .line .value .tag {
+  border-bottom: 1px solid #000;
+}
+.b-entry-info .line .b-tag:hover {
+    background-color: #cc4b4b;
+}
+.b-entry-info .line .b-tag {
+  border-bottom: 1px solid #000;
+}
+.b-catalog_entry-tooltip .inner .line .value .tag:hover {
+  background-color: #cc4b4b;
+}
+.b-link {
+    color: #cc4b4b;
+    cursor: pointer;
+}
+.b-link:hover {
+    color: #cc4b4b;
+    cursor: pointer;
+}
+.b-main_search ul.popup li {
+    border-bottom: 1px solid #ddd;
+    font-family: 'IBM Plex Sans';
+    color: #000000;
+}
 .b-main_search ul.popup {
-  display: none;
+    background: #fff;
+    border-top: none;
+    border: 1px solid #ddd;
+    margin-left: 0;
+}
+.b-main_search .popup li.active {
+    background-color: #fff;
+    border-left: 2px solid #cc4b4b;
+    cursor: inherit;
+}
+.b-main_search .popup li:hover {
+   background-color: #ddd;
+   color: #000;
+   border-left: 2px solid #cc4b4b;
+}
+.b-options-floated a, .b-options-floated .link {
+    color: #000;
+    font-size: 13px;
+}
+.b-options-floated a:hover, .b-options-floated .link:hover {
+    color: #cc4b4b;
+    text-decoration: none;
+}
+.b-options-floated .selected {
+    color: #cc4b4b;
+}
+.b-options-floated .selected:hover {
+    color: #cc4b4b;
+}
+.b-form .cancel {
+    color: #000;
+}
+.b-form .cancel:hover {
+    color: #cc4b4b;
+    text-decoration: none;
+}
+.b-form input[type=submit] {
+    background-color: #000;
+    font-family: 'IBM Plex Sans';
+}
+.b-form input[type=submit]:hover {
+    background-color: #cc4b4b;
+    color: white;
+}
+.p-profiles-edit .account .change-password a {
+    color: #000;
+    cursor: pointer;
+}
+.p-profiles-edit .account .change-password a:hover {
+    color: #cc4b4b;
+    cursor: pointer;
+    text-decoration: none;
+}
+.b-catalog_entry .cover[href *= 'characters/28-'] .image-decor img {
+  content:url(https://moe.shikimori.org/system/user_images/original/100971/486432.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/38005-'] .image-decor img {
+  content:url(https://i.ibb.co/mbPT915/38005.png);
+}
+.b-catalog_entry .cover[href *= 'characters/497-'] .image-decor img {
+  content:url(https://69.media.tumblr.com/c0a08f2aa8601a76eeb48dbf3e9639fa/tumblr_pljsj6qfAJ1vla2m2o8_250.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/86-'] .image-decor img {
+  content:url(https://cdn.myanimelist.net/images/characters/7/79491.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/67067-'] .image-decor img {
+  content:url(https://i.ibb.co/s9qmMYp/4.png);
+}
+.b-catalog_entry .cover[href *= 'characters/112997-'] .image-decor img {
+  content:url(https://image.ibb.co/hSpj1L/eto4ka.png);
+}
+.b-catalog_entry .cover[href *= 'characters/112551-'] .image-decor img {
+  content:url(https://i.ibb.co/wSyqWZG/image.png);
+}
+.b-catalog_entry .cover[href *= 'mangas/24705-'] .image-decor img {
+    content: url(https://desu.shikimori.org/system/user_images/original/100971/627908.jpg);
+}
+.menu .unread-count, .menu .contest {
+    background: #ffff;
+}
+.menu .unread-count, .menu .contest:hover {
+    background: #ffff;
+}
+.menu .contest:before {
+    color: #cc4b4b;
+}
+.menu .contest:before {
+    color: #cc4b4b;
+}
+.l-top_menu .menu-items>.entry>a:hover {
+    background: #ffff;
+    color: #000;
+}
+.l-top_menu .menu-items>.entry.selected, .l-top_menu .menu-items>.entry:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
 }
