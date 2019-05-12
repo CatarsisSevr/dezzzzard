@@ -176,11 +176,11 @@ body {
 }
 .headline, .midheadline, .subheadline {
     border-left: none;
-    border-bottom: 1px solid #e2e0e0;
+    border: 1px solid #e2e0e0;
     background: #fff;
 }
 .headline, .midheadline, .subheadline:hover {
-    border-bottom: 1px solid #cc4b4b;
+    border: 1px solid #cc4b4b;
 }
 .headline>a, .midheadline>a, .subheadline>a {
     color: #000;
@@ -309,7 +309,7 @@ body {
   content: '';
   display: block;
   height: 400px; 
-  background: url("https://wallpapermemory.com/uploads/556/homura-akemi-background-hd-1080p-31673.jpg") no-repeat;
+  background: url("https://wallup.net/wp-content/uploads/2016/07/23/74243-Type-Moon-Ryougi_Shiki-Kara_no_Kyoukai.jpg") no-repeat;
   background-size: cover; 
   margin: -15px;
   margin-bottom: 5px;
@@ -787,4 +787,19 @@ body, input, select, button, textarea {
     background-color: #fff;
     color: #000;
     text-decoration: none;
+}
+.l-top_menu-v2 {
+    background: #cc4b4b;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.l-top_menu-v2 .menu-dropdown>span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #cc4b4b;
 }
