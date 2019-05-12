@@ -38,26 +38,6 @@ display:none;
 .b-catalog_entry.planned .image-decor::before, .b-catalog_entry.planned .image-decor::after, .b-catalog_entry.watching .image-decor::before, .b-catalog_entry.watching .image-decor::after, .b-catalog_entry.completed .image-decor::before, .b-catalog_entry.completed .image-decor::after, .b-catalog_entry.rewatching .image-decor::before, .b-catalog_entry.rewatching .image-decor::after, .b-catalog_entry.on_hold .image-decor::before, .b-catalog_entry.on_hold .image-decor::after, .b-catalog_entry.dropped .image-decor::before, .b-catalog_entry.dropped .image-decor::after {
 display:none;
 }
-.b-stats_bar.anime .bar .first {
-    background: #000;
-}
-.b-stats_bar.anime .bar .second {
-    background: #4e4f51;
-}
-.b-stats_bar .bar .third {
-    background: #7f8082;
-}
-.b-stats_bar.manga .bar .second {
-    background: #000;
-}
-
-.b-stats_bar.manga .bar .first {
-    background: #4e4f51;
-}
-
-.b-stats_bar .bar .third {
-    background: #7f8082;
-}
 .b-stats_bar a.title {
     color: #000;
     cursor: pointer;
@@ -1327,7 +1307,7 @@ headline>a:before, .midheadline>a:before, .subheadline>a:before {
 .p-profiles .profile-head .c-history {
     float: none;
     margin-bottom: 30px;
-    margin-top: 420px;
+    margin-top: 465px;
     margin-left: 0px;
     position: absolute;
     width: 97%;
@@ -2717,13 +2697,13 @@ img.b-poster {
 }
 /* Имена персонажей/аниме/манги*/
 .p-profiles .cover[data-tooltip_url *= 'characters/497-'] .title:after {
-    content: 'Arthuria Pendragon';
+    content: 'Artoria Pendragon';
 }
 .p-profiles .cover[data-tooltip_url *= 'characters/497-'] .title > span {
     display: none;
 }
 .b-catalog_entry-tooltip .inner a.name[href *= 'characters/497-']:after {
-    content: 'Arthuria Pendragon';
+    content: 'Artoria Pendragon';
 }
 .b-catalog_entry-tooltip .inner a.name[href *= 'characters/497-'] > span {
     display: none;
@@ -2841,8 +2821,17 @@ img.b-poster {
 .b-catalog_entry-tooltip img[alt*="Hunter x Hunter (2011)"] {
     content: url(https://desu.shikimori.org/system/user_images/original/100971/472733.jpg);
 }
+.b-catalog_entry-tooltip img[alt*="Fate/Zero"] {
+    content: url(https://cdn.myanimelist.net/images/anime/2/73249l.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Fate/Zero 2nd Season"] {
+    content: url(https://static.zerochan.net/Fate.zero.full.1232025.jpg);
+}
 .b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 7: Satsujin Kousatsu (Kou)"] {
     content: url(https://i.ibb.co/Fq7V3TZ/472733.png);
+}
+.b-catalog_entry-tooltip img[alt*="Ghost in the Shell"] {
+    content: url(https://cdn.myanimelist.net/images/anime/9/71981l.jpg);
 }
 .b-catalog_entry .cover .image-decor img[alt*="Kara no Kyoukai 7: Satsujin Kousatsu (Kou)"] {
     content: url(https://i.ibb.co/Fq7V3TZ/472733.png);
@@ -3007,14 +2996,13 @@ img.b-poster {
 .p-profiles-show .profile-head:before {
     content: '';
     display: block;
-    height: 350px;
-    background: url(https://i.ibb.co/yVNWRTY/Konachan.png) no-repeat;
+    height: 400px;
+    background: url(https://images2.alphacoders.com/931/thumb-1920-931416.png) no-repeat;
     background-size: cover;
     background-position: center;
-    margin: -15px;
-    filter: grayscale(40%) sepia(13%);
-    border: 1px solid #000;
-    margin-bottom: -94px;
+    margin: -14px;
+    filter: grayscale(60%) sepia(13%);
+    margin-bottom: -300px;
 }
 .l-top_menu .menu-items {
     margin-left: 270px;
@@ -3025,15 +3013,244 @@ img.b-poster {
 .p-profiles .profile-head .c-brief .avatar {
   position: relative;
 }
-.p-profiles .profile-head .c-brief .avatar::before {
+.p-profiles .profile-head .c-brief .avatar:before {
   content: '';
   position: absolute;
   width: 100%;
   padding-bottom: 100%;
-  background: url(https://i.ibb.co/VTwR8Ny/150615766068.png) top center / cover;
-  filter: grayscale(40%) sepia(13%);
+  background: url(https://i.ibb.co/nM1tfPV/5673.png) top center / cover;
+  filter: grayscale(0%);
   border: 1px solid #000;
 }
 .p-profiles .profile-head .c-brief .avatar img {
   opacity: 0;
+}
+.p-profiles .about.block .b-spoiler label {
+  border: 1px solid #000;
+  display: inline-block !important;
+  font-weight: bold;
+  color: #000; 
+  background: #fff;
+  height: 30px; 
+  width: 30%;
+  font-size: 12pt;
+  padding-top: 3px; 
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 340px;
+}
+.p-profiles .about.block .b-spoiler .after:before, .about.block .b-spoiler .before:before {
+  content: '';
+}
+.p-profiles .about.block .b-spoiler .before {
+  width: 0%; 
+  height: 50px;
+  display: inline-block !important;
+  margin-top: -10px;
+}
+.l-top_menu-v2 .logo-container .logo:after {
+    content: '両儀森';
+    color: white;
+    font-size: 23px;
+}
+.l-top_menu-v2 .logo-container .logo {
+    background: none;
+    margin-left: 30px;
+    margin-bottom: 1px;
+}
+.x1200 .l-top_menu-v2 {
+    width: 1003px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.l-top_menu-v2 {
+    background: #000000;
+    color: #fff;
+    height: 30px;
+    position: relative;
+    z-index: 10;
+}
+.l-top_menu-v2 .logo-container .glyph {
+    display: none;
+}
+.l-top_menu-v2 .menu-dropdown > span {
+    background: #000000;
+}
+.l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown > span {
+    color: inherit;
+    display: flex;
+    height: 25px;
+}
+.l-top_menu-v2 .menu-dropdown.profile > span {
+    min-width: 180px;
+    max-width: 250px;
+}
+.l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown > span {
+    padding: 0 15px;
+}
+.l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown > span {
+    align-items: center;
+    letter-spacing: 0.25px;
+    outline: none;
+    user-select: none;
+}
+.l-top_menu-v2 .menu-dropdown.profile > span img {
+    height: 20px;
+    pointer-events: none;
+}
+.l-top_menu-v2 .global-search input {
+    border-radius: 0px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 1px 42px 0 38px;
+    width: 100%;
+}
+.l-top_menu-v2 .global-search .search-marker, .l-top_menu-v2 .global-search .clear {
+    font-size: 14px;
+    height: 31px;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+.l-top_menu-v2 .submenu {
+    background: #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+.l-top_menu-v2 .submenu>a {
+    font-size: 12px;
+    height: 25px;
+    line-height: 38px;
+}
+.l-top_menu-v2 .submenu>a:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6), 0 0 20px rgb(0, 0, 0) inset;
+    background: none;
+    color: #c2c4c6;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .search-mode {
+    color: #000;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    background: #fff;
+    line-height: 20px;
+    padding-top: 1px;
+    margin-bottom: 0px;
+}
+.l-top_menu-v2 .global-search .search-results {
+    top: 25px;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .nothing_found:focus, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, .l-top_menu-v2 .global-search .search-results .search-mode.active, .l-top_menu-v2 .global-search .search-results .search-mode:focus {
+    background: #fff;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found.active+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found.active+.search-mode, .l-top_menu-v2 .global-search .search-results .nothing_found:focus+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found:focus+.search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active+.search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus+.search-mode, .l-top_menu-v2 .global-search .search-results .search-mode.active+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode.active+.search-mode, .l-top_menu-v2 .global-search .search-results .search-mode:focus+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode:focus+.search-mode {
+    border-top: none;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found.active:before, .l-top_menu-v2 .global-search .search-results .nothing_found:focus:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus:before, .l-top_menu-v2 .global-search .search-results .search-mode.active:before, .l-top_menu-v2 .global-search .search-results .search-mode:focus:before {
+    background: #fff;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode {
+    border-top: 1px solid #000;
+}
+.l-top_menu-v2 .menu-dropdown.profile > span:hover {
+   background: none;
+}
+.l-top_menu-v2 .menu-dropdown > span:hover {
+    background: none;
+}
+.l-top_menu-v2 .menu-dropdown.main:hover {
+    background: none;
+}
+.b-anime_status_tag.released {
+    background-color: #000;
+    border: none;
+}
+.b-tag[href] {
+    border-bottom-color: #000;
+}
+.b-tag[href].active, .b-tag[href]:hover {
+    background-color: #000;
+}
+.l-top_menu-v2 .menu-dropdown > span a {
+    height: 25px;
+}
+.b-stats_bar a.title {
+    background: rgba(0, 0, 0, 0)!important;
+    box-shadow: 0px 0px 0px rgba(0,0,0,1), inset 0 0 2px 1px #000;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-style: initial;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 6px 10px 4px 8px;
+    line-height: 14px;
+}
+.b-stats_bar a.title:hover {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+    margin-bottom: 1px;
+}
+.l-top_menu-v2.is-search-focus .global-search .search-marker {
+    color: #000;
+}
+.l-top_menu-v2 .global-search .search-results .search-mode:hover {
+    background: #fff;
+}
+.l-top_menu-v2 .global-search .search-results .search-mode:hover:before {
+    background: #000;
+}
+.l-top_menu-v2 .menu-dropdown>span a:hover {
+  background: #000;
+}
+.p-profiles-show .lifetime .title .value {
+    margin-top: 0px;
+}
+.b-stats_bar .bar {
+  border-radius: 0;
+  margin-bottom: 2px;
+  height: 13px;
+}
+.b-stats_bar .bar .first,
+.b-stats_bar .bar .second,
+.b-stats_bar .bar .third {
+  font-size: 0;
+  line-height: 2.25rem;
+}
+.p-profiles-show .b-stats_bar.lifetime .bar .first {
+    border-radius: 0;
+    background-image: linear-gradient(22deg, #000, #000);
+}
+.b-stats_bar .bar .third {
+    background-image: linear-gradient(22deg, #ededed, #cccccc);
+}
+.p-profiles-show .b-stats_bar.anime .bar .first {
+    background-image: linear-gradient(22deg, #000, #000);
+}
+.p-profiles-show .b-stats_bar.anime .bar .second {
+    background-image: linear-gradient(22deg, #ededed, #cccccc);
+}
+.p-profiles-show .b-stats_bar.anime .bar .third {
+    background-image: linear-gradient(22deg, #cccccc, #e6e6e6);
+}
+.p-profiles-show .b-stats_bar.manga .bar .first {
+    background-image: linear-gradient(22deg, #000, #000);
+}
+.p-profiles-show .b-stats_bar.manga .bar .second {
+    background-image: linear-gradient(22deg, #ededed, #cccccc);
+}
+.p-profiles-show .b-stats_bar.manga .bar .third {
+    background-image: linear-gradient(22deg, #cccccc, #e6e6e6);
 }
