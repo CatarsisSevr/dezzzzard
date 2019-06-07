@@ -1,0 +1,749 @@
+body {
+  background: #000;
+}
+@media only screen and (min-width: 1024px) {
+.l-top_menu, .l-page {
+    max-width: 1000px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.to-top-fix, .l-top_menu {
+    background: #000;
+}
+.to-top-fix,
+.l-top_menu {
+  background: none;
+  border-bottom: none;
+}
+.l-page {
+    background-color: #0a0a0a !important;
+    opacity: 0.92 !important;
+    filter: grayscale(100%) !important;
+    font-family: "Courier New" !important;
+}
+.p-profiles .profile-head .c-brief header h1 {
+    font-family: "Courier New" !important;
+    font-weight: bold !important;
+}
+header.head h1, header.head h2 {
+    color: #c8c8c8 !important;
+}
+.p-profiles header.head .misc::before {
+    color: #ABABAB !important;
+}
+.p-profiles header.head .misc {
+    font-size: 0 !important;
+}
+.p-profiles header.head .misc {
+   margin-left: 1px;
+}
+.logo:after {
+    content: 'ㅤ餓鬼MORI' !important;
+    font-size: 17.5px !important;
+    font-family: "Courier New" !important;
+    color: #bdbdbd !important;
+    font-weight: bold !important;
+}
+.l-top_menu .inner .logo {
+    background: none !important;
+}
+.l-top_menu .menu-items {
+    margin-left: 130px !important;
+}
+.l-top_menu .menu-search>.entry, .l-top_menu .menu-userbox>.entry {
+    color: #e1e7f2;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    line-height: 21px;
+    padding: 7px 10px 4px;
+    -webkit-transition: backround-color 0.3s ease;
+    transition: backround-color 0.3s ease;
+}
+.to-top-fix, .l-top_menu {
+    background: rgba(13,13,13,1) !important;
+    color: #bdbdbd !important;
+    font-family: "Courier New" !important;
+}
+.subheadline {
+    border: 0.8px solid #BDBDBD !important;
+    color: #c8c8c8 !important;
+    text-align: center !important;
+    background: rgba(82, 78, 78, 0.12) !important;
+    text-shadow: #BDBDBD 0 0 5px
+}
+.subheadline {
+    font-size: 14px;
+    padding: 6px 10px 4px 8px;
+    line-height: 14px;
+}
+.headline>a:hover, .midheadline>a:hover, .subheadline>a:hover {
+    text-decoration: none;
+    border-bottom-color: none;
+}
+.headline > a, .midheadline > a, .subheadline > a {
+    color: #c8c8c8 !important;
+}
+.p-profiles .profile-head .c-history .entry .misc {
+    color: #B0B0B0 !important;
+}
+.p-profiles .profile-head .c-history .entry {
+    border-top: 0.8px solid #BDBDBD !important;
+}
+block {
+    margin-bottom: 100px;
+    line-height: 1.65;
+    position: relative;
+}
+.p-profiles-show .profile-content .graph.x34 {
+    display: none !important;
+}
+.p-profiles-show .profile-content .activity:last-child {
+    margin-bottom: 0;
+}
+.p-profiles-show .profile-content .activity .title {
+    display: none !important;
+}
+.c-column.c-right.c-right.c-right {
+    width: 100% !important;
+}
+.avatar img {
+    filter: grayscale(100%) !important;
+    border: 1px solid #BDBDBD !important;
+    border-radius: 0.9px !important;
+}
+.p-profiles .profile-head .c-history .entry .title {
+    color: #6A6A6A !important;
+}
+headline>a:before, .midheadline>a:before, .subheadline>a:before {
+    display: none !important;
+}
+.b-user.c-column.avatar {
+    width: auto !important;
+    margin-right: 1% !important;
+    float: none !important;
+}
+.b-club.c-colum.avatar {
+    width: 7.5% !important;
+    margin-right: 10px !important;
+}
+.b-club .logo:hover {
+    opacity: 10 !important;
+}
+@media only screen and (min-width: 1024px) {
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img {
+    border-radius: 0.9px !important;
+    opacity: 10 ;
+}
+.b-catalog_entry .cover .image-decor .image-cutter {
+    border: 1px solid #BDBDBD !important;
+}
+img:hover {
+    opacity: 0.9 !important;
+}
+.p-profiles .profile-head .c-history .entry img {
+    border: 1px solid #BDBDBD !important;
+}
+.b-stats_bar .stat_names .stat_name a {
+    color: #ababab !important;
+    cursor: pointer;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a {
+    color: #ababab !important;
+    cursor: pointer;
+}
+.b-stats_bar a.title {
+    color: #ababab !important;
+    cursor: pointer;
+}
+.b-stats_bar .bar {
+    height: 16px;
+    border: 0.8px solid #BDBDBD !important;
+}
+.b-stats_bar .bar .third {
+    background: #000;
+}
+.b-stats_bar.manga .bar .first {
+    background: #000;
+}
+.p-user_history-index .history-page .history-interval p a {
+    color: #6A6A6A;
+    text-decoration: none;
+}
+.b-link {
+    color: #ababab !important;
+}
+.p-user_rates-index .list-lines tr .name a {
+    color: #ababab;
+}
+.p-user_rates-index .list-groups .summary.lines {
+    color: #ababab;
+    font-family: Courier New;
+    font-size: 12px;
+}
+.p-user_rates-index .l-content .order-control {
+    color: #ababab;
+    cursor: pointer;
+}
+b-options-floated .action {
+    color: #ababab;
+    cursor: pointer;
+    border-bottom: 1px solid #ababab;
+    display: inline-block;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+p-user_rates-index .list-lines.b-table {
+    color: #ababab;
+}
+body {
+color: #ababab;
+}
+.p-user_rates-index .list-lines tr .index {
+    border: 1px solid #ababab;
+}
+.p-user_rates-index .l-content .order-control {
+    border: 1px solid #ababab;
+}
+.p-user_rates-index .list-lines tr td {
+    padding: 1px 4px;
+}
+.p-user_rates-index .list-lines tr .num {
+    border: 1px solid #ababab;
+}
+.p-user_rates-index .list-lines tr td {
+    border: 1px solid #ababab;
+}
+.p-user_rates-index th.name.order-control {
+    text-align: center !important;
+}
+.tooltip-arrow {
+display: none;
+}
+.tooltip-inner {
+    background-color: #0a0a0a !important;
+    color: #c8c8c8 !important;
+    border: 0.8px solid #BDBDBD !important;
+}
+.b-catalog_entry-tooltip .inner a.name {
+    color: #6A6A6A !important;
+}
+.b-catalog_entry-tooltip {
+    filter: grayscale(100%) !important;
+    font-family: "Courier New" !important;
+}
+.b-catalog_entry-tooltip .inner .line .key {
+    color: #6A6A6A !important;
+}
+.b-catalog_entry-tooltip .inner .line .value .tag {
+    color: #BDBDBD !important;
+    border-bottom: 0.8px solid #BDBDBD !important;
+}
+b-add_to_list.completed .trigger, .b-add_to_list.completed .option {
+    border: 0.8px solid #BDBDBD !important;
+    color: #c8c8c8 !important;
+    background: rgba(82, 78, 78, 0.12) !important;
+}
+.b-add_to_list.planned .trigger, .b-add_to_list.planned .option {
+    border: 0.8px solid #BDBDBD !important;
+    color: #c8c8c8 !important;
+    background: rgba(82, 78, 78, 0.12) !important;
+}
+.b-add_to_list.completed .edit {
+    cursor: pointer;
+    color: #419541;
+}
+.b-catalog_entry .cover .title {
+    color: #BDBDBD;
+}
+.p-profiles-favourites .tooltip-details .b-catalog_entry-tooltip > a, 
+.p-profiles-show .tooltip-details .b-catalog_entry-tooltip > a,
+.p-profiles-show .tooltip-details .b-catalog_entry-tooltip .entry-tooltip_container > a {
+  display: none;
+}
+.p-profiles-favourites .b-catalog_entry-tooltip .inner.offset,
+.p-profiles-show .b-catalog_entry-tooltip .inner.offset {
+  margin-left: 0;
+}
+.p-profiles-favourites .tooltip-inner, .p-profiles-show .tooltip-inner {
+  width: 320px;
+}
+.b-catalog_entry-tooltip .inner .line .value .tag:hover {
+    color: #BDBDBD !important;
+    background: none !important;
+    border-bottom: 0.8px solid #BDBDBD !important;
+}
+.b-add_to_list.completed .trigger, .b-add_to_list.completed .option {
+    border: 0.8px solid #BDBDBD !important;
+    color: #c8c8c8 !important;
+    background: rgba(82, 78, 78, 0.12) !important;
+}
+.b-add_to_list.dropped .trigger, .b-add_to_list.dropped .option {
+    border: 0.8px solid #BDBDBD !important;
+    color: #c8c8c8 !important;
+    background: rgba(82, 78, 78, 0.12) !important;
+}
+.b-add_to_list.on_hold .trigger, .b-add_to_list.on_hold .option {
+    border: 0.8px solid #BDBDBD !important;
+    color: #c8c8c8 !important;
+    background: rgba(82, 78, 78, 0.12) !important;
+}
+.b-add_to_list.watching .trigger, .b-add_to_list.watching .option {
+    border: 0.8px solid #BDBDBD !important;
+    color: #c8c8c8 !important;
+    background: rgba(82, 78, 78, 0.12) !important;
+}
+.b-add_to_list.planned .trigger, .b-add_to_list.planned .option {
+    border: 0.8px solid #BDBDBD !important;
+    color: #c8c8c8 !important;
+    background: rgba(82, 78, 78, 0.12) !important;
+}
+.b-add_to_list.rewatching .trigger, .b-add_to_list.rewatching .option {
+    border: 0.8px solid #BDBDBD !important;
+    color: #c8c8c8 !important;
+    background: rgba(82, 78, 78, 0.12) !important;
+}
+.p-user_rates-index .list-lines tr td:hover {
+    background: #000 !important;
+    color: #c8c8c8 !important;
+}
+.p-user_rates-index .list-lines tr .index:hover {
+    background: #000 !important;
+    color: #c8c8c8 !important;
+}
+.p-user_rates-index .list-lines.b-table:hover {
+    background: #000 !important;
+    color: #c8c8c8 !important;
+}
+.p-user_rates-index .list-groups:hover {
+    background: #000 !important;
+    color: #c8c8c8 !important;
+}
+.p-user_rates-index .list-lines tr.editable:hover {
+    background: #000 !important;
+    color: #c8c8c8 !important;
+}
+.b-table tr, .b-table td:hover {
+    background: #000 !important;
+    color: #c8c8c8 !important;
+}
+.b-catalog_entry-tooltip .inner .additional-images .link .title {
+    color: #6A6A6A !important;
+}
+.b-catalog_entry-tooltip .inner .additional-images .link img {
+    border: 1px solid #BDBDBD !important;
+}
+.profile-actions .talk:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    color: #ababab;
+    letter-spacing: normal;
+    content: "";
+    text-align: center;
+    width: 20px;
+}
+.profile-actions .fav-add:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    content: "";
+    color: #ababab;
+    text-align: center;
+    width: 20px;
+}
+.profile-actions .ignore-add:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    color: #ababab;
+    content: "";
+    text-align: center;
+    width: 20px;
+}
+.profile-actions .ban:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    content: "";
+    color: #ababab;
+    text-align: center;
+    width: 20px;
+}
+.profile-actions .talk:hover:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    color: #ababab;
+    letter-spacing: normal;
+    content: "";
+    text-align: center;
+    width: 20px;
+}
+.profile-actions .fav-add:hover:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    content: "";
+    color: #ababab;
+    text-align: center;
+    width: 20px;
+}
+.profile-actions .ignore-add:hover:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    color: #ababab;
+    content: "";
+    text-align: center;
+    width: 20px;
+}
+.profile-actions .ban:hover:before {
+    font-family: shikimori;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    content: "";
+    color: #ababab;
+    text-align: center;
+    width: 20px;
+}
+.b-catalog_entry .cover[href *= 'characters/112997-'] .image-decor img {
+  content:url(https://i.ibb.co/D1mddP8/112997.png);
+}
+.b-catalog_entry .cover[href *= 'characters/112551-'] .image-decor img {
+  content:url(https://i.ibb.co/wSyqWZG/image.png);
+}
+.b-catalog_entry .cover[href *= 'characters/115189-'] .image-decor img {
+  content:url(https://i.ibb.co/nn55zTh/457067.png);
+}
+.b-catalog_entry .cover[href *= 'characters/2910-'] .image-decor img {
+  content:url(https://i.ibb.co/pXjNQ90/1233.png);
+}
+.b-catalog_entry .cover[href *= 'characters/5-'] .image-decor img {
+  content:url(https://i.ibb.co/d4k8QwM/675463.png);
+}
+.b-catalog_entry .cover[href *= 'mangas/81117-'] .image-decor img {
+    content: url(https://i.ibb.co/FV9xxNk/112997.png);
+}
+.b-catalog_entry .cover[href *= 'mangas/33327-'] .image-decor img {
+    content: url(https://i.ibb.co/kGgXbnn/112997.png);
+}
+.b-catalog_entry .cover[href *= 'characters/28-'] .image-decor img {
+    content: url(https://i.ibb.co/99MVqXd/28.png);
+}
+.p-user_rates-index .list-lines tr td .rate-text {
+    color: #bdbdbd;
+    font-size: 12px;
+    line-height: 15px;
+}
+.b-catalog_entry-tooltip .image {
+    width: 160px;
+    float: left;
+    border: 1px solid #BDBDBD !important;
+}
+.b-catalog_entry .cover[href *= 'animes/5205-'] .image-decor img {
+    content: url(https://i.ibb.co/Fq7V3TZ/472733.png);
+}
+.b-catalog_entry .cover[href *= 'animes/1735-'] .image-decor img {
+    content: url(https://i.ibb.co/zGPh3Fr/472733.png);
+}
+.b-catalog_entry .cover[href *= 'animes/11061-'] .image-decor img {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/472733.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Naruto: Shippuuden"] {
+    content: url(https://i.ibb.co/zGPh3Fr/472733.png);
+}
+.b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 7: Satsujin Kousatsu (Kou)"] {
+    content: url(https://i.ibb.co/ZYmKtd2/gfgf.png);
+}
+.b-catalog_entry-tooltip img[alt*="Aku no Hana"] {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/627908.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Steins;Gate"] {
+    content: url(https://i.ibb.co/nBN3w61/5758gjfj.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z269-'] .image-decor img {
+  content:url(https://i.ibb.co/xFb5zDQ/78957.png);
+}
+.b-catalog_entry-tooltip img[alt*="Hunter x Hunter (2011)"] {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/472733.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Koe no Katachi"] {
+    content: url(https://i.ibb.co/gy2FWWR/3255454.png);
+}
+.b-catalog_entry .cover[href *= 'mangas/24705-'] .image-decor img {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/627908.jpg);
+}
+img.b-poster {
+    max-width: 100%;
+    border: 1px solid #BDBDBD !important;
+}
+@media screen{.b-badge:before{display:block!important}
+.b-badge:not:before, .b-badge:before, .b-badge:before{display:block!important;opacity:noneimportant;}
+.b-badge:not([data-progress]):before, .b-badge[data-progress="0"]:before, .b-badge[data-progress="100"]:before {opacity: 1!important;}}
+.user_rates-minified .b-catalog_entry.planned .image-decor::before, .user_rates-minified .b-catalog_entry.planned .image-decor::after, .user_rates-minified .b-catalog_entry.watching .image-decor::before, .user_rates-minified .b-catalog_entry.watching .image-decor::after, .user_rates-minified .b-catalog_entry.completed .image-decor::before, .user_rates-minified .b-catalog_entry.completed .image-decor::after, .user_rates-minified .b-catalog_entry.rewatching .image-decor::before, .user_rates-minified .b-catalog_entry.rewatching .image-decor::after, .user_rates-minified .b-catalog_entry.on_hold .image-decor::before, .user_rates-minified .b-catalog_entry.on_hold .image-decor::after, .user_rates-minified .b-catalog_entry.dropped .image-decor::before, .user_rates-minified .b-catalog_entry.dropped .image-decor::after{
+display:none;
+}
+.b-catalog_entry.planned .image-decor::after, .b-catalog_entry.watching .image-decor::after, .b-catalog_entry.completed .image-decor::after, .b-catalog_entry.rewatching .image-decor::after, .b-catalog_entry.on_hold .image-decor::after, .b-catalog_entry.dropped .image-decor::after,
+.b-catalog_entry.planned .image-decor::before, .b-catalog_entry.planned .image-decor::after, .b-catalog_entry.watching .image-decor::before, .b-catalog_entry.watching .image-decor::after, .b-catalog_entry.completed .image-decor::before, .b-catalog_entry.completed .image-decor::after, .b-catalog_entry.rewatching .image-decor::before, .b-catalog_entry.rewatching .image-decor::after, .b-catalog_entry.on_hold .image-decor::before, .b-catalog_entry.on_hold .image-decor::after, .b-catalog_entry.dropped .image-decor::before, .b-catalog_entry.dropped .image-decor::after {
+display:none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/112997-'] .title:after {
+    content: 'Eto Yoshimura';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/112997-'] .title > span {
+    display: none;
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/112997-']:after {
+    content: 'Eto Yoshimura';
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/112997-'] > span {
+    display: none;
+}
+.p-user_rates-index .list-lines tr td .rewatches {
+    color: #bdbdbd;
+}
+.p-user_rates-index .stat-categories .category {
+    color: #bdbdbd;
+}
+.p-user_rates-index .stat-categories .category:hover {
+    color: #bdbdbd;
+}
+.bar.horizontal .line .x_label {
+    color: #bdbdbd;
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+    line-height: 16px;
+}
+.b-block_list li {
+    color: #bdbdbd;
+    font-family: "Courier New"
+}
+.bar.simple .bar.s0 {
+    background: #bdbdbd;
+}
+.bar.simple .bar.s3 {
+    background: #bdbdbd;
+}
+.bar.simple .bar.s2 {
+    background: #bdbdbd;
+}
+.bar.simple .bar.s0:hover {
+    background: #bdbdbd;
+}
+.bar.simple .bar.s3:hover {
+    background: #bdbdbd;
+}
+.bar.simple .bar.s2:hover {
+    background: #bdbdbd;
+}
+.bar.simple .bar.s1 {
+    background: #bdbdbd;
+}
+.bar.simple .bar.s1:hover {
+    background: #bdbdbd;
+}
+.b-spoiler label {
+    color: #bdbdbd;
+}
+.b-spoiler label:hover {
+    color: #bdbdbd;
+}
+.b-list li {
+    line-height: 1.65;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: square;
+    margin-bottom: 5px;
+}
+.b-options-floated .action {
+    color: #bdbdbd;
+}
+.b-options-floated .action:hover {
+    color: #bdbdbd;
+}
+.p-profiles .profile-head .c-brief .avatar {
+    margin: 10px 30px 30px 0;
+}
+.p-profiles .profile-head .c-brief .avatar {
+    float: left;
+    max-width: 160px;
+}
+.p-profiles-show .c-brief .avatar {
+    margin-left: 41% !important;
+    margin-bottom: 75px !important;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+    margin-bottom: 15px;
+}
+.b-stats_bar {
+    line-height: 16px;
+    min-height: 50px;
+}
+.p-profiles-show .c-info {
+    margin-left: 0;
+    width: 100%;
+}
+.b-stats_bar .stat_names {
+    font-size: 11px;
+    line-height: 1.65;
+    text-align: center;
+}
+.p-profiles-show .c-brief > .head.misc {
+    position: relative;
+    left: -190px;
+    top: 200px;
+    width: 170px;
+    text-align: center;
+}
+.p-profiles .profile-head .c-brief header {
+    overflow: hidden;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+.p-profiles-show .lifetime .title {
+    line-height: 1.65;
+    width: 100%;
+}
+.p-profiles-show .lifetime .bar {
+    width: 100%;
+}
+.p-profiles-show .lifetime .bar {
+    height: 5px;
+    line-height: 5px;
+}
+.p-profiles-show .lifetime {
+    margin-bottom: 20px;
+    line-height: 1.65;
+    position: relative;
+}
+.p-profiles-show .profile-content .cc-2 > .c-column {
+    width: 100%;
+    margin-bottom: -10px;
+    margin-top: 150px;
+}
+.p-profiles .profile-head .c-history.x3 {
+    margin-bottom: 15px;
+}
+.p-profiles .profile-head .c-history {
+    float: none;
+    margin-bottom: 30px;
+    margin-top: 420px;
+    margin-left: 0px;
+    position: absolute;
+    width: 97%;
+}
+.c-history .b-block_list {
+    margin-top: -6px;
+    margin-left: 5px;
+}
+.p-profiles .profile-head .c-history .entry:first-child {
+    padding-top: 7px;
+    margin-top: 0;
+    background: black;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border-top: 1px solid #4d4d4d;
+    box-shadow: 0 1px 1px 1px #BDBDBD;
+    text-align: center;
+}
+.p-profiles .profile-head .c-history .entry {
+    display: inline-block;
+    width: 33%;
+    border: 0;
+    background: black;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border-top: 1px solid #4d4d4d;
+    box-shadow: 0 1px 1px 1px #BDBDBD;
+    text-align: center;
+}
+.p-profiles-show.x1200 .profile-content .c-right:last-child {
+    margin-right: 0;
+    margin-top: 1px;
+}
+.p-profiles .profile-head .c-brief header .notice {
+    font-size: 12px;
+    line-height: 17px;
+    clear: left;
+    color: #BDBDBD;
+    margin-top: 0;
+}
+.p-profiles .profile-head .c-brief header .notice span:nth-child(2) {
+    display: none;
+}
+.p-profiles .profile-head .c-brief header .notice span:after {
+    display: none;
+}
+.p-profiles-show .lifetime .title {
+    color: #BDBDBD!important;
+}
+.p-profiles-show .lifetime .times .time.checked {
+    color: #FAF0E6;
+}
+.p-profiles-show .lifetime .times .time {
+    color: #FAF0E6;
+}
+.b-stats_bar.lifetime .bar .first {
+    background: #4682b4;
+}
+.p-profiles-show .lifetime .bar {
+    height: 7.5px;
+    line-height: 5px;
+}
+.p-profiles-show .profile-head:before {
+    content: '';
+    display: block;
+    height: 300px;
+    background: url(https://images3.alphacoders.com/926/926170.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: -15px;
+    margin-bottom: -94px;
+    opacity: 0.8;
+    border: 1px solid #BDBDBD !important;
+}
+.b-nothing_here {
+   display: none;
+}
