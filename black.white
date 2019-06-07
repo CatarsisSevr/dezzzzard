@@ -1179,6 +1179,9 @@ body {
     border: 1px solid #000 !important;1200
     border-radius: 0.9px !important;
 }
+.p-profiles .profile-head .c-history .entry img:hover {
+    filter: grayscale(0%) sepia(13%);
+}
 .tooltip-arrow {
    display: none;
 }
@@ -1196,9 +1199,6 @@ header.head .misc, header.head a.edit {
 .p-profiles-show .profile-content .cc-2 > .c-column {
     width: 100%;
     margin-bottom: 3px;
-}
-.p-profiles-show .profile-content .activity {
-    display: none;
 }
 .subheadline {
     text-align: center !important;
@@ -1249,7 +1249,7 @@ header.head h1, header.head h2 {
     text-align: center;
 }
 .b-user.avatar img:hover, .b-user.named_avatar img:hover, .b-user.avatar_fixed_margin img:hover {
-    opacity: 0.9 !important;
+    filter: grayscale(0%) sepia(13%);;
 }
 .b-user.c-column.avatar {
     width: auto !important;
@@ -1944,7 +1944,7 @@ img.b-poster {
     padding-top: 10px;
 }
 .b-catalog_entry .cover .image-decor img:hover {
-    opacity: 0.90;
+    filter: grayscale(0%) sepia(50%);
     transition: all 0.2s ease;
 }
 .b-rate div {
@@ -2773,7 +2773,7 @@ img.b-poster {
   content:url(https://cdn.myanimelist.net/images/characters/12/275292.jpg);
 }
 .b-catalog_entry .cover[href *= 'characters/28-'] .image-decor img {
-  content:url(https://moe.shikimori.org/system/user_images/original/100971/486432.jpg);
+  content:url(https://moe.shikimori.one/system/user_images/original/100971/486432.jpg);
 }
 .b-catalog_entry .cover[href *= 'characters/38005-'] .image-decor img {
   content:url(https://i.ibb.co/mbPT915/38005.png);
@@ -2781,15 +2781,21 @@ img.b-poster {
 .b-catalog_entry .cover[href *= 'characters/14040-'] .image-decor img {
   content:url(https://cdn.myanimelist.net/images/characters/3/319644.jpg);
 }
+.b-catalog_entry .cover[href *= 'characters/378-'] .image-decor img {
+  content:url(https://i.ibb.co/ZgGvcPr/378.png);
+}
 .b-catalog_entry .cover[href *= 'characters/13783-'] .image-decor img {
   content:url(https://i.ibb.co/2SPbyq9/13555.png);
 }
 .b-catalog_entry .cover[href *= 'characters/5571-'] .image-decor img {
   content:url(https://i.ibb.co/bmwhq30/5571.png);
 }
+.b-catalog_entry .cover[href *= 'characters/2007-'] .image-decor img {
+  content: url(https://i.ibb.co/K6DgZsP/d0df12f933b3fabae4f6767c0224dff51f70b3c1.jpg);
+}
 /*Обложки аниме/манги*/
 .b-catalog_entry .cover[href *= 'mangas/24705-'] .image-decor img {
-    content: url(https://desu.shikimori.org/system/user_images/original/100971/627908.jpg);
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/627908.jpg);
 }
 .b-catalog_entry .cover[href *= 'mangas/81117-'] .image-decor img {
     content: url(https://i.ibb.co/2qzNjc9/3.png);
@@ -2806,6 +2812,9 @@ img.b-poster {
 .b-catalog_entry .cover[href *= 'animes/13125-'] .image-decor img {
     content:url(https://i.ibb.co/VgX7RnF/111112.png);
 }
+.b-catalog_entry .cover[href *= 'animes/25517-'] .image-decor img {
+    content:url(https://i.ibb.co/kXPvqF8/472733.png);
+}
 .b-catalog_entry-tooltip img[alt*="Magic Kaito 1412"] {
     content: url(https://i.ibb.co/kXPvqF8/472733.png);
 }
@@ -2819,7 +2828,7 @@ img.b-poster {
     content: url(https://i.ibb.co/6XP3261/45551.png);
 }
 .b-catalog_entry-tooltip img[alt*="Hunter x Hunter (2011)"] {
-    content: url(https://desu.shikimori.org/system/user_images/original/100971/472733.jpg);
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/472733.jpg);
 }
 .b-catalog_entry-tooltip img[alt*="Fate/Zero"] {
     content: url(https://cdn.myanimelist.net/images/anime/2/73249l.jpg);
@@ -2996,13 +3005,13 @@ img.b-poster {
 .p-profiles-show .profile-head:before {
     content: '';
     display: block;
-    height: 400px;
-    background: url(https://images2.alphacoders.com/931/thumb-1920-931416.png) no-repeat;
-    background-size: cover;
+    height: 243px;
+    background: url(https://pp.vk.me/c614824/v614824482/1e18a/EwwLpctkqgs.jpg) no-repeat;
+    background-size: 1100px;
     background-position: center;
     margin: -14px;
-    filter: grayscale(60%) sepia(13%);
-    margin-bottom: -300px;
+    filter: grayscale(30%) sepia(13%);
+    margin-bottom: -150px;
 }
 .l-top_menu .menu-items {
     margin-left: 270px;
@@ -3013,23 +3022,11 @@ img.b-poster {
 .p-profiles .profile-head .c-brief .avatar {
   position: relative;
 }
-.p-profiles .profile-head .c-brief .avatar:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  padding-bottom: 100%;
-  background: url(https://i.ibb.co/nM1tfPV/5673.png) top center / cover;
-  filter: grayscale(0%);
-  border: 1px solid #000;
-}
-.p-profiles .profile-head .c-brief .avatar img {
-  opacity: 0;
-}
 .p-profiles .about.block .b-spoiler label {
   border: 1px solid #000;
   display: inline-block !important;
   font-weight: bold;
-  color: #000; 
+  color: #000;
   background: #fff;
   height: 30px; 
   width: 30%;
@@ -3177,7 +3174,8 @@ img.b-poster {
     border-bottom-color: #000;
 }
 .b-tag[href].active, .b-tag[href]:hover {
-    background-color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
 }
 .l-top_menu-v2 .menu-dropdown > span a {
     height: 25px;
@@ -3253,4 +3251,128 @@ img.b-poster {
 }
 .p-profiles-show .b-stats_bar.manga .bar .third {
     background-image: linear-gradient(22deg, #cccccc, #e6e6e6);
+}
+.b-catalog_entry .cover .title {
+    text-align: center;
+}
+.b-anime_status_tag.news {
+    background-color: #000000;
+    border: none;
+    color: white;
+    cursor: default;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-anime_status_tag.review {
+    background-color: #000000;
+    border: none;
+    color: white;
+    cursor: default;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-anime_status_tag.anons {
+    background-color: #000000;
+    border: none;
+    color: white;
+    cursor: default;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-anime_status_tag.ongoing {
+    background-color: #000000;
+    border: none;
+    color: white;
+    cursor: default;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-anime_status_tag.episode:before {
+    background-color: #000;
+    border: none;
+}
+.b-anime_status_tag.episode, .b-anime_status_tag.studio {
+    background-color: #020202;
+    border: none;
+    color: #123;
+    cursor: default;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.p-profiles-show .profile-content .activity:last-child {
+    margin-bottom: 25px;
+}
+}
+.graph.vertical.x34 .line {
+  margin-right: calc(100% - 8px) / 33) - 8px);
+}
+.graph.vertical .line .bar-container .bar {
+  width: 15px;
+  border-radius: 0;
+}
+.bar.vertical .line .bar-container .value,
+.bar.vertical .line .bar-container .value.mini {
+  font-size: 0;
+}
+.line:nth-child(odd) > .bar-container > .bar,
+.line:nth-child(odd) > .bar-container > .bar:hover,
+.line:nth-child(even) > .bar-container > .bar,
+.line:nth-child(even) > .bar-container > .bar:hover,
+.graph.vertical:not(:hover) .line:last-child .bar-container .bar,
+.graph.vertical:hover .line:last-child .bar-container .bar{
+  background: linear-gradient(0deg, #000, #8c8c8c);
+}
+.b-comment>.inner header img {
+    border: 1px solid #000;
+}
+.b-comment {
+    border-top: 1px solid #ddd;
+}
+.b-topic>.b-comments .b-comment:first-child, .b-topic>.b-comments .b-message:first-child {
+    border-top-width: 1px;
+    padding-top: 10px;
+}
+.b-collection_search .field input {
+    border: 1px solid #000;
+    line-height: 34px;
+    padding: 2px 42px 0 13px;
+    font-family: Courier New;
+    width: 100%;
+}
+.b-collection_search .field input:hover {
+    border: 1px solid #000;
+}
+.p-profiles-show .cc-favourites {
+    display: flex;
+    justify-content: center;
+}
+.block {
+    margin-bottom: 10px;
+}
+.cc-2>.c-column>.block:last-child .subheadline.m10:before {
+    content: "ИКОНОСТАС";
+    display: block;
+}
+.cc-2>.c-column>.block:last-child .subheadline.m10>a {
+    display: none;
 }
