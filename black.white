@@ -1,5 +1,5 @@
 body { 
- background: radial-gradient(circle at top, #2a2f38 1%, #0b0d0e 5%, #23272d 100%) fixed, radial-gradient(circle at bottom, #000000 11%, rgb(38, 43, 50) 55%, rgb(0, 0, 0)) fixed !important;
+         background: rgb(33, 33, 31) !important;
 }
 .p-user_rates-index .l-content .order-control {
     border: 1px solid #000;
@@ -1152,6 +1152,9 @@ body {
     border: 1px solid #000 !important;
     border-radius: 0.9px !important;
 }
+.profile-head .avatar img {
+    box-shadow: 0 0 2px 2px #000000, inset 0 0 2px #000000;
+}
 .b-catalog_entry .cover .image-decor {
     display: block;
     filter: grayscale(70%) sepia(13%);
@@ -1253,7 +1256,7 @@ header.head h1, header.head h2 {
 }
 .b-user.c-column.avatar {
     width: auto !important;
-    margin-right: 1% !important;
+    margin-right: 0.75% !important;
     float: none !important;
 }
 .b-club.c-colum.avatar {
@@ -1307,11 +1310,10 @@ headline>a:before, .midheadline>a:before, .subheadline>a:before {
 .p-profiles .profile-head .c-history {
     float: none;
     margin-bottom: 30px;
-    margin-top: 465px;
+    margin-top: 400px;
     margin-left: 0px;
     position: absolute;
     width: 97%;
-    pointer-events: none;
 }
 @media only screen and (min-width: 1024px) {
 .p-profiles-show .profile-content {
@@ -2702,6 +2704,12 @@ img.b-poster {
 .p-profiles .cover[data-tooltip_url *= 'characters/497-'] .title > span {
     display: none;
 }
+.p-profiles .cover[data-tooltip_url *= 'characters/87275-'] .title:after {
+    content: 'One-Eyed King';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/87275-'] .title > span {
+    display: none;
+}
 .b-catalog_entry-tooltip .inner a.name[href *= 'characters/497-']:after {
     content: 'Artoria Pendragon';
 }
@@ -2720,10 +2728,22 @@ img.b-poster {
 .p-profiles .cover[data-tooltip_url *= 'characters/112997-'] .title > span {
     display: none;
 }
+.p-profiles .cover[data-tooltip_url *= 'characters/458-'] .title:after {
+    content: 'Rebecca';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/458-'] .title > span {
+    display: none;
+}
 .b-catalog_entry-tooltip .inner a.name[href *= 'characters/112997-']:after {
     content: 'Eto Yoshimura';
 }
 .b-catalog_entry-tooltip .inner a.name[href *= 'characters/112997-'] > span {
+    display: none;
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/458-']:after {
+    content: 'Rebecca';
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/458-'] > span {
     display: none;
 }
 .p-profiles .cover[data-tooltip_url *= 'mangas/33327-'] .title:after {
@@ -2752,45 +2772,99 @@ img.b-poster {
 }  
 /* Обложки персов */
 .b-catalog_entry .cover[href *= 'characters/67067-'] .image-decor img {
-  content:url(https://i.ibb.co/s9qmMYp/4.png);
+  content:url(https://i.imgur.com/gR7lRJq.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Yukino Yukinoshita"] {
+  content:url(https://i.imgur.com/gR7lRJq.jpg);
 }
 .b-catalog_entry .cover[href *= 'characters/112997-'] .image-decor img {
+  content:url(https://image.ibb.co/hSpj1L/eto4ka.png);
+}
+.b-catalog_entry-tooltip img[alt*="Eto"] {
   content:url(https://image.ibb.co/hSpj1L/eto4ka.png);
 }
 .b-catalog_entry .cover[href *= 'characters/112551-'] .image-decor img {
   content:url(https://i.ibb.co/wSyqWZG/image.png);
 }
-.b-catalog_entry .cover[href *= 'characters/2910-'] .image-decor img {
-  content:url(https://i.ibb.co/pXjNQ90/1233.png);
+.b-catalog_entry-tooltip img[alt*="Seidou Takizawa"] {
+  content:url(https://i.ibb.co/wSyqWZG/image.png);
 }
-.b-catalog_entry .cover[href *= 'characters/86-'] .image-decor img {
-  content:url(https://cdn.myanimelist.net/images/characters/7/79491.jpg);
+.b-catalog_entry .cover[href *= 'characters/62793-'] .image-decor img {
+  content:url(https://i.imgur.com/02w493R.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Sawa Nakamura"] {
+  content:url(https://i.imgur.com/02w493R.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/458-'] .image-decor img {
+  content:url(https://cdn.myanimelist.net/images/characters/5/304145.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/13783-'] .image-decor img {
+  content:url(https://i.ibb.co/6YWtw5g/494977.png);
+}
+.b-catalog_entry-tooltip img[alt*="Takashi Natsume"] {
+  content:url(https://i.ibb.co/6YWtw5g/494977.png);
+}
+.b-catalog_entry-tooltip img[alt*="Revy"] {
+  content:url(https://cdn.myanimelist.net/images/characters/5/304145.jpg);
 }
 .b-catalog_entry .cover[href *= 'characters/497-'] .image-decor img {
   content:url(https://69.media.tumblr.com/c0a08f2aa8601a76eeb48dbf3e9639fa/tumblr_pljsj6qfAJ1vla2m2o8_250.jpg);
 }
+.b-catalog_entry-tooltip img[alt*="Saber"] {
+  content:url(https://69.media.tumblr.com/c0a08f2aa8601a76eeb48dbf3e9639fa/tumblr_pljsj6qfAJ1vla2m2o8_250.jpg);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Edward Elric"] {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/520823.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Edward Elric"] {
+  content:url(https://desu.shikimori.one/system/user_images/original/100971/520823.jpg);
+}
 .b-catalog_entry .cover[href *= 'characters/90181-'] .image-decor img {
+  content:url(https://cdn.myanimelist.net/images/characters/12/275292.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Megumi Katou"] {
   content:url(https://cdn.myanimelist.net/images/characters/12/275292.jpg);
 }
 .b-catalog_entry .cover[href *= 'characters/28-'] .image-decor img {
   content:url(https://moe.shikimori.one/system/user_images/original/100971/486432.jpg);
 }
+.b-catalog_entry-tooltip img[alt*="Kurapika"] {
+  content:url(https://moe.shikimori.one/system/user_images/original/100971/486432.jpg);
+}
 .b-catalog_entry .cover[href *= 'characters/38005-'] .image-decor img {
   content:url(https://i.ibb.co/mbPT915/38005.png);
 }
-.b-catalog_entry .cover[href *= 'characters/14040-'] .image-decor img {
-  content:url(https://cdn.myanimelist.net/images/characters/3/319644.jpg);
+.b-catalog_entry-tooltip img[alt*="Homura Akemi"] {
+  content:url(https://i.ibb.co/mbPT915/38005.png);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Ginko"] {
+    content: url(https://dere.shikimori.one/system/user_images/original/363043/800669.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Ginko"] {
+    content: url(https://dere.shikimori.one/system/user_images/original/363043/800669.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/146736-'] .image-decor img {
+  content:url(https://i.ibb.co/zskLbHB/ZxKsFZE.png);
+}
+.b-catalog_entry-tooltip img[alt*="Shinobu Kochou"] {
+  content:url(https://i.ibb.co/zskLbHB/ZxKsFZE.png);
+}
+.b-catalog_entry .cover[href *= 'characters/87275-'] .image-decor img {
+  content:url(https://i.ibb.co/r6jqWML/3499315.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Ken Kaneki"] {
+  content:url(https://i.ibb.co/r6jqWML/3499315.jpg);
 }
 .b-catalog_entry .cover[href *= 'characters/378-'] .image-decor img {
-  content:url(https://i.ibb.co/ZgGvcPr/378.png);
+  content:url(https://i.imgur.com/Mmo50Cr.jpg);
 }
-.b-catalog_entry .cover[href *= 'characters/13783-'] .image-decor img {
-  content:url(https://i.ibb.co/2SPbyq9/13555.png);
-}
-.b-catalog_entry .cover[href *= 'characters/5571-'] .image-decor img {
-  content:url(https://i.ibb.co/bmwhq30/5571.png);
+.b-catalog_entry-tooltip img[alt*="Akari Mizunashi"] {
+  content:url(https://i.imgur.com/Mmo50Cr.jpg);
 }
 .b-catalog_entry .cover[href *= 'characters/2007-'] .image-decor img {
+  content: url(https://i.ibb.co/K6DgZsP/d0df12f933b3fabae4f6767c0224dff51f70b3c1.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Shikamaru Nara"] {
   content: url(https://i.ibb.co/K6DgZsP/d0df12f933b3fabae4f6767c0224dff51f70b3c1.jpg);
 }
 /*Обложки аниме/манги*/
@@ -2800,20 +2874,65 @@ img.b-poster {
 .b-catalog_entry .cover[href *= 'mangas/81117-'] .image-decor img {
     content: url(https://i.ibb.co/2qzNjc9/3.png);
 }
+.b-catalog_entry .cover[href *= 'animes/11061-'] .image-decor img {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/472733.jpg);
+}
 .b-catalog_entry .cover[href *= 'mangas/33327-'] .image-decor img {
     content: url(https://i.ibb.co/vJdxtr4/2.png);
 }
 .b-catalog_entry .cover[href *= 'animes/6746-'] .image-decor img {
     content:url(https://i.ibb.co/qN3k3rm/1222.png);
 }
+.b-catalog_entry-tooltip img[alt*="Fullmetal Alchemist: Brotherhood"] {
+    content: url(https://kawai.shikimori.one/system/user_images/original/363043/797946.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Owarimonogatari 2nd Season"] {
+    content: url(https://i.ibb.co/N6xMQNH/463812.png);
+}
+.b-catalog_entry-tooltip img[alt*="Shinsekai yori"] {
+    content:url(https://i.ibb.co/Sy8PCdx/44235345634.png);
+}
 .b-catalog_entry .cover[href *= 'animes/18115-'] .image-decor img {
     content:url(https://i.ibb.co/7gGrVTm/11112.png);
 }
+.b-catalog_entry .cover[href *= 'animes/2593-'] .image-decor img {
+    height: 153px;
+}
+.b-catalog_entry .cover[href *= 'animes/3782-'] .image-decor img {
+    height: 153px;
+}
+.b-catalog_entry .cover[href *= 'animes/6624-'] .image-decor img {
+    height: 153px;
+}
+.b-catalog_entry .cover[href *= 'animes/3783-'] .image-decor img {
+    height: 153px;
+    content: url(https://i.ibb.co/6XP3261/45551.png);
+}
+.b-catalog_entry .cover[href *= 'animes/4280-'] .image-decor img {
+    height: 153px;
+}
+.b-catalog_entry .cover[href *= 'animes/14807-'] .image-decor img {
+    height: 153px;
+}
+.b-catalog_entry .cover[href *= 'animes/4282-'] .image-decor img {
+    height: 153px;
+    content: url(https://cdn.myanimelist.net/images/anime/6/27321l.jpg);
+}
+.b-catalog_entry .cover[href *= 'animes/5204-'] .image-decor img {
+    height: 153px;
+}
+.b-catalog_entry .cover[href *= 'animes/2251-'] .image-decor img {
+    content:url(https://cdn.myanimelist.net/images/anime/12/60567l.jpg);
+    height: 153px;
+}
 .b-catalog_entry .cover[href *= 'animes/13125-'] .image-decor img {
-    content:url(https://i.ibb.co/VgX7RnF/111112.png);
+    content:url(https://i.ibb.co/Sy8PCdx/44235345634.png);
 }
 .b-catalog_entry .cover[href *= 'animes/25517-'] .image-decor img {
     content:url(https://i.ibb.co/kXPvqF8/472733.png);
+}
+.b-catalog_entry-tooltip img[alt*="Baccano!"] {
+    content:url(https://cdn.myanimelist.net/images/anime/12/60567l.jpg);
 }
 .b-catalog_entry-tooltip img[alt*="Magic Kaito 1412"] {
     content: url(https://i.ibb.co/kXPvqF8/472733.png);
@@ -2830,57 +2949,18 @@ img.b-poster {
 .b-catalog_entry-tooltip img[alt*="Hunter x Hunter (2011)"] {
     content: url(https://desu.shikimori.one/system/user_images/original/100971/472733.jpg);
 }
-.b-catalog_entry-tooltip img[alt*="Fate/Zero"] {
-    content: url(https://cdn.myanimelist.net/images/anime/2/73249l.jpg);
-}
-.b-catalog_entry-tooltip img[alt*="Fate/Zero 2nd Season"] {
-    content: url(https://static.zerochan.net/Fate.zero.full.1232025.jpg);
-}
 .b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 7: Satsujin Kousatsu (Kou)"] {
-    content: url(https://i.ibb.co/Fq7V3TZ/472733.png);
-}
-.b-catalog_entry-tooltip img[alt*="Ghost in the Shell"] {
-    content: url(https://cdn.myanimelist.net/images/anime/9/71981l.jpg);
+    content: url(https://i.ibb.co/ZYmKtd2/gfgf.png);
 }
 .b-catalog_entry .cover .image-decor img[alt*="Kara no Kyoukai 7: Satsujin Kousatsu (Kou)"] {
-    content: url(https://i.ibb.co/Fq7V3TZ/472733.png);
+    content: url(https://i.ibb.co/ZYmKtd2/gfgf.png);
+    height: 153px;
 }
-.l-page {
-    margin-top: 30px;
-    border: 0.1px solid #000;
+.b-catalog_entry .cover .image-decor img[alt*="Owarimonogatari 2nd Season"] {
+    content: url(https://i.ibb.co/N6xMQNH/463812.png);
 }
-.history-page a:before {
-  display: inline-block;
-  vertical-align: top;
-  width: 72px;
-}
-.history-page a[href ^= "/a"]:before {
-  content: '[Аниме] ';
-  color: #000;
-  font-weight: bold;
-}
-.history-page a[href ^= "/m"]:before {
-  content: '[Манга] ';
-  color: #000;
-  font-weight: bold;
-}
-.history-page a[href ^= "/r"]:before {
-  content: '[Ранобэ] ';
-  color: #000;
-  font-weight: bold;
-}
-[data-locale="en"] .history-page a[href ^= "/a"]:before {
-  content: '[Anime] ';
-}
-[data-locale="en"] .history-page a[href ^= "/m"]:before {
-  content: '[Manga] ';
-}
-[data-locale="en"] .history-page a[href ^= "/r"]:before {
-  content: '[Ranobe] ';
-}
-.c-history .b-block_list {
-    margin-top: -6px;
-    margin-left: 5px;
+.b-catalog_entry .cover .image-decor img[alt*="Fullmetal Alchemist: Brotherhood"] {
+    content: url(https://kawai.shikimori.one/system/user_images/original/363043/797946.jpg);
 }
 /*Ачивки*/
 .b-achievement .c-image .inner a .border {
@@ -2902,7 +2982,7 @@ img.b-poster {
     width: 90%;
     margin: 50px;
     top: -80px;
-    margin-bottom: -105px;
+    margin-bottom: -85px;
 }
 .p-profiles-show .achievements .cc-achievements .b-achievement {
     float: left;
@@ -2975,49 +3055,20 @@ img.b-poster {
     line-height: 1.65;
     position: relative;
 }
-.b-achievement .c-image a[href $= '/romance']::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(https://i.ibb.co/wK10wjk/Kara-no-Kyoukai-full.png) top center / cover;
-}
-.b-achievement .c-image a[href $= '/supernatural']::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(https://i.ibb.co/1TQ7sQK/knk-background-6.jpg) top center / cover;
-}
-.b-achievement .c-image a[href $= '/drama']::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(http://38.media.tumblr.com/421ff2e0f566e876b66e2e0ec0cbe640/tumblr_nj0jssTdpN1rfx24fo1_500.gif) top center / cover;
-}
 .p-profiles-show .profile-head:before {
     content: '';
+    height: 235px;
     display: block;
-    height: 243px;
     background: url(https://pp.vk.me/c614824/v614824482/1e18a/EwwLpctkqgs.jpg) no-repeat;
-    background-size: 1100px;
-    background-position: center;
+    background-size: 1080px;
+    background-position: right;
+    filter: grayscale(70%) sepia(14%);
     margin: -14px;
-    filter: grayscale(30%) sepia(13%);
-    margin-bottom: -150px;
+    margin-bottom: -160px;
+    box-shadow: 0 0 5px 5px #000000, inset 0 0 5px #000000;
 }
 .l-top_menu .menu-items {
     margin-left: 270px;
-}
-.l-page {
-    opacity: 0.90;
 }
 .p-profiles .profile-head .c-brief .avatar {
   position: relative;
@@ -3216,6 +3267,10 @@ img.b-poster {
 .p-profiles-show .lifetime .title .value {
     margin-top: 0px;
 }
+.l-page {
+    margin-top: 30px;
+    border: 0.1px solid #000;
+}
 .b-stats_bar .bar {
   border-radius: 0;
   margin-bottom: 2px;
@@ -3369,10 +3424,35 @@ img.b-poster {
 .block {
     margin-bottom: 10px;
 }
-.cc-2>.c-column>.block:last-child .subheadline.m10:before {
-    content: "ИКОНОСТАС";
-    display: block;
+.l-page {
+    box-shadow: 0 0 5px 5px #000000, inset 0 0 5px #000000;
 }
-.cc-2>.c-column>.block:last-child .subheadline.m10>a {
-    display: none;
+.b-db_entry>.c-image img, .image-cutter, .b-catalog_entry-tooltip .image, .b-menu_logo img, .b-image1, .b-video {
+    box-shadow: 0px 0px 2px rgba(0,0,0,1), inset 0 0 2px 1px #000;
+    border: solid 2px black;
+}
+.b-table tr, .b-table td {
+    font-size: 91%;
+}
+.p-profiles-favourites .tooltip-details .b-catalog_entry-tooltip > a, 
+.p-profiles-show .tooltip-details .b-catalog_entry-tooltip > a,
+.p-profiles-show .tooltip-details .b-catalog_entry-tooltip .entry-tooltip_container > a {
+  display: none;
+}
+:root {
+    --font-main: 'Courier New';
+    --font-alt: 'Courier New';
+    --font-alt-text-letter-spacing: normal;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime {
+    width: 50%;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+    position: absolute;
+    width: 47.5%;
+    right: 15px;
+    margin-top: -104px;
+}
+.m30 {
+    margin-bottom: 15px !important;
 }
