@@ -2868,19 +2868,19 @@ img.b-poster {
   content: url(https://i.ibb.co/K6DgZsP/d0df12f933b3fabae4f6767c0224dff51f70b3c1.jpg);
 }
 /*Обложки аниме/манги*/
-.b-catalog_entry .cover[href *= 'mangas/24705-'] .image-decor img {
+.b-catalog_entry .cover[href *= 'mangas/z24705-'] .image-decor img {
     content: url(https://desu.shikimori.one/system/user_images/original/100971/627908.jpg);
 }
 .b-catalog_entry .cover[href *= 'mangas/81117-'] .image-decor img {
     content: url(https://i.ibb.co/2qzNjc9/3.png);
 }
-.b-catalog_entry .cover[href *= 'animes/11061-'] .image-decor img {
+.b-catalog_entry .cover[href *= 'animes/z11061-'] .image-decor img {
     content: url(https://desu.shikimori.one/system/user_images/original/100971/472733.jpg);
 }
 .b-catalog_entry .cover[href *= 'mangas/33327-'] .image-decor img {
     content: url(https://i.ibb.co/vJdxtr4/2.png);
 }
-.b-catalog_entry .cover[href *= 'animes/6746-'] .image-decor img {
+.b-catalog_entry .cover[href *= 'animes/z6746-'] .image-decor img {
     content:url(https://i.ibb.co/qN3k3rm/1222.png);
 }
 .b-catalog_entry-tooltip img[alt*="Fullmetal Alchemist: Brotherhood"] {
@@ -2892,47 +2892,30 @@ img.b-poster {
 .b-catalog_entry-tooltip img[alt*="Shinsekai yori"] {
     content:url(https://i.ibb.co/Sy8PCdx/44235345634.png);
 }
-.b-catalog_entry .cover[href *= 'animes/18115-'] .image-decor img {
+.b-catalog_entry .cover[href *= 'animes/z18115-'] .image-decor img {
     content:url(https://i.ibb.co/7gGrVTm/11112.png);
 }
-.b-catalog_entry .cover[href *= 'animes/2593-'] .image-decor img {
-    height: 153px;
+.b-catalog_entry .cover[href *= 'animes/z2001-'] .image-decor img {
+    content:url(https://cdn.myanimelist.net/images/anime/3/26106l.jpg);
 }
-.b-catalog_entry .cover[href *= 'animes/3782-'] .image-decor img {
-    height: 153px;
-}
-.b-catalog_entry .cover[href *= 'animes/6624-'] .image-decor img {
-    height: 153px;
-}
-.b-catalog_entry .cover[href *= 'animes/3783-'] .image-decor img {
-    height: 153px;
-    content: url(https://i.ibb.co/6XP3261/45551.png);
-}
-.b-catalog_entry .cover[href *= 'animes/4280-'] .image-decor img {
-    height: 153px;
-}
-.b-catalog_entry .cover[href *= 'animes/14807-'] .image-decor img {
-    height: 153px;
-}
-.b-catalog_entry .cover[href *= 'animes/4282-'] .image-decor img {
+.b-catalog_entry .cover[href *= 'animes/z4282-'] .image-decor img {
     height: 153px;
     content: url(https://cdn.myanimelist.net/images/anime/6/27321l.jpg);
 }
-.b-catalog_entry .cover[href *= 'animes/5204-'] .image-decor img {
-    height: 153px;
-}
-.b-catalog_entry .cover[href *= 'animes/2251-'] .image-decor img {
-    content:url(https://cdn.myanimelist.net/images/anime/12/60567l.jpg);
-    height: 153px;
-}
-.b-catalog_entry .cover[href *= 'animes/13125-'] .image-decor img {
+.b-catalog_entry .cover[href *= 'animes/z13125-'] .image-decor img {
     content:url(https://i.ibb.co/Sy8PCdx/44235345634.png);
 }
 .b-catalog_entry .cover[href *= 'animes/25517-'] .image-decor img {
     content:url(https://i.ibb.co/kXPvqF8/472733.png);
 }
+.b-catalog_entry .cover[href *= 'animes/11981-'] .image-decor img {
+    content:url(https://i.ibb.co/vLwfxXm/32777l.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z2251-'] .image-decor img {
+    content:url(https://i.ibb.co/Sw5PGvs/32777l.png);
+}
 .b-catalog_entry-tooltip img[alt*="Baccano!"] {
-    content:url(https://cdn.myanimelist.net/images/anime/12/60567l.jpg);
+    content:url(https://i.ibb.co/Sw5PGvs/32777l.png);
 }
 .b-catalog_entry-tooltip img[alt*="Magic Kaito 1412"] {
     content: url(https://i.ibb.co/kXPvqF8/472733.png);
@@ -2954,7 +2937,6 @@ img.b-poster {
 }
 .b-catalog_entry .cover .image-decor img[alt*="Kara no Kyoukai 7: Satsujin Kousatsu (Kou)"] {
     content: url(https://i.ibb.co/ZYmKtd2/gfgf.png);
-    height: 153px;
 }
 .b-catalog_entry .cover .image-decor img[alt*="Owarimonogatari 2nd Season"] {
     content: url(https://i.ibb.co/N6xMQNH/463812.png);
@@ -3057,14 +3039,14 @@ img.b-poster {
 }
 .p-profiles-show .profile-head:before {
     content: '';
-    height: 235px;
+    height: 200px;
     display: block;
-    background: url(https://pp.vk.me/c614824/v614824482/1e18a/EwwLpctkqgs.jpg) no-repeat;
-    background-size: 1080px;
+    background: url(https://pa1.narvii.com/6574/c4c5cf5de048f84026cbc855888081291382207e_hq.gif) no-repeat;
+    background-size: cover;
     background-position: right;
     filter: grayscale(70%) sepia(14%);
     margin: -14px;
-    margin-bottom: -160px;
+    margin-bottom: -100px;
     box-shadow: 0 0 5px 5px #000000, inset 0 0 5px #000000;
 }
 .l-top_menu .menu-items {
@@ -3099,12 +3081,12 @@ img.b-poster {
 .l-top_menu-v2 .logo-container .logo:after {
     content: '両儀森';
     color: white;
-    font-size: 23px;
+    font-size: 22px;
 }
 .l-top_menu-v2 .logo-container .logo {
     background: none;
     margin-left: 30px;
-    margin-bottom: 1px;
+    margin-bottom: 10px;
 }
 .x1200 .l-top_menu-v2 {
     width: 1003px;
@@ -3136,6 +3118,9 @@ img.b-poster {
     min-width: 180px;
     max-width: 250px;
 }
+.l-top_menu-v2 .menu-dropdown.main>span {
+background-color: #000;
+}
 .l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown > span {
     padding: 0 15px;
 }
@@ -3156,6 +3141,9 @@ img.b-poster {
     line-height: 20px;
     padding: 1px 42px 0 38px;
     width: 100%;
+}
+.l-top_menu-v2 .menu-dropdown>span a {
+background-color: #000;
 }
 .l-top_menu-v2 .global-search .search-marker, .l-top_menu-v2 .global-search .clear {
     font-size: 14px;
@@ -3455,4 +3443,13 @@ img.b-poster {
 }
 .m30 {
     margin-bottom: 15px !important;
+}
+.l-top_menu-v2 .menu-icon:hover {
+background-color: #000;
+}
+.cc-favourites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
