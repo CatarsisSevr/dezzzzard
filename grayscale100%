@@ -1,0 +1,707 @@
+body {
+    font-family: 'IBM Plex Sans';
+    background: #fff;
+    filter: grayscale(100%);
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIxsdO_q.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIVsdO_q.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIJsdO_q.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI5sdO_q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI9sdO_q.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIFsdA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@media only screen and (min-width: 1024px) {
+.x1200 .l-page, .x1000 .l-page {
+    max-width: 1000px;
+}
+.l-page {
+    position: relative;
+    filter: grayscale(100%);
+}
+.l-page {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #858585;
+}
+.p-profiles .profile-head .c-brief .avatar {
+    margin: auto;
+    float: none;
+}
+.p-profiles .profile-head .c-brief header h1 {
+    margin: auto;
+    color: #703636;
+    font-family: 'IBM Plex Sans';
+    font-size: 30px;
+    font-weight: bolder;
+}
+.p-profiles .profile-head .c-brief header {
+    overflow: hidden;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+.profile-head .avatar img {
+    box-shadow: 0 0 2px 2px #f0f0f0, inset 0 0 2px #f0f0f0;
+}
+.b-tooltipped.dotted {
+    border-bottom: none;
+}
+.p-profiles .profile-head .c-brief header .notice:before {
+    content: "怠け者";
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #000;
+}
+.p-profiles-show header.head .misc {
+    display: block;
+    margin: auto;
+    line-height: 2;
+    margin-top: -17px;
+    margin-right: 10px;
+    font-size: 11px;
+}
+.p-profiles .profile-head .c-history {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0;
+}
+.p-profiles .profile-head .c-history.x3 {
+    margin-bottom: 15px;
+}
+.p-profiles .profile-head .c-info, .p-profiles .profile-head .c-history {
+    order: 1;
+}
+.p-profiles .profile-head .c-history {
+    float: right;
+    position: relative;
+}
+.p-profiles .profile-head .c-history .entry {
+    padding: 0 20px 0 20px;
+}
+.c-history .entry {
+    display: inline-block;
+    border-top: none !important;
+    width: 33%;
+    text-align: center;
+    pointer-events: none;
+}
+.p-profiles .profile-head {
+    display: flex;
+    flex-direction: column;
+}
+.b-stats_bar .stat_names .stat_name:after, .p-profiles .profile-head .c-brief header .notice span:after, .b-options-floated a:after, .b-options-floated .link:after, .p-profiles .profile-head .c-info .c-additionals div:after, .b-breadcrumbs>span:after, .p-user_rates-index .list-groups .summary .stat-value:after {
+    content: '•';
+    color: #707070 !important;
+    padding: 0px 8px 0px 8px;
+}
+.b-stats_bar a.title, .headline>a, .subheadline>a {
+    color: #858585;
+}
+.headline>a, .subheadline>a, .b-stats_bar a.title, .b-stats_bar .stat_names .stat_name a, .p-profiles .profile-head .c-history .entry .title, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-additionals div a, .b-form .cancel, .b-catalog_entry-tooltip .inner a.name, .b-options-floated.mobile-desktop a, .p-user_rates-index .l-content .order-control.active, .p-user_rates-index .l-content .order-control:hover, .p-user_rates-index .stat-categories .category, .p-user_rates-index .list-lines tr .name a, .b-options-floated.mobile-desktop a, .b-block_list li, .b-topic>.inner header .name-date a.name, .b-catalog_entry .cover .title, .p-topics .l-menu .reviews .entry .title, .p-topics .l-menu .clubs .entry:hover .title, .p-topics .l-menu .sticky-topics .topic .title, .name-date a.name, .b-club .name, .b-user.named_avatar .name, .b-shiki_editor footer .about-bb_codes, .b-animes-menu .menu-topics-block .entry .name, .p-user_history-index .history-page .history-interval p a, .b-achievement .c-about a.title, .b-achievement .about a.title, header.head a.misc, .b-forums .forum .link-with-input .link, .b-log_entry a, .b-log_entry .link, .b-log_entry .b-user16 span, .b-ban .b-user16 span, .b-ban a, .b-ban .link, .p-contests .results a, .p-dashboards .user_list .list-change .title:hover, .b-ban .abuser:hover, .b-db_entry-variant-list_item>.info .name .b-link, .b-prgrph a:hover, .b-link:hover {
+    text-decoration: none !important;
+}
+.b-stats_bar .title {
+    width: 100%;
+    line-height: 1.5rem;
+    height: 1.5rem;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+.headline, .subheadline, .b-stats_bar .title, .p-profiles .profile-head .c-info .c-additionals b, .p-profiles-show .achievements .header, .red, .b-errors .subheadline, .midheadline {
+    background: #fff;
+    font-size: 13px;
+    padding: 0 10px;
+    line-height: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #f0f0f0;
+    color: #858585;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+}
+.headline>a:before, .midheadline>a:before, .subheadline>a:before {
+    display: none;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime {
+    width: 50%;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+    margin-bottom: 15px;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+    position: absolute;
+    width: 47.5%;
+    right: 15px;
+    margin-top: -108px;
+}
+.b-stats_bar .bar {
+    height: 10px;
+    line-height: 0;
+    margin-top: 5px;
+    border: 1px solid #f0f0f0;
+}
+.b-stats_bar .stat_names, .p-profiles .profile-head .c-info .c-additionals {
+    text-align: center !important;
+}
+.b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
+    font-size: 0;
+}
+.b-stats_bar.anime .bar .first, .b-stats_bar.manga .bar .first {
+    background: #636262;
+}
+.b-stats_bar.anime .bar .second, .b-stats_bar.manga .bar .second {
+    background: #c2bebe;
+}
+.b-stats_bar.anime .bar .third, .b-stats_bar.manga .bar .third {
+    background: #c2bebe;
+}
+.p-profiles .profile-head .c-info .c-additionals b {
+    padding-right: 0;
+    display: block;
+    margin: auto;
+    width: 40%;
+    line-height: 1.5rem;
+    height: 1.5rem;
+}
+.p-profiles-show .lifetime .title {
+    line-height: 1.65;
+    width: 100%;
+    text-align: center !important;
+}
+.p-profiles-show .profile-content .cc-2 > .c-left, .p-profiles-show .profile-content .cc-2 > .c-right {
+    width: 100%;
+}
+.p-profiles-show .lifetime .title .value {
+    position: absolute;
+    font-size: 11px;
+    margin-top: 6px;
+    right: 5px;
+    font-weight: 500;
+}
+.p-profiles-show .lifetime .bar {
+    height: 9px;
+    line-height: 9px;
+}
+.b-stats_bar.lifetime .bar .first {
+    background: #636262;
+}
+.b-stats_bar .bar .third {
+    background: #c2bebe;
+}
+.p-profiles-show .lifetime .cuts .cut.week, .p-profiles-show .lifetime .cuts .cut.month, .p-profiles-show .lifetime .cuts .cut.month_3 {
+    background: #cecece;
+    width: 2px;
+}
+.p-profiles .profile-head .c-info .c-additionals {
+    margin-bottom: 15px;
+}
+.p-profiles-show .cc-friends .b-user:nth-child(6n+1) {
+    clear: left;
+}
+.b-user.c-column.avatar {
+    width: auto !important;
+    margin-right: 0.33% !important;
+    float: none !important;
+    border: 1px solid #f0f0f0;
+}
+.b-club.c-colum.avatar {
+    width: 7.5% !important;
+    margin-right: 10px !important;
+    border: 1px solid #f0f0f0;
+    border-radius: 1px;
+}
+#profiles_show .b-clubs.one-line .b-club {
+    left: 11.5rem;
+}
+.b-user.avatar img:hover, .b-club .logo:hover {
+    filter: brightness(80%);
+    transition: 0.3s ease-in-out;
+}
+.p-profiles-show .profile-content .activity .title {
+    background: #fff;
+    font-size: 13px;
+    padding: 0 10px;
+    line-height: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #f0f0f0;
+    color: #858585;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+}
+.m30 {
+    margin-bottom: 10px !important;
+}
+.bar.vertical .line .bar-container .bar {
+    border: 1px solid #c2bebe;
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+.cc-favourites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.b-catalog_entry .cover .image-decor img {
+    border: 1px solid #636262;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/497-'] .title:after {
+    content: 'Artoria Pendragon';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/497-'] .title > span {
+    display: none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/87275-'] .title:after {
+    content: 'One-Eyed King';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/87275-'] .title > span {
+    display: none;
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/497-']:after {
+    content: 'Artoria Pendragon';
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/497-'] > span {
+    display: none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/1747-'] .title:after {
+    content: 'Moonlight Magician';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/1747-'] .title > span {
+    display: none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/112997-'] .title:after {
+    content: 'Eto Yoshimura';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/112997-'] .title > span {
+    display: none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/458-'] .title:after {
+    content: 'Rebecca';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/458-'] .title > span {
+    display: none;
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/112997-']:after {
+    content: 'Eto Yoshimura';
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/112997-'] > span {
+    display: none;
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/458-']:after {
+    content: 'Rebecca';
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/458-'] > span {
+    display: none;
+}
+.b-catalog_entry .cover .title.two_lined, .b-catalog_entry .cover .title, .p-user_rates-index .l-content .order-control {
+    text-align: center;
+}
+.b-catalog_entry .cover[href *= 'characters/67067-'] .image-decor img {
+  content:url(https://i.imgur.com/gR7lRJq.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/112997-'] .image-decor img {
+  content:url(https://image.ibb.co/hSpj1L/eto4ka.png);
+}
+.b-catalog_entry-tooltip img[alt*="Eto"] {
+  content:url(https://image.ibb.co/hSpj1L/eto4ka.png);
+}
+.b-catalog_entry-tooltip img[alt*="Yukino Yukinoshita"] {
+  content:url(https://i.imgur.com/gR7lRJq.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/112551-'] .image-decor img {
+  content:url(https://i.ibb.co/wSyqWZG/image.png);
+}
+.b-catalog_entry-tooltip img[alt*="Seidou Takizawa"] {
+  content:url(https://i.ibb.co/wSyqWZG/image.png);
+}
+.b-catalog_entry .cover[href *= 'characters/62793-'] .image-decor img {
+  content:url(https://i.imgur.com/02w493R.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Sawa Nakamura"] {
+  content:url(https://i.imgur.com/02w493R.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/458-'] .image-decor img {
+  content:url(https://cdn.myanimelist.net/images/characters/5/304145.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/13783-'] .image-decor img {
+  content:url(https://i.ibb.co/6YWtw5g/494977.png);
+}
+.b-catalog_entry-tooltip img[alt*="Takashi Natsume"] {
+  content:url(https://i.ibb.co/6YWtw5g/494977.png);
+}
+.b-catalog_entry-tooltip img[alt*="Revy"] {
+  content:url(https://cdn.myanimelist.net/images/characters/5/304145.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/497-'] .image-decor img {
+  content:url(https://69.media.tumblr.com/c0a08f2aa8601a76eeb48dbf3e9639fa/tumblr_pljsj6qfAJ1vla2m2o8_250.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Saber"] {
+  content:url(https://69.media.tumblr.com/c0a08f2aa8601a76eeb48dbf3e9639fa/tumblr_pljsj6qfAJ1vla2m2o8_250.jpg);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Edward Elric"] {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/520823.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Edward Elric"] {
+  content:url(https://desu.shikimori.one/system/user_images/original/100971/520823.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/90181-'] .image-decor img {
+  content:url(https://cdn.myanimelist.net/images/characters/12/275292.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Megumi Katou"] {
+  content:url(https://cdn.myanimelist.net/images/characters/12/275292.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/28-'] .image-decor img {
+  content:url(https://moe.shikimori.one/system/user_images/original/100971/486432.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Kurapika"] {
+  content:url(https://moe.shikimori.one/system/user_images/original/100971/486432.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/38005-'] .image-decor img {
+  content:url(https://i.ibb.co/mbPT915/38005.png);
+}
+.b-catalog_entry-tooltip img[alt*="Homura Akemi"] {
+  content:url(https://i.ibb.co/mbPT915/38005.png);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Ginko"] {
+    content: url(https://dere.shikimori.one/system/user_images/original/363043/800669.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Ginko"] {
+    content: url(https://dere.shikimori.one/system/user_images/original/363043/800669.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/146736-'] .image-decor img {
+  content:url(https://i.ibb.co/zskLbHB/ZxKsFZE.png);
+}
+.b-catalog_entry-tooltip img[alt*="Shinobu Kochou"] {
+  content:url(https://i.ibb.co/zskLbHB/ZxKsFZE.png);
+}
+.b-catalog_entry .cover[href *= 'characters/87275-'] .image-decor img {
+  content:url(https://i.ibb.co/r6jqWML/3499315.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Ken Kaneki"] {
+  content:url(https://i.ibb.co/r6jqWML/3499315.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/378-'] .image-decor img {
+  content:url(https://i.imgur.com/Mmo50Cr.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Akari Mizunashi"] {
+  content:url(https://i.imgur.com/Mmo50Cr.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/2007-'] .image-decor img {
+  content: url(https://i.ibb.co/K6DgZsP/d0df12f933b3fabae4f6767c0224dff51f70b3c1.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Shikamaru Nara"] {
+  content: url(https://i.ibb.co/K6DgZsP/d0df12f933b3fabae4f6767c0224dff51f70b3c1.jpg);
+//////////////////////////////////////////////* Обложки персов */////////////////////////////////////////////
+}
+.b-catalog_entry .cover[href *= 'mangas/81117-'] .image-decor img {
+    content: url(https://i.ibb.co/2qzNjc9/3.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z11061-'] .image-decor img {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/472733.jpg);
+}
+.b-catalog_entry .cover[href *= 'mangas/z24705-'] .image-decor img {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/627908.jpg);
+}
+.b-catalog_entry .cover[href *= 'mangas/33327-'] .image-decor img {
+    content: url(https://i.ibb.co/vJdxtr4/2.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z6746-'] .image-decor img {
+    content:url(https://i.ibb.co/qN3k3rm/1222.png);
+}
+.b-catalog_entry-tooltip img[alt*="Fullmetal Alchemist: Brotherhood"] {
+    content: url(https://kawai.shikimori.one/system/user_images/original/363043/797946.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Owarimonogatari 2nd Season"] {
+    content: url(https://i.ibb.co/N6xMQNH/463812.png);
+}
+.b-catalog_entry-tooltip img[alt*="Shinsekai yori"] {
+    content:url(https://i.ibb.co/Sy8PCdx/44235345634.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z18115-'] .image-decor img {
+    content:url(https://i.ibb.co/7gGrVTm/11112.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z2001-'] .image-decor img {
+    content:url(https://cdn.myanimelist.net/images/anime/3/26106l.jpg);
+}
+.b-catalog_entry .cover[href *= 'animes/z4282-'] .image-decor img {
+    height: 153px;
+    content: url(https://cdn.myanimelist.net/images/anime/6/27321l.jpg);
+}
+.b-catalog_entry .cover[href *= 'animes/z13125-'] .image-decor img {
+    content:url(https://i.ibb.co/Sy8PCdx/44235345634.png);
+}
+.b-catalog_entry .cover[href *= 'animes/25517-'] .image-decor img {
+    content:url(https://i.ibb.co/kXPvqF8/472733.png);
+}
+.b-catalog_entry .cover[href *= 'animes/11981-'] .image-decor img {
+    content:url(https://i.ibb.co/vLwfxXm/32777l.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z2251-'] .image-decor img {
+    content:url(https://i.ibb.co/Sw5PGvs/32777l.png);
+}
+.b-catalog_entry-tooltip img[alt*="Baccano!"] {
+    content:url(https://i.ibb.co/Sw5PGvs/32777l.png);
+}
+.b-catalog_entry-tooltip img[alt*="Magic Kaito 1412"] {
+    content: url(https://i.ibb.co/kXPvqF8/472733.png);
+}
+.b-catalog_entry-tooltip img[alt*="Koe no Katachi"] {
+    content: url(https://i.ibb.co/gy2FWWR/3255454.png);
+}
+.b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 5: Mujun Rasen"] {
+    content: url(https://cdn.myanimelist.net/images/anime/6/27321l.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 3: Tsuukaku Zanryuu"] {
+    content: url(https://i.ibb.co/6XP3261/45551.png);
+}
+.b-catalog_entry-tooltip img[alt*="Hunter x Hunter (2011)"] {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/472733.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 7: Satsujin Kousatsu (Kou)"] {
+    content: url(https://moe.shikimori.one/system/user_images/original/184680/859092.jpg);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Kara no Kyoukai 7: Satsujin Kousatsu (Kou)"] {
+    content: url(https://moe.shikimori.one/system/user_images/original/184680/859092.jpg);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Owarimonogatari 2nd Season"] {
+    content: url(https://i.ibb.co/N6xMQNH/463812.png);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Fullmetal Alchemist: Brotherhood"] {
+    content: url(https://kawai.shikimori.one/system/user_images/original/363043/797946.jpg);
+//////////////////////////////////////////////*Обложки аниме/манги*//////////////////////////////////////////////
+}
+.x1200 .l-top_menu-v2, .x1000 .l-top_menu-v2 {
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.l-top_menu-v2 {
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    padding: 0 8px;
+    height: 35px;
+    background: #f0f0f0;
+    color: #111;
+}
+.l-top_menu-v2 .menu-dropdown>span a {
+    color: #111;
+}
+.l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown>span {
+    -webkit-box-align: center;
+    text-align: center;
+    color: inherit;
+    display: flex;
+    font-family: 'IBM Plex Sans';
+    outline: none;
+    user-select: none;
+}
+.l-top_menu-v2 .menu-dropdown>span span, .l-top_menu-v2 .menu-dropdown>span a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+    letter-spacing: 0.25px;
+}
+.l-top_menu-v2 .menu-dropdown.main>span:not(.mobile), .l-top_menu-v2 .menu-dropdown.profile>span {
+    min-width: 160px;
+}
+.l-top_menu-v2 .menu-dropdown>span, .l-top_menu-v2 .submenu {
+    background: #f0f0f0;
+}
+img {
+    filter: brightness(95%) grayscale(100%);
+    border: 1px solid #f0f0f0;
+    border-radius: 1px;
+}
+ }
+.l-top_menu-v2 .menu-icon:hover {
+    background-color: #f0f0f0;
+}
+.l-top_menu-v2 .menu-dropdown > span {
+    background: #f0f0f0;
+}
+.l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown > span {
+    color: inherit;
+    display: flex;
+    height: 35px;
+}
+.l-top_menu-v2 .menu-dropdown.profile > span {
+    min-width: 180px;
+    max-width: 250px;
+}
+.p-user_rates-index .list-lines tr .index {
+    border: 1px solid #f0f0f0;
+}
+.p-user_rates-index .l-content .order-control {
+    border: 1px solid #f0f0f0;
+}
+.p-user_rates-index th.name.order-control {
+    text-align: center !important;
+}
+.p-user_rates-index .list-lines tr td {
+    border: 0.5px solid #f0f0f0!important;
+}
+.p-user_rates-index .list-lines tr .name a {
+    margin-left: 1%;
+}
+.l-top_menu-v2 .menu-dropdown>span a:hover {
+    background: #f0f0f0;
+}
+.l-top_menu-v2 .menu-dropdown>span a {
+    background-color: #f0f0f0;
+}
+.l-top_menu-v2 .menu-dropdown.main>span {
+    background-color: #f0f0f0;
+}
+.l-top_menu-v2 .logo-container .logo:after {
+    content: '両儀森';
+    color: #000;
+    font-size: 22px;
+}
+.l-top_menu-v2 .logo-container .logo {
+    background: none;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.l-top_menu-v2 .logo-container .glyph {
+   display: none;
+}
+.p-profiles-show .profile-head:before {
+    content: '';
+    height: 200px;
+    display: none;
+    background: url(https://a-static.besthdwallpaper.com/dark-side-of-tokyo-ghoul-wallpaper-3840x1080-1991_75.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+    margin: -15px;
+    margin-bottom: 15px;
+}
+.l-top_menu-v2 .submenu {
+    width: 100%;
+    position: absolute;
+    border: none;
+    font-family: 'IBM Plex Sans';
+}
+.l-top_menu-v2 .menu-dropdown>span, .l-top_menu-v2 .submenu {
+    background: #f0f0f0;
+    color: #111;
+}
+.l-top_menu-v2 .submenu>a {
+    height: 25px;
+    line-height: 25px;
+}
+.l-top_menu-v2 .submenu>a {
+    color: #474747;
+}
+.l-top_menu-v2 .submenu>.legend {
+    text-align: center;
+}
+.b-catalog_entry .cover .image-decor .image-cutter:hover {
+    filter: brightness(80%);
+    transition: 0.3s ease-in-out;
+}
+.p-user_rates-index .l-menu .avatar img {
+    box-shadow: 0 0 2px 2px #f0f0f0, inset 0 0 2px #f0f0f0;
+}
+.b-catalog_entry-tooltip .inner a.name, .b-catalog_entry .cover .title, .p-user_rates-index .list-lines tr td>a {
+    color: #703636 !important;
+    font-weight: bold;
+}
+#profiles_show .achievements .cc-3 > .c-column:first-child {
+    position: absolute;
+    width: 49.5%;
+}
+.cc-3>.c-column:nth-child(3n+1) {
+    clear: left;
+}
+#profiles_show .achievements .cc-3 > .c-column:nth-child(2) {
+    width: 49.5%;
+    margin-left: 50.5%;
+}
+.p-profiles-show .achievements .header {
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+#profiles_show .achievements .cc-3 > .c-column:nth-child(3) {
+    width: 100%;
+}
+.p-profiles-show .achievements .header .size {
+    position: absolute;
+    font-size: 10px;
+    right: 5px;
+    top: 1%;
+}
+#profiles_show .achievements .cc-achievements .b-achievement {
+    margin: 0;
+    width: 24%;
+    padding: 0.2%;
+    left: 0.3%;
+    margin-top: 2.5%;
+    top: -5px;
+}
+#profiles_show .cc-achievements, #profiles_show .cc-franchises {
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+#profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
+    width: 7.5%;
+    margin: 0;
+    margin-top: 0.6%;
+}
+.p-profiles-show .achievements .cc-franchises .b-badge:nth-child(4n+1) {
+    clear: left;
+}
