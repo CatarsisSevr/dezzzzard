@@ -1,0 +1,845 @@
+body {
+    font-family: 'IBM Plex Sans';
+    background: rgb(14, 14, 14);
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIxsdO_q.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIVsdO_q.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIJsdO_q.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI5sdO_q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI9sdO_q.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIFsdA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@media only screen and (min-width: 1024px) {
+.x1200 .l-page, .x1000 .l-page {
+    max-width: 1000px;
+}
+.l-page {
+    position: relative;
+    background: rgb(14, 14, 14);
+}
+.l-page {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #4a2c2c;
+}
+.p-profiles .profile-head .c-brief .avatar {
+    margin: auto;
+    float: none;
+}
+.p-profiles .profile-head .c-brief header h1 {
+    margin: auto;
+    color: #aeb3b7;
+    font-family: 'IBM Plex Sans';
+    font-size: 30px;
+    font-weight: bolder;
+}
+.p-profiles .profile-head .c-brief header {
+    overflow: hidden;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+.profile-head .avatar img {
+    box-shadow: 0 0 2px 2px #aeb3b7, inset 0 0 2px #aeb3b7;
+}
+.b-tooltipped.dotted {
+    border-bottom: none;
+}
+.p-profiles .profile-head .c-brief header .notice:before {
+    content: "怠け者";
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #aeb3b7;
+}
+.p-profiles-show header.head .misc {
+    display: block;
+    margin: auto;
+    line-height: 2;
+    margin-top: -17px;
+    margin-right: 10px;
+    font-size: 11px;
+}
+.p-profiles .profile-head .c-history {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0;
+}
+.p-profiles .profile-head .c-history.x3 {
+    margin-bottom: 15px;
+}
+.p-profiles .profile-head .c-info, .p-profiles .profile-head .c-history {
+    order: 1;
+}
+.p-profiles .profile-head .c-history {
+    float: right;
+    position: relative;
+}
+.p-profiles .profile-head .c-history .entry {
+    padding: 0 20px 0 20px;
+}
+.p-profiles .profile-head .c-history .entry:first-child {
+    border: none;
+}
+#profiles_show .b-block_list {
+    padding-left: 5%;
+}
+.c-history .entry {
+    display: inline-block;
+    border-top: none !important;
+    width: 33%;
+    text-align: center;
+    pointer-events: none;
+}
+.p-profiles .profile-head {
+    display: flex;
+    flex-direction: column;
+}
+.b-stats_bar .stat_names .stat_name:after, .p-profiles .profile-head .c-brief header .notice span:after, .b-options-floated a:after, .b-options-floated .link:after, .p-profiles .profile-head .c-info .c-additionals div:after, .b-breadcrumbs>span:after, .p-user_rates-index .list-groups .summary .stat-value:after {
+    content: '•';
+    color: #aeb3b7 !important;
+    padding: 0px 8px 0px 8px;
+}
+.b-stats_bar a.title, .headline>a, .subheadline>a {
+    color: #aeb3b7;
+}
+.headline>a, .subheadline>a, .b-stats_bar a.title, .b-stats_bar .stat_names .stat_name a, .p-profiles .profile-head .c-history .entry .title, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-additionals div a, .b-form .cancel, .b-catalog_entry-tooltip .inner a.name, .b-options-floated.mobile-desktop a, .p-user_rates-index .l-content .order-control.active, .p-user_rates-index .l-content .order-control:hover, .p-user_rates-index .stat-categories .category, .p-user_rates-index .list-lines tr .name a, .b-options-floated.mobile-desktop a, .b-block_list li, .b-topic>.inner header .name-date a.name, .b-catalog_entry .cover .title, .p-topics .l-menu .reviews .entry .title, .p-topics .l-menu .clubs .entry:hover .title, .p-topics .l-menu .sticky-topics .topic .title, .name-date a.name, .b-club .name, .b-user.named_avatar .name, .b-shiki_editor footer .about-bb_codes, .b-animes-menu .menu-topics-block .entry .name, .p-user_history-index .history-page .history-interval p a, .b-achievement .c-about a.title, .b-achievement .about a.title, header.head a.misc, .b-forums .forum .link-with-input .link, .b-log_entry a, .b-log_entry .link, .b-log_entry .b-user16 span, .b-ban .b-user16 span, .b-ban a, .b-ban .link, .p-contests .results a, .p-dashboards .user_list .list-change .title:hover, .b-ban .abuser:hover, .b-db_entry-variant-list_item>.info .name .b-link, .b-prgrph a:hover, .b-link:hover {
+    text-decoration: none !important;
+}
+.b-stats_bar .title {
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    height: 1.5rem;
+}
+.subheadline, .headline, .midheadline {
+    font-size: 14px;
+    padding: 0 10px;
+    line-height: 1.5rem;
+    height: 1.5rem;
+}
+.headline, .subheadline, .b-stats_bar .title, .p-profiles .profile-head .c-info .c-additionals b, .p-profiles-show .achievements .header, .red, .b-errors .subheadline, .midheadline {
+    background: #0f1112;
+    border: 1px solid;
+    color: #aeb3b7;
+    border-image: 1 -webkit-linear-gradient(left, #4a2c2c, #4a2c2c, #4a2c2c);
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+}
+.headline>a:before, .midheadline>a:before, .subheadline>a:before {
+    display: none;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime {
+    width: 50%;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+    margin-bottom: 15px;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+    position: absolute;
+    width: 47.5%;
+    right: 15px;
+    margin-top: -108px;
+}
+.b-stats_bar .bar {
+    height: 10px;
+    line-height: 0;
+    margin-top: 5px;
+    border: 1px solid #2b2a2a;
+}
+.b-stats_bar .stat_names, .p-profiles .profile-head .c-info .c-additionals {
+    text-align: center !important;
+}
+.b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
+    font-size: 0;
+}
+.b-stats_bar.anime .bar .first, .b-stats_bar.manga .bar .first {
+    background: #4a2c2c;
+}
+.b-stats_bar.anime .bar .second, .b-stats_bar.manga .bar .second {
+    background: #1c1c1c;
+}
+.b-stats_bar.anime .bar .third, .b-stats_bar.manga .bar .third {
+    background: #1c1c1c;
+}
+.p-profiles .profile-head .c-info .c-additionals b {
+    padding-right: 0;
+    display: block;
+    margin: auto;
+    width: 40%;
+    line-height: 1.5rem;
+    height: 1.5rem;
+}
+ .p-profiles .profile-head .c-history .entry .title {
+    color: #4a2c2c;
+}
+.p-profiles .profile-head .c-brief header .notice a, .b-user.named_avatar .name, .p-user_history-index .history-page .history-interval p a, .b-topic>.inner .name-date .name, .p-user_rates-index .list-lines tr .name a, .p-contests-index .contest a, .b-comment>.inner .name-date .name, .b-catalog_entry-tooltip .inner a.name, .b-catalog_entry .cover .misc span, .b-achievement .c-about a.title, .b-achievement .about a.title, .b-ban a, .b-ban .link, .b-log_entry a, .b-log_entry .link, .b-mention, .b-ban .abuser, .p-topics .l-menu .calendar .entry .title, .p-topics .l-menu .reviews .entry .title, .p-topics .l-menu .clubs .entry .title, .b-forums .forum .link-with-input .link, .p-user_rates-index .stat-categories .category, .b-block_list li, .p-user_rates-index .list-lines tr td, .p-user_rates-index .l-content .order-control, .p-user_rates-index .list-lines tr .index, .b-message>.inner .name-date .name, .p-profiles-edit .account .change-password a, .b-dialog>.inner .name-date .name, .b-js-action, .p-animes_collection-index .pagination .link, .p-mangas_collection-index .pagination .link, .p-recommendations-index .pagination .link, .p-userlist_comparer-show .pagination .link, .b-user.detailed .info .image-name .name, .b-user.moderation .info .image-name .name, .b-user.detailed .history .line a .event, .b-user.moderation .history .line a .event, .b-user_rate_log a, .b-user_rate_log .link, .b-spoiler label, .p-profiles-show .about a, .b-comment>.inner .was_updated, .b-user16, .p-translations .animes a, .p-studios .studio .name, .b-cosplay_gallery h3 a, .b-bb_codes-examples .example a, .b-bb_codes-examples .result a, .b-feedback-inner .about a {
+    color: #aeb3b7;
+}
+.headline>a:hover, .subheadline>a:hover, .midheadline .misc-links>a:hover, .b-stats_bar .stat_names .stat_name a:hover, .p-profiles .profile-head .c-info .c-additionals div a:hover, .b-link:hover, .b-options-floated a:hover, .b-options-floated .link:hover, .b-options-floated.mobile-desktop a:hover, .p-profiles .profile-head .c-brief header .notice a:hover, .b-comment>.inner .name-date .name:hover, .b-user.named_avatar .name:hover, .b-js-link:hover, .b-stats_bar a.title:hover, .b-catalog_entry-tooltip .inner a.name:hover, .p-user_history-index .history-page .history-interval p a:hover, .b-lang_trigger span:hover, .p-profiles .profile-head .c-history .entry .title:hover, .b-achievement .c-about a.title:hover, .b-achievement .about a.title:hover, .b-ban a:hover, .b-ban .link:hover, .b-log_entry a:hover, .b-log_entry .link:hover, .b-topic>.inner .name-date .name:hover, .b-mention:hover, .b-ban .abuser:hover, .p-topics .l-menu .calendar .entry .title:hover, .p-topics .l-menu .reviews .entry .title:hover, .p-topics .l-menu .clubs .entry .title:hover, .b-forums .forum .link-with-input .link:hover, .p-user_rates-index .stat-categories .category:hover, .p-user_rates-index .l-content .order-control:hover, .b-message>.inner .name-date .name:hover, .p-profiles-edit .account .change-password a:hover, .b-dialog>.inner .name-date .name:hover, .headline .misc-links>a:hover, .subheadline .misc-links>a:hover, .b-js-action:hover, .p-animes_collection-index .pagination .link:hover, .p-mangas_collection-index .pagination .link:hover, .p-recommendations-index .pagination .link:hover, .p-userlist_comparer-show .pagination .link:hover, .b-user.detailed .info .image-name .name:hover, .b-user.moderation .info .image-name .name:hover, .b-user.detailed .history .line a .event:hover, .b-user.moderation .history .line a .event:hover, .b-user_rate_log a:hover, .b-user_rate_log .link:hover, .b-spoiler label:hover, .p-topics header h1 a.reload:hover, .p-profiles-show .about a:hover, .b-comment>.inner .was_updated:hover, .b-user16:hover, .p-translations .animes a:hover, .p-studios .studio .name:hover, .b-options-floated .action:hover, .p-contests-index .contest a:hover, .b-cosplay_gallery h3 a:hover, .b-bb_codes-examples .example a:hover, .b-bb_codes-examples .result a:hover, .b-feedback-inner .about a:hover, .b-forums .reload:hover, .b-contests-menu .results:hover, .b-contests-menu .grid a:hover, header.head a.misc:hover, header.head a.edit:hover, .p-animes-show .c-info-right .watch-online a.kind:hover, .p-mangas-show .c-info-right .watch-online a.kind:hover, .p-ranobe-show .c-info-right .watch-online a.kind:hover, .b-topic>.inner .was_updated:hover, .p-profiles .profile-head .c-mobile-actions a:hover, .p-profiles .profile-head .c-mobile-actions span:hover, .b-options-floated.mobile-phone a:hover {
+    color: #949494;
+    transition: 0.2s ease-in-out;
+}
+header.head .notice {
+    clear: left;
+    color: #aeb3b7;
+}
+.p-profiles-show .lifetime .title {
+    line-height: 1.65;
+    width: 100%;
+    text-align: center !important;
+}
+.p-profiles-show .profile-content .cc-2 > .c-left, .p-profiles-show .profile-content .cc-2 > .c-right {
+    width: 100%;
+}
+.p-profiles-show .lifetime .title .value {
+    position: absolute;
+    font-size: 11px;
+    margin-top: 6px;
+    right: 5px;
+    font-weight: 500;
+}
+.p-profiles-show .lifetime .bar {
+    height: 9px;
+    line-height: 9px;
+}
+.b-stats_bar.lifetime .bar .first {
+    background: #4a2c2c;
+}
+.b-stats_bar .bar .third {
+    background: #1c1c1c;
+}
+.p-profiles-show .lifetime .cuts .cut.week, .p-profiles-show .lifetime .cuts .cut.month, .p-profiles-show .lifetime .cuts .cut.month_3 {
+    background: #cecece;
+    width: 2px;
+}
+.p-profiles .profile-head .c-info .c-additionals {
+    margin-bottom: 15px;
+}
+.p-profiles-show .cc-friends .b-user:nth-child(6n+1) {
+    clear: left;
+}
+.b-user.c-column.avatar {
+    width: auto !important;
+    margin-right: 1.23% !important;
+    float: none !important;
+    transition: 0.5s ease-in-out;
+}
+.b-club.c-colum.avatar {
+    width: 7.5% !important;
+    margin-right: 10px !important;
+}
+#profiles_show .b-clubs.one-line .b-club {
+    left: 11.5rem;
+}
+.b-user.avatar img:hover, .b-club .logo:hover {
+    filter: brightness(100%);
+    transition: 0.5s ease-in-out;
+}
+.p-profiles-show .profile-content .activity .title {
+    font-size: 13px;
+    padding: 0 10px;
+    line-height: 1.5rem;
+    background: #0f1112;
+    border: 1px solid;
+    color: #aeb3b7;
+    border-image: 1 -webkit-linear-gradient(left, #4a2c2c, #4a2c2c, #4a2c2c);
+    height: 1.5rem;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+}
+.bar.vertical .line .x_label {
+    bottom: -20px;
+    color: #aeb3b7;
+}
+.bar.simple .bar.s3 {
+    background: #1c1c1c;
+    border: 1px solid #2b2a2a;
+    transition: 0.3s ease-in-out;
+}
+.bar.simple .bar.s0 {
+    background: #1c1c1c;
+    border: 1px solid #2b2a2a;
+    transition: 0.3s ease-in-out;
+}
+.bar.simple .bar.s2 {
+    background: #4a2c2c;
+    border: 1px solid #2b2a2a;
+    transition: 0.3s ease-in-out;
+}
+.bar.simple .bar.s3:hover {
+    background: rgb(14, 14, 14);
+    border: 1px solid #2b2a2a;
+}
+.bar.simple .bar.s0:hover {
+    background: rgb(14, 14, 14);
+    border: 1px solid #2b2a2a;
+}
+.bar.simple .bar.s2:hover {
+    background: rgb(14, 14, 14);
+    border: 1px solid #2b2a2a;
+}
+.m30 {
+    margin-bottom: 10px !important;
+}
+.bar.vertical .line .bar-container .bar {
+    border: 1px solid #2b2a2a;
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+.bar.vertical {
+    border-bottom: 1px solid #1c1c1c;
+}
+.cc-favourites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/497-'] .title:after {
+    content: 'Artoria Pendragon';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/497-'] .title > span {
+    display: none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/87275-'] .title:after {
+    content: 'One-Eyed King';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/87275-'] .title > span {
+    display: none;
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/497-']:after {
+    content: 'Artoria Pendragon';
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/497-'] > span {
+    display: none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/1747-'] .title:after {
+    content: 'Moonlight Magician';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/1747-'] .title > span {
+    display: none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/112997-'] .title:after {
+    content: 'Eto Yoshimura';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/112997-'] .title > span {
+    display: none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/458-'] .title:after {
+    content: 'Rebecca';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/458-'] .title > span {
+    display: none;
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/112997-']:after {
+    content: 'Eto Yoshimura';
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/112997-'] > span {
+    display: none;
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/458-']:after {
+    content: 'Rebecca';
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/458-'] > span {
+    display: none;
+}
+.b-catalog_entry .cover .title.two_lined, .b-catalog_entry .cover .title, .p-user_rates-index .l-content .order-control {
+    text-align: center;
+}
+.b-catalog_entry .cover[href *= 'characters/67067-'] .image-decor img {
+  content:url(https://i.imgur.com/gR7lRJq.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/112997-'] .image-decor img {
+  content:url(https://image.ibb.co/hSpj1L/eto4ka.png);
+}
+.b-catalog_entry-tooltip img[alt*="Eto"] {
+  content:url(https://image.ibb.co/hSpj1L/eto4ka.png);
+}
+.b-catalog_entry-tooltip img[alt*="Yukino Yukinoshita"] {
+  content:url(https://i.imgur.com/gR7lRJq.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/112551-'] .image-decor img {
+  content:url(https://i.ibb.co/wSyqWZG/image.png);
+}
+.b-catalog_entry-tooltip img[alt*="Seidou Takizawa"] {
+  content:url(https://i.ibb.co/wSyqWZG/image.png);
+}
+.b-catalog_entry .cover[href *= 'characters/62793-'] .image-decor img {
+  content:url(https://i.imgur.com/02w493R.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Sawa Nakamura"] {
+  content:url(https://i.imgur.com/02w493R.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/458-'] .image-decor img {
+  content:url(https://cdn.myanimelist.net/images/characters/5/304145.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/13783-'] .image-decor img {
+  content:url(https://i.ibb.co/6YWtw5g/494977.png);
+}
+.b-catalog_entry-tooltip img[alt*="Takashi Natsume"] {
+  content:url(https://i.ibb.co/6YWtw5g/494977.png);
+}
+.b-catalog_entry-tooltip img[alt*="Revy"] {
+  content:url(https://cdn.myanimelist.net/images/characters/5/304145.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/497-'] .image-decor img {
+  content:url(https://69.media.tumblr.com/c0a08f2aa8601a76eeb48dbf3e9639fa/tumblr_pljsj6qfAJ1vla2m2o8_250.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Saber"] {
+  content:url(https://69.media.tumblr.com/c0a08f2aa8601a76eeb48dbf3e9639fa/tumblr_pljsj6qfAJ1vla2m2o8_250.jpg);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Edward Elric"] {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/520823.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Edward Elric"] {
+  content:url(https://desu.shikimori.one/system/user_images/original/100971/520823.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/90181-'] .image-decor img {
+  content:url(https://cdn.myanimelist.net/images/characters/12/275292.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Megumi Katou"] {
+  content:url(https://cdn.myanimelist.net/images/characters/12/275292.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/28-'] .image-decor img {
+  content:url(https://moe.shikimori.one/system/user_images/original/100971/486432.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Kurapika"] {
+  content:url(https://moe.shikimori.one/system/user_images/original/100971/486432.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/38005-'] .image-decor img {
+  content:url(https://i.ibb.co/mbPT915/38005.png);
+}
+.b-catalog_entry-tooltip img[alt*="Homura Akemi"] {
+  content:url(https://i.ibb.co/mbPT915/38005.png);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Ginko"] {
+    content: url(https://dere.shikimori.one/system/user_images/original/363043/800669.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Ginko"] {
+    content: url(https://dere.shikimori.one/system/user_images/original/363043/800669.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/146736-'] .image-decor img {
+  content:url(https://i.ibb.co/zskLbHB/ZxKsFZE.png);
+}
+.b-catalog_entry-tooltip img[alt*="Shinobu Kochou"] {
+  content:url(https://i.ibb.co/zskLbHB/ZxKsFZE.png);
+}
+.b-catalog_entry .cover[href *= 'characters/87275-'] .image-decor img {
+  content:url(https://i.ibb.co/r6jqWML/3499315.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Ken Kaneki"] {
+  content:url(https://i.ibb.co/r6jqWML/3499315.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/378-'] .image-decor img {
+  content:url(https://i.imgur.com/Mmo50Cr.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Rei Yasuda"] {
+  content:url(https://s4.anilist.co/file/anilistcdn/staff/large/n120056-M0gg1LZQlEib.png);
+}
+.b-catalog_entry-tooltip img[alt*="Akari Mizunashi"] {
+  content:url(https://i.imgur.com/Mmo50Cr.jpg);
+}
+.b-catalog_entry .cover[href *= 'people/28753-'] .image-decor img {
+  content:url(https://s4.anilist.co/file/anilistcdn/staff/large/n120056-M0gg1LZQlEib.png);
+}
+.b-catalog_entry-tooltip img[alt*="Aimer"] {
+  content:url(https://s4.anilist.co/file/anilistcdn/staff/large/n107859-0x6NJZ8dmZbp.jpg);
+}
+.b-catalog_entry .cover[href *= 'people/12859-'] .image-decor img {
+  content:url(https://s4.anilist.co/file/anilistcdn/staff/large/n107859-0x6NJZ8dmZbp.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/2007-'] .image-decor img {
+  content: url(https://i.ibb.co/K6DgZsP/d0df12f933b3fabae4f6767c0224dff51f70b3c1.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Shikamaru Nara"] {
+  content: url(https://i.ibb.co/K6DgZsP/d0df12f933b3fabae4f6767c0224dff51f70b3c1.jpg);
+//////////////////////////////////////////////* Обложки персов */////////////////////////////////////////////
+}
+.b-catalog_entry .cover[href *= 'mangas/81117-'] .image-decor img {
+    content: url(https://i.ibb.co/2qzNjc9/3.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z11061-'] .image-decor img {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/472733.jpg);
+}
+.b-catalog_entry .cover[href *= 'mangas/z24705-'] .image-decor img {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/627908.jpg);
+}
+.b-catalog_entry .cover[href *= 'mangas/33327-'] .image-decor img {
+    content: url(https://i.ibb.co/vJdxtr4/2.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z6746-'] .image-decor img {
+    content:url(https://i.ibb.co/qN3k3rm/1222.png);
+}
+.b-catalog_entry-tooltip img[alt*="Fullmetal Alchemist: Brotherhood"] {
+    content: url(https://kawai.shikimori.one/system/user_images/original/363043/797946.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Owarimonogatari 2nd Season"] {
+    content: url(https://i.ibb.co/N6xMQNH/463812.png);
+}
+.b-catalog_entry-tooltip img[alt*="Shinsekai yori"] {
+    content:url(https://i.ibb.co/Sy8PCdx/44235345634.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z18115-'] .image-decor img {
+    content:url(https://i.ibb.co/7gGrVTm/11112.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z2001-'] .image-decor img {
+    content:url(https://cdn.myanimelist.net/images/anime/3/26106l.jpg);
+}
+.b-catalog_entry .cover[href *= 'animes/z4282-'] .image-decor img {
+    height: 153px;
+    content: url(https://cdn.myanimelist.net/images/anime/6/27321l.jpg);
+}
+.b-catalog_entry .cover[href *= 'animes/z13125-'] .image-decor img {
+    content:url(https://i.ibb.co/Sy8PCdx/44235345634.png);
+}
+.b-catalog_entry .cover[href *= 'animes/25517-'] .image-decor img {
+    content:url(https://i.ibb.co/kXPvqF8/472733.png);
+}
+.b-catalog_entry .cover[href *= 'animes/11981-'] .image-decor img {
+    content:url(https://i.ibb.co/vLwfxXm/32777l.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z2251-'] .image-decor img {
+    content:url(https://i.ibb.co/Sw5PGvs/32777l.png);
+}
+.b-catalog_entry-tooltip img[alt*="Baccano!"] {
+    content:url(https://i.ibb.co/Sw5PGvs/32777l.png);
+}
+.b-catalog_entry-tooltip img[alt*="Magic Kaito 1412"] {
+    content: url(https://i.ibb.co/kXPvqF8/472733.png);
+}
+.b-catalog_entry-tooltip img[alt*="Koe no Katachi"] {
+    content: url(https://i.ibb.co/gy2FWWR/3255454.png);
+}
+.b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 5: Mujun Rasen"] {
+    content: url(https://cdn.myanimelist.net/images/anime/6/27321l.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 3: Tsuukaku Zanryuu"] {
+    content: url(https://i.ibb.co/6XP3261/45551.png);
+}
+.b-catalog_entry-tooltip img[alt*="Hunter x Hunter (2011)"] {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/472733.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 7: Satsujin Kousatsu (Kou)"] {
+    content: url(https://moe.shikimori.one/system/user_images/original/184680/859092.jpg);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Kara no Kyoukai 7: Satsujin Kousatsu (Kou)"] {
+    content: url(https://moe.shikimori.one/system/user_images/original/184680/859092.jpg);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Owarimonogatari 2nd Season"] {
+    content: url(https://i.ibb.co/N6xMQNH/463812.png);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Fullmetal Alchemist: Brotherhood"] {
+    content: url(https://kawai.shikimori.one/system/user_images/original/363043/797946.jpg);
+//////////////////////////////////////////////*Обложки аниме/манги*//////////////////////////////////////////////
+}
+.b-catalog_entry .cover .image-decor .image-cutter, .b-user.avatar img, .b-club .logo, .b-video img, .b-image img, .p-profiles .profile-head .c-history .entry img, .b-user.named_avatar img, .b-status-line .section.about .author .b-user16 img, .b-comment>.inner header img, .b-topic>.inner header img, .p-topics .l-menu .reviews .entry img, .p-topics .l-menu .clubs .entry img, .b-menu_logo img, .b-db_entry>.c-image img, .b-db_entry-variant-list_item .image img, .b-hot_topics-v2 .b-link .poster, .b-user16 img, .smiley, .p-animes-show .studio-logo, .p-mangas-show .studio-logo, .p-ranobe-show .studio-logo, .p-user_rates-index .l-menu .avatar img, .p-profiles-edit .account .avatar-edit img, .b-catalog_entry-tooltip .inner .additional-images .link img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .b-message>.inner header img, .b-comment>.inner header img, .b-dialog>.inner header img, .b-user.detailed .info .image-name .image, .b-user.moderation .info .image-name .image, .p-dashboards-show .generated-news-line .poster img, .l-top_menu-v2 .menu-dropdown.profile>span img, .l-top_menu-v2 .icon-avatar img, .p-profiles .profile-head .c-brief .avatar img {
+    filter: brightness(80%) grayscale(40%);
+    transition: 0.3s ease-in-out;
+}
+.headline>a, .subheadline>a, .b-stats_bar a.title, .b-stats_bar .stat_names .stat_name a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-additionals div a, .b-form .cancel, .b-catalog_entry-tooltip .inner a.name, .b-options-floated.mobile-desktop a, .p-user_rates-index .l-content .order-control.active, .p-user_rates-index .l-content .order-control:hover, .p-user_rates-index .stat-categories .category, .p-user_rates-index .list-lines tr .name a, .b-options-floated.mobile-desktop a, .b-block_list li, .b-topic>.inner header .name-date a.name, .b-catalog_entry .cover .title, .p-topics .l-menu .reviews .entry .title, .p-topics .l-menu .clubs .entry:hover .title, .p-topics .l-menu .sticky-topics .topic .title, .name-date a.name, .b-club .name, .b-user.named_avatar .name, .b-shiki_editor footer .about-bb_codes, .b-animes-menu .menu-topics-block .entry .name, .p-user_history-index .history-page .history-interval p a, .b-achievement .c-about a.title, .b-achievement .about a.title, header.head a.misc, .b-forums .forum .link-with-input .link, .b-log_entry a, .b-log_entry .link, .b-log_entry .b-user16 span, .b-ban .b-user16 span, .b-ban a, .b-ban .link, .p-contests .results a {
+    color: #aeb3b7;
+}
+.p-profiles .profile-head .c-history .entry .misc, .b-comment header .hash, .b-log_entry .id-label, .b-ban .id-label, .p-topics .l-menu .calendar .entry .misc, .p-topics .l-menu .reviews .entry .misc, .p-topics .l-menu .clubs .entry .misc, .b-user_rate_log .id-label {
+    color: #aeb3b7 !important;
+}
+.p-profiles-show .lifetime .times .time.checked:before, .p-profiles-show .lifetime .times .time.checked {
+    color: #7a7a7a;
+    -webkit-text-stroke: thin;
+}
+.p-user_rates-index .list-lines tr .index {
+    border: 1px solid #aeb3b7;
+}
+.p-user_rates-index .list-lines .selectable:hover {
+    background: none;
+}
+.p-user_rates-index .list-lines .selectable, .p-userlist_comparer .comparer table .selectable {
+    transition: 0.2s ease-in-out;
+}
+.p-user_rates-index .l-content .order-control {
+    border: 1px solid #aeb3b7;
+}
+.p-user_rates-index th.name.order-control {
+    text-align: center !important;
+}
+.p-user_rates-index .list-lines tr td {
+    border: 0.5px solid #aeb3b7 !important;
+}
+.p-user_rates-index .list-lines tr .name a {
+    margin-left: 1%;
+}
+.p-profiles-show .profile-head:before {
+    content: '';
+    height: 200px;
+    display: none;
+    background: url(https://a-static.besthdwallpaper.com/dark-side-of-tokyo-ghoul-wallpaper-3840x1080-1991_75.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+    margin: -15px;
+    margin-bottom: 15px;
+}
+.b-catalog_entry .cover .image-decor .image-cutter:hover {
+    filter: brightness(80%);
+    transition: 0.3s ease-in-out;
+}
+.p-user_rates-index .l-menu .avatar img {
+    box-shadow: 0 0 2px 2px #f0f0f0, inset 0 0 2px #f0f0f0;
+}
+.b-catalog_entry-tooltip .inner a.name, .b-catalog_entry .cover .title {
+    color: #703636 !important;
+    font-weight: bold;
+}
+.p-user_rates-index .list-lines tr td .rewatches {
+    color: #949494;
+}
+.p-user_rates-index .list-lines tr .name a:hover {
+    color: #693e3e;
+    font-weight: bold;
+}
+#profiles_show .achievements .cc-3 > .c-column:first-child {
+    position: absolute;
+    width: 49.5%;
+}
+.cc-3>.c-column:nth-child(3n+1) {
+    clear: left;
+}
+#profiles_show .achievements .cc-3 > .c-column:nth-child(2) {
+    width: 49.5%;
+    margin-left: 50.5%;
+}
+.p-profiles-show .achievements .header {
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+#profiles_show .achievements .cc-3 > .c-column:nth-child(3) {
+    width: 100%;
+}
+.p-profiles-show .achievements .header .size {
+    position: absolute;
+    font-size: 10px;
+    right: 5px;
+    top: 1%;
+}
+#profiles_show .achievements .cc-achievements .b-achievement {
+    margin: 0;
+    width: 24%;
+    padding: 0.2%;
+    left: 0.3%;
+    margin-top: 2.5%;
+    top: -5px;
+}
+#profiles_show .cc-achievements, #profiles_show .cc-franchises {
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+#profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
+    width: 7.5%;
+    margin: 0;
+    margin-top: 0.6%;
+}
+.p-profiles-show .achievements .cc-franchises .b-badge:nth-child(4n+1) {
+    clear: left;
+}
+.p-profiles-show .profile-head:before {
+    content: '';
+    display: none;
+    height: 500px;
+    background: url(https://www.tokkoro.com/picsup/5095291-fategrand-order-shiki-ryougi.png) no-repeat;
+    background-size: 985px;
+    background-position: centre;
+    margin: -15px;
+    margin-bottom: -311px;
+}
+.p-profiles .profile-head .c-history .entry {
+    border-image: 1 -webkit-linear-gradient(top, #4a2c2c, #4a2c2c, #4a2c2c);
+    border-left-style: solid;
+}
+.x1200 .l-top_menu-v2, .x1000 .l-top_menu-v2 {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 3px;
+}
+.l-top_menu-v2, .l-top_menu-v2 .global-search .search-results .nothing_found.active:before, .l-top_menu-v2 .global-search .search-results .nothing_found:focus:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus:before, .l-top_menu-v2 .global-search .search-results .search-mode.active:before, .l-top_menu-v2 .global-search .search-results .search-mode:focus:before, .l-top_menu-v2 .global-search .search-results .search-mode:active::before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:active::before, .l-top_menu-v2 .menu-icon.active, .l-top_menu-v2 .menu-icon:focus, .l-top_menu-v2 .menu-dropdown.active > span, .l-top_menu-v2 .menu-dropdown > span:focus, .l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .menu-dropdown:hover > span, .l-top_menu-v2 .submenu, .l-top_menu-v2 .menu-dropdown > span, .l-top_menu-v2 .menu-dropdown > span a:hover, .l-top_menu-v2 .global-search .search-results .search-mode:hover:before, .l-top_menu-v2 .global-search .search-results .nothing_found:before {
+    background: #0f1112;
+}
+.l-top_menu-v2, .l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown>span, .l-top_menu-v2 .menu-dropdown>span a {
+    height: 35px;
+}
+.l-top_menu-v2 {
+    padding: 0 8px;
+}
+.l-top_menu-v2 .logo-container {
+    margin-right: 25px;
+}
+.l-top_menu-v2 .menu-dropdown.main {
+    margin-right: 5px;
+}
+.l-top_menu-v2 .logo-container .glyph {
+    margin-top: -2px;
+    margin-right: 3px;
+    margin-left: -40px;
+    height: 37px;
+    width: 30px;
+    background: none;
+}
+.l-top_menu-v2 .logo-container .logo {
+    background: none;
+    height: 25px;
+    width: 80px;
+    margin-right: -20px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.l-top_menu-v2 .logo-container .logo:after {
+    content: '両儀森';
+    color: #693e3e;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.3s ease;
+}
+.l-top_menu-v2 .logo-container .logo:hover:after {
+    content: '両儀森';
+    color: #aeb3b7;
+    font-size: 22px;
+}
+.l-top_menu-v2 .menu-dropdown .submenu {
+    transition: opacity 0.2s ease-in-out;
+}
+.l-top_menu-v2 .submenu {
+    border: none;
+}
+.l-top_menu-v2 .menu-dropdown.main>span:not(.mobile), .l-top_menu-v2 .menu-dropdown.profile>span {
+    min-width: 160px;
+}
+.l-top_menu-v2 .submenu>a {
+    height: 25px;
+    color: #aeb3b7;
+    transition: 0.3s;
+}
+.l-top_menu-v2 .menu-dropdown.profile>span img {
+    height: 20px;
+    pointer-events: none;
+}
+.l-top_menu-v2 .submenu>.legend:first-child {
+    margin-top: 3px;
+}
+.l-top_menu-v2 .submenu>.legend {
+    text-align: center;
+    color: #693e3e;
+}
+.l-top_menu-v2 .submenu>a:hover {
+    background: none;
+    color: #693e3e;
+}
+.l-top_menu-v2 .menu-dropdown>span a {
+    color: #aeb3b7;
+}
+.l-top_menu-v2 .menu-dropdown.main>span:not(.mobile) {
+    color: #aeb3b7;
+}
+.l-top_menu-v2 .menu-icon.forum:before {
+    color: #aeb3b7;
+}
+.l-top_menu-v2 .global-search input {
+    border: 1px solid transparent;
+    font-size: 12px;
+    color: black;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+    background: radial-gradient(circle at top, #a17070 3%, #000000 45%, #000000 100%) fixed;
+}
+.l-top_menu-v2 .global-search input {
+    line-height: 20px;
+}
+.l-top_menu-v2 .global-search .search-marker, .l-top_menu-v2 .global-search .clear, .l-top_menu-v2 .global-search .clear:before {
+    font-size: 15px;
+    line-height: 24px;
+}
+.l-top_menu-v2 .global-search .search-marker {
+    width: 42px;
+    left: 0;
+}
+.l-top_menu-v2 .global-search .hotkey-marker {
+   display: none;
+}
+.l-top_menu-v2.is-search-focus .global-search .search-marker {
+    color: black;
+}
+.b-options-floated .action {
+    padding: 1px 4px;
+    margin-top: -5px;
+    background-color: #0f1112;
+    border: 1px solid #4a2c2c !important;
+    color: #aeb3b7 !important;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: capitalize;
+    transition: 0.16s cubic-bezier(0.4, 0, 0.6, 1);
+}
+.b-options-floated .action:hover {
+    border: 1px solid #4a2c2c !important;
+}
+.b-shiki_editor .body .editor textarea, .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander, .b-collection_search .field input, .b-input input, .b-input input[disabled], .b-input select, .subheadline-input, .b-forum .faye-loader, .b-postloader, .b-bb_codes-examples .example .textarea, .b-shiki_editor .links .link-value, .b-shiki_editor .images .link-value, .b-shiki_editor .quotes .link-value, .b-shiki_editor .upload .link-value, .b-input textarea, .collapsed, .collapsed+.spoiler .hide-expanded, .b-comments .faye-loader {
+    background-color: #141719;
+    border-color: #4a2c2c;
+    color: #aeb3b7;
+    transition: 0.3s ease-in-out;
+}
+.b-collection_search .field input {
+    line-height: 25px;
+    padding: 0 42px 0 13px;
+}
+.b-options-floated {
+    position: absolute;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: -20px;
+    right: 0;
+}
