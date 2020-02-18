@@ -522,7 +522,6 @@ body {
 .x1200 .l-top_menu-v2, .x1000 .l-top_menu-v2 {
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 20px;
 }
 .l-top_menu-v2 {
     display: flex;
@@ -618,13 +617,13 @@ img {
 }
 .p-profiles-show .profile-head:before {
     content: '';
-    height: 200px;
-    display: none;
-    background: url(https://a-static.besthdwallpaper.com/dark-side-of-tokyo-ghoul-wallpaper-3840x1080-1991_75.jpg) no-repeat;
+    height: 500px;
+    display: block;
+    background: url(https://images2.alphacoders.com/931/thumb-1920-931416.png) no-repeat;
     background-size: cover;
     background-position: right;
-    margin: -15px;
-    margin-bottom: 15px;
+    margin: -1px;
+    margin-bottom: -312px;
 }
 .l-top_menu-v2 .submenu {
     width: 100%;
