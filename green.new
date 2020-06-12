@@ -1,0 +1,1181 @@
+body {
+    background: #fff;
+    position: relative;
+    min-height: 100%;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+    font-family: 'IBM Plex Sans'
+}
+.p-profiles .profile-head[data-user-id = "224800"] .c-brief .avatar img, .p-user_rates-index .l-menu .avatar img {
+  box-shadow: 0 0 2px 2px #ddd, inset 0 0 2px #ddd;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIxsdO_q.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIVsdO_q.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIJsdO_q.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI5sdO_q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI9sdO_q.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v6/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIFsdA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.b-stats_bar .bar {
+  border-radius: 0;
+  margin-bottom: 2px;
+  height: 10px;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+  margin-top: 1.2rem;
+}
+.p-profiles-show .b-stats_bar.lifetime .bar {
+  height: 8px;
+  border-radius: 0;
+}
+.b-stats_bar .bar .first,
+.b-stats_bar .bar .second,
+.b-stats_bar .bar .third {
+  font-size: 0;
+  line-height: 2.25rem;
+}
+.p-profiles-show .b-stats_bar.anime .bar,
+.p-profiles-show .b-stats_bar.manga .bar {
+  display: initial;
+}
+.p-profiles-show .b-stats_bar.anime .bar .first {
+    background-image: linear-gradient(22deg, #97bf98, #69c76c);
+}
+.p-profiles-show .b-stats_bar.anime .bar .second {
+    background-image: linear-gradient(22deg, #ededed, #cccccc);
+}
+.p-profiles-show .b-stats_bar.anime .bar .third {
+    background-image: linear-gradient(22deg, #cccccc, #e6e6e6);
+}
+.p-profiles-show .b-stats_bar.manga .bar .first {
+    background-image: linear-gradient(22deg, #58a35a, #79a67a);
+}
+.p-profiles-show .b-stats_bar.manga .bar .second {
+    background-image: linear-gradient(22deg, #ededed, #cccccc);
+}
+.p-profiles-show .b-stats_bar.manga .bar .third {
+    background-image: linear-gradient(22deg, #cccccc, #e6e6e6);
+}
+.p-profiles-show .b-stats_bar.lifetime .bar .first {
+    border-radius: 0;
+    background-image: linear-gradient(22deg, #97bf98, #69c76c);
+}
+.b-stats_bar .bar .third {
+    background-image: linear-gradient(22deg, #ededed, #cccccc);
+}
+.graph.vertical.x34 .line {
+  margin-right: calc(100% - 8px) / 33) - 8px);
+}
+.graph.vertical .line .bar-container .bar {
+  width: 8px;
+  border-radius: 0;
+}
+.bar.vertical .line .bar-container .value,
+.bar.vertical .line .bar-container .value.mini {
+  font-size: 0;
+}
+.line:nth-child(odd) > .bar-container > .bar,
+.line:nth-child(odd) > .bar-container > .bar:hover,
+.line:nth-child(even) > .bar-container > .bar,
+.line:nth-child(even) > .bar-container > .bar:hover,
+.graph.vertical:not(:hover) .line:last-child .bar-container .bar,
+.graph.vertical:hover .line:last-child .bar-container .bar{
+  background: linear-gradient(0deg, #58a35a, #79a67a);
+}
+}
+.p-profiles-show .b-stats_bar.anime a.title,
+.p-profiles-show .b-stats_bar.manga a.title {
+  display: inline-block !important;
+  vertical-align: top !important;
+  min-width: 92px !important;
+  padding: .375rem 1rem !important;
+  margin-left: 0 !important;
+  background: #fff !important;
+  color: #000 !important;
+  font-weight: bold !important;
+  line-height: 1.5rem !important;
+}
+.headline>a, .subheadline>a, .b-stats_bar a.title, .b-stats_bar .stat_names .stat_name a, .p-profiles .profile-head .c-history .entry .title, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-additionals div a, .b-form .cancel, .b-catalog_entry-tooltip .inner a.name, .b-options-floated.mobile-desktop a, .p-user_rates-index .l-content .order-control.active, .p-user_rates-index .l-content .order-control:hover, .p-user_rates-index .stat-categories .category, .p-user_rates-index .list-lines tr .name a, .b-options-floated.mobile-desktop a, .b-block_list li, .b-topic>.inner header .name-date a.name, .b-catalog_entry .cover .title, .p-topics .l-menu .reviews .entry .title, .p-topics .l-menu .clubs .entry:hover .title, .p-topics .l-menu .sticky-topics .topic .title, .name-date a.name, .b-club .name, .b-user.named_avatar .name, .b-shiki_editor footer .about-bb_codes, .b-animes-menu .menu-topics-block .entry .name, .p-user_history-index .history-page .history-interval p a, .b-achievement .c-about a.title, .b-achievement .about a.title, header.head a.misc, .b-forums .forum .link-with-input .link, .b-log_entry a, .b-log_entry .link, .b-log_entry .b-user16 span, .b-ban .b-user16 span, .b-ban a, .b-ban .link, .p-contests .results a, .p-dashboards .user_list .list-change .title:hover, .b-ban .abuser:hover, .b-db_entry-variant-list_item>.info .name .b-link, .b-prgrph a:hover, .b-link:hover {
+    text-decoration: none !important;
+}
+.p-profiles .profile-head .c-brief header h1 {
+    font-family: "IBM Plex Sans" !important;
+    font-weight: bold !important;
+}
+.p-profiles .profile-head .c-brief header h1 {
+    vertical-align: top;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+.p-profiles .profile-head .c-brief header {
+    overflow: hidden;
+    margin-bottom: 3px;
+    white-space: nowrap;
+}
+.p-profiles .profile-head[data-user-id="224800"] .c-brief header {
+    padding-top: 4px;
+    text-align: center;
+    margin-right: 500px;
+}
+.p-profiles .profile-head[data-user-id = "224800"] .b-tooltipped.mobile {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2px 4px;
+    margin-left: 3px;
+    cursor: default;
+    transition: 0.25s ease;
+}
+.subheadline.m13 {
+    text-align: center;
+}
+.headline>a:before, .midheadline>a:before, .subheadline>a:before {
+    display: none;
+}
+.headline, .midheadline, .subheadline {
+    border-left: none;
+    border: 1px solid #e2e0e0;
+    background: #fff;
+    text-align: center;
+    color: #8a8a8a;
+}
+.headline, .midheadline, .subheadline:hover {
+    border: 1px solid #58a35a;
+    color: #58a35a;
+    transition: 0.25s ease;
+}
+.p-profiles .profile-head .c-history .entry:first-child {
+    padding-top: 5px;
+}
+.headline>a, .midheadline>a, .subheadline>a {
+    color: #8a8a8a;
+}
+.headline>a:hover, .midheadline>a:hover, .subheadline>a:hover {
+    color: #58a35a;
+    transition: 0.25s ease;
+}
+.p-profiles .profile-head .c-history .entry {
+    border-top: 1px solid #DDD;
+    padding-top: 10px;
+    margin-bottom: 4px;
+}
+.p-profiles .profile-head .c-history .entry:hover {
+    border-top: 1px solid #58a35a;
+    transition: 0.25s ease;
+}
+.p-profiles .profile-head .c-history .entry a:hover .title {
+    color: #58a35a  !important; 
+    transition: 0.25s ease;
+}
+.p-profiles .profile-head .c-history .entry a .title {
+    color: #427a44 !important;
+}
+.l-top_menu .to-top-fix {
+    display: none;
+}
+.x1200 .l-page {
+    max-width: 1200px;
+}
+.p-profiles .profile-head[data-user-id="224800"] .c-brief {
+    margin-bottom: -100px;
+}
+.p-profiles .profile-head .c-info .c-additionals div a {
+    color: #427a44 !important; 
+}
+.p-profiles .profile-head .c-info .c-additionals div a:hover {
+    color: #58a35a !important;
+    transition: 0.25s ease;
+}
+.p-profiles .profile-head .c-info .c-additionals {
+    text-align: center;
+}
+.b-stats_bar .stat_names .stat_name a:hover {
+    color: #427a44 !important; 
+    transition: 0.25s ease;
+}
+.p-profiles-show .b-stats_bar.lifetime .cuts .cut {
+    width: 0;
+    height: 0;
+    margin: 0 -.25rem;
+    background: transparent;
+    border: .25rem solid transparent;
+    border-bottom-color: #FAFAFA;
+    z-index: 1;
+}
+.p-profiles-show .lifetime .times .time.checked:before {
+   display: none;
+}
+.p-profiles-show .b-stats_bar.lifetime .times .time.checked {
+    color: #427a44;
+    font-weight: bold;
+}
+.p-profiles .profile-head[data-user-id = "224800"] .c-brief header .misc {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: auto;
+    padding-top: 0;
+    padding: 0;
+    margin: 6px 6px 6px -16px;
+    font-size: 0.675rem;
+    line-height: 1rem;
+    transition: 0.25s ease;
+}
+.p-profiles .profile-head .c-info .c-additionals div a {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 8px 10px;
+    margin: 0 8px 0 0;
+    max-width: 150px;
+    text-align: center;
+    line-height: 1.45;
+    color: #427a44;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.p-profiles .profile-head .c-info .c-additionals div a:hover {
+    border: 1px solid #58a35a;
+    color: #427a44;
+}
+.p-profiles .profile-head .c-info .c-additionals div:after {
+    display: none;
+}
+.p-profiles-show .cc-friends .b-user .avatar > img {
+    box-shadow: 0 0 2px 1px #ddd;
+    transform: scale(1);
+    filter: grayscale(50%);
+    transition: 0.25s ease;
+}
+.p-profiles-show .cc-friends .b-user .avatar > img:hover {
+    box-shadow: 0 0 2px 1px #58a35a;
+    transform: scale(1);
+    filter: grayscale(0%);
+}
+.b-club .logo:hover {
+    box-shadow: 0 0 2px 1px #58a35a;
+    transform: scale(1);
+}
+.b-club .logo {
+    box-shadow: 0 0 2px 1px #ddd;
+    transform: scale(1);
+    max-width: 60%;
+    transition: 0.25s ease;
+}
+.p-profiles-show .profile-head:before {
+  content: '';
+  display: block;
+  height: 300px; 
+  background: url("https://avatanplus.com/files/resources/original/5a4ba6851b1f2160b78277f7.jpg") no-repeat;
+  background-size: cover; 
+  margin: -15px;
+  margin-bottom: 5px;
+  background-color: hsla(0, 0%, 90%, 1); 
+  box-shadow: 0 -20px 10px -10px rgba(0, 0, 0, 0.2) inset; 
+}
+.p-profiles .profile-head .c-brief .avatar {
+   margin-top: -120px;
+   margin-bottom: 10px;
+}
+.p-profiles .profile-head[data-user-id='224800'] .c-info {
+    width: 74%;
+}
+.p-profiles header.head .misc span {
+    border: 1px solid #427a44;
+    color: #427a44;
+    border-radius: 2px;
+    padding: 4px 6px;
+    transition: 0.25s ease;
+}
+.p-profiles .profile-head[data-user-id = "224800"] .c-brief header .misc {
+    display: block;
+    position: absolute;
+    top: 417px;
+    left: auto;
+    padding-top: 0;
+    padding: 0;
+    margin: 6px 6px 6px -16px;
+    font-size: 0.675rem;
+    line-height: 1rem;
+    transition: 0.25s ease;
+}
+::-webkit-scrollbar-button {
+  background-image: url(''); 
+  background-repeat: no-repeat;
+  width: 0px;
+  height: 0px
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1)
+}
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  background-color: #58a35a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #58a35a;
+}
+::-webkit-scrollbar-corner {
+  background-repeat: no-repeat;
+}
+::-webkit-resizer {
+  background-image: url('');
+  background-repeat: no-repeat;
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.p-user_rates-index .list-lines tr .name a {
+    color: #000;
+}
+.p-user_rates-index .list-lines tr .name a:hover {
+    color: #58a35a;
+    transition: 0.25s ease;
+}
+.p-user_rates-index .list-lines tr td .rewatches:not(:empty) {
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: text-top;
+    font-size: 10px;
+    color: hsla(0, 0%, 70%, 1);
+    border: 1px solid #ddd;
+    padding: 1px 4px;
+    margin: 1px 10px;
+    border-radius: 2px;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2px 4px;
+    margin-left: 3px;
+    cursor: default;
+    transition: 0.25s ease;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.full, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero:hover {
+    color: #427a44;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate:after {
+    display: none;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak:hover {
+    color: #427a44;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.high, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.high:hover {
+    color: #427a44;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.moderate, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.moderate:hover {
+    color: #427a44;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover {
+    color: #427a44;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate::before {
+    content: '│';
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.full:hover {
+    color: #427a44;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
+    color: #427a44;
+    text-decoration: none !important;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover {
+    text-decoration: underline;
+    border-bottom-color: #ddd;
+}
+.subheadline.m10 {
+    padding: 6px 10px 7px 8px;
+}
+.b-catalog_entry .cover:hover .title {
+    color: #58a35a;
+    transition: 0.25s ease;
+}
+.b-catalog_entry .cover .title {
+    color: #427a44;  
+}
+.p-user_rates-index .stat-categories .category {
+    color: #427a44;
+}
+.p-user_rates-index .stat-categories .category:hover {
+    color: #427a44;
+    text-decoration: none; 
+}
+.b-collection-filters .b-block_list li {
+    font-family: 'IBM Plex Sans';
+    position: relative;
+    padding: .25em .5em;
+    margin: 0 -.5em;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.p-user_rates .mylist-block + .block + .block + .block > .b-list > li > a, .b-collection-filters > .block:nth-child(3) > .b-list > li > a {
+    position: relative;
+    display: block;
+    color: #212121 !important;
+    z-index: 1;
+}
+.p-user_rates .mylist-block + .block + .block + .block > .b-list > li, .b-collection-filters > .block:nth-child(3) > .b-list > li {
+    position: relative;
+    margin-bottom: .5rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    border-radius: 2px;
+    font-size: .875rem;
+    font-weight: bold;
+    line-height: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    transition: 0.2s ease;
+}
+.b-collection-filters .block.genres label {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px !important;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid !important;
+    border-radius: 2px;
+    padding: .6rem .8rem;
+    color: #212121 !important;
+    border-color: #ddd !important;
+    transition: .25s ease;
+}
+.b-collection-filters .block.genres label:hover {
+    color: #427a44 !important;
+    border-color: #427a44 !important;
+}
+body, input, select, button, textarea {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.p-user_history-index .history-page .history-interval p a {
+    color: #427a44;
+}
+.p-user_history-index .history-page .history-interval p a:hover {
+    color: #58a35a;
+    transition: 0.25s ease;
+}
+.p-profiles-show .profile-content .cc-2 > .c-column {
+    width: 100%;
+}
+  .p-profiles-show .profile-content .cc-2 > .c-left {
+    position: relative;
+    width: 77%;
+    padding-right: 30px;
+    margin-right: 0;
+    z-index: 1;
+}
+.p-profiles-show .lifetime {
+    margin-bottom: 15px;
+} 
+.p-profiles-show .profile-content .cc-2 > .c-right {
+    float: none;
+}
+.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a {
+    width: 23%;
+    overflow: hidden;
+}
+.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column {
+    width: 100%;
+    margin: 0;
+}
+.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column:last-child {
+    margin-top: 15px;
+}
+.p-profiles-show .profile-content .cc-2 > .c-right > .block:last-child {
+    clear: both;
+}
+.tooltip-arrow {
+    display: none;
+}
+.x1200 .l-top_menu-v2, .x1000 .l-top_menu-v2 {
+    max-width: 1200px;
+    margin: auto;
+}
+.l-top_menu-v2, .l-top_menu-v2 .global-search .search-results .nothing_found.active:before, .l-top_menu-v2 .global-search .search-results .nothing_found:focus:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus:before, .l-top_menu-v2 .global-search .search-results .search-mode.active:before, .l-top_menu-v2 .global-search .search-results .search-mode:focus:before, .l-top_menu-v2 .global-search .search-results .search-mode:active::before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:active::before, .l-top_menu-v2 .menu-icon.active, .l-top_menu-v2 .menu-icon:focus, .l-top_menu-v2 .menu-dropdown.active > span, .l-top_menu-v2 .menu-dropdown > span:focus, .l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .menu-dropdown:hover > span, .l-top_menu-v2 .submenu, .l-top_menu-v2 .menu-dropdown > span, .l-top_menu-v2 .menu-dropdown > span a:hover, .l-top_menu-v2 .global-search .search-results .search-mode:hover:before, .l-top_menu-v2 .global-search .search-results .nothing_found:before {
+    background: #427a44;
+}
+.l-top_menu-v2, .l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown>span, .l-top_menu-v2 .menu-dropdown>span a {
+    height: 35px;
+}
+.l-top_menu-v2 {
+    padding: 0 8px;
+}
+.l-top_menu-v2 .logo-container {
+    margin-right: 25px;
+}
+.l-top_menu-v2 .menu-dropdown.main {
+    margin-right: 5px;
+}
+.l-top_menu-v2 .logo-container .glyph {
+    margin-top: -2px;
+    margin-right: 3px;
+    margin-left: -40px;
+    height: 37px;
+    width: 30px;
+    background: none;
+}
+.l-top_menu-v2 .logo-container .logo {
+    background: none;
+    height: 25px;
+    width: 80px;
+    margin-right: -30px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.l-top_menu-v2 .logo-container .logo:after {
+    content: '両儀森';
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.3s ease;
+}
+.l-top_menu-v2 .logo-container .logo:hover:after {
+    content: '両儀森';
+    color: #c3edbb;
+    font-size: 22px;
+}
+.l-top_menu-v2 .menu-dropdown .submenu {
+    transition: opacity 0.2s ease-in-out;
+}
+.l-top_menu-v2 .submenu {
+    border: none;
+}
+.l-top_menu-v2 .menu-dropdown.main>span:not(.mobile), .l-top_menu-v2 .menu-dropdown.profile>span {
+    min-width: 160px;
+}
+.l-top_menu-v2 .submenu>a {
+    height: 25px;
+    color: #fff;
+    transition: 0.3s;
+}
+.l-top_menu-v2 .menu-dropdown.profile>span img {
+    height: 25px;
+    pointer-events: none;
+}
+.l-top_menu-v2 .submenu>.legend:first-child {
+    margin-top: 3px;
+}
+.l-top_menu-v2 .submenu>.legend {
+    text-align: center;
+}
+.l-top_menu-v2 .global-search input {
+    border: 1px solid transparent;
+    font-size: 12px;
+    color: black;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+}
+.l-top_menu-v2 .global-search input {
+    line-height: 20px;
+}
+.l-top_menu-v2 .global-search .search-marker, .l-top_menu-v2 .global-search .clear, .l-top_menu-v2 .global-search .clear:before {
+    font-size: 15px;
+    line-height: 24px;
+}
+.l-top_menu-v2 .global-search .search-marker {
+    width: 42px;
+    left: 0;
+}
+.l-top_menu-v2 .global-search .hotkey-marker {
+   display: none;
+}
+.l-top_menu-v2.is-search-focus .global-search .search-marker {
+    color: #427a44;
+}
+.b-link, .b-user.named_avatar .name {
+    color: #427a44;
+    transition: 0.3s;
+}
+.b-link:hover, .b-user.named_avatar .name:hover {
+    color: #58a35a;
+}
+header.head h1 a.back, header.head h2 a.back {
+    color: #427a44;
+    transition: 0.3s;
+}
+header.head h1 a.back:hover, header.head h2 a.back:hover {
+    color: #58a35a;
+}
+header.head h1 a.back:hover:after, header.head h2 a.back:hover:after {
+    border-bottom: none;
+}
+.b-user.named_avatar img:hover {
+    box-shadow: 0 0 2px 1px #58a35a;
+    transform: scale(1);
+    filter: grayscale(0%);
+}
+.b-user.named_avatar img {
+    filter: grayscale(50%);
+    transition: 0.25s ease;
+}
+.profile-actions .mail, .profile-actions .settings, .profile-actions .ban, .profile-actions .fav-add, .profile-actions .ignore-add, .profile-actions .talk {
+    color: #427a44;
+    transition: 0.3s ease-in-out;
+}
+.profile-actions .mail:hover, .profile-actions .settings:hover, .profile-actions .ban:hover, .profile-actions .fav-add:hover, .profile-actions .ignore-add:hover, .profile-actions .talk:hover, .profile-actions .fav-remove:hover {
+    color: #58a35a;
+}
+.profile-actions .fav-remove {
+    color: #58a35a;
+    transition: 0.3s ease-in-out;
+}
+.p-user_rates-index th.name.order-control {
+    text-align: center !important;
+}
+.p-user_rates-index .l-content .order-control:hover {
+    color: #427a44;
+    transition: 0.3s ease-in-out;
+}
+.b-catalog_entry .cover .image-decor img[alt*="Owarimonogatari 2nd Season"] {
+    content: url(https://i.ibb.co/N6xMQNH/463812.png);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Fullmetal Alchemist: Brotherhood"] {
+    content: url(https://kawai.shikimori.one/system/user_images/original/363043/797946.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Kara no Kyoukai 3: Tsuukaku Zanryuu"] {
+    content: url(https://i.ibb.co/6XP3261/45551.png);
+}
+.b-catalog_entry-tooltip img[alt*="Hunter x Hunter (2011)"] {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/472733.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Baccano!"] {
+    content:url(https://i.ibb.co/Sw5PGvs/32777l.png);
+}
+.b-catalog_entry-tooltip img[alt*="Koe no Katachi"] {
+    content: url(https://i.ibb.co/gy2FWWR/3255454.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z13125-'] .image-decor img {
+    content:url(https://i.ibb.co/Sy8PCdx/44235345634.png);
+}
+.b-catalog_entry .cover[href *= 'animes/11981-'] .image-decor img {
+    content:url(https://i.ibb.co/vLwfxXm/32777l.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z2251-'] .image-decor img {
+    content:url(https://i.ibb.co/Sw5PGvs/32777l.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z4282-'] .image-decor img {
+    height: 153px;
+    content: url(https://cdn.myanimelist.net/images/anime/6/27321l.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Fullmetal Alchemist: Brotherhood"] {
+    content: url(https://kawai.shikimori.one/system/user_images/original/363043/797946.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Hellsing Ultimate"] {
+    content: url(//nyaa.shikimori.one/system/user_images/original/363043/796675.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Owarimonogatari 2nd Season"] {
+    content: url(https://i.ibb.co/N6xMQNH/463812.png);
+}
+.b-catalog_entry-tooltip img[alt*="Shinsekai yori"] {
+    content:url(https://i.ibb.co/Sy8PCdx/44235345634.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z18115-'] .image-decor img {
+    content:url(https://i.ibb.co/7gGrVTm/11112.png);
+}
+.b-catalog_entry .cover[href *= 'animes/457-'] .image-decor img {
+    content:url(https://dere.shikimori.one/system/user_images/original/184680/859049.jpg);
+}
+.b-catalog_entry .cover[href *= 'animes/z2001-'] .image-decor img {
+    content:url(https://i.pinimg.com/474x/83/ef/e1/83efe1419cd462e61bff4992750047fc.jpg);
+}
+.b-catalog_entry .cover[href *= 'animes/z11061-'] .image-decor img {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/472733.jpg);
+}
+.b-catalog_entry .cover[href *= 'mangas/z24705-'] .image-decor img {
+    content: url("https://i.pinimg.com/236x/aa/c0/f4/aac0f4520e3f6fbbd26d31469900fc40.jpg");
+}
+.b-catalog_entry-tooltip img[alt*="Aku no Hana"] {
+    content: url(https://i.pinimg.com/236x/aa/c0/f4/aac0f4520e3f6fbbd26d31469900fc40.jpg);
+}
+.b-catalog_entry .cover[href *= 'mangas/33327-'] .image-decor img {
+    content: url(https://i.ibb.co/vJdxtr4/2.png);
+}
+.b-catalog_entry .cover[href *= 'animes/z6746-'] .image-decor img {
+    content:url(https://i.ibb.co/qN3k3rm/1222.png);
+}
+.b-catalog_entry a[href *= 'animes/457-'] .image-cutter, .entry-tooltip_container > .image-link[href *= 'animes/457-'], .b-catalog_entry a[href *= 'animes/457-'] .image-cutter, .entry-tooltip_container > .image-link[href *= 'animes/457-'], .p-db_entries meta[content *= 'animes/457-'] ~ .b-db_entry .c-poster center::after {
+    background-image: url(//dere.shikimori.one/system/user_images/original/184680/859049.jpg);
+}
+.b-catalog_entry .cover[href *= 'mangas/81117-'] .image-decor img {
+    content: url(https://i.ibb.co/2qzNjc9/3.png);
+}
+.entry-tooltip_container > .image-link[href *= 'animes/457-'] img {
+ opacity: 0;
+}
+.b-catalog_entry .cover[href *= 'characters/67067-'] .image-decor img {
+  content:url(https://media.discordapp.net/attachments/472313197836107780/532712729593643030/GpIK9RQ.png);
+}
+.b-catalog_entry .cover[href *= 'characters/112997-'] .image-decor img {
+  content:url(https://image.ibb.co/hSpj1L/eto4ka.png);
+}
+.b-catalog_entry-tooltip img[alt*="Eto"] {
+  content:url(https://image.ibb.co/hSpj1L/eto4ka.png);
+}
+.b-catalog_entry-tooltip img[alt*="Yukino Yukinoshita"] {
+  content:url(https://media.discordapp.net/attachments/472313197836107780/532712729593643030/GpIK9RQ.png);
+}
+.b-catalog_entry .cover[href *= 'characters/112551-'] .image-decor img {
+  content:url(https://i.ibb.co/wSyqWZG/image.png);
+}
+.b-catalog_entry-tooltip img[alt*="Seidou Takizawa"] {
+  content:url(https://i.ibb.co/wSyqWZG/image.png);
+}
+.b-catalog_entry .cover[href *= 'characters/62793-'] .image-decor img {
+  content:url(https://i.imgur.com/02w493R.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Sawa Nakamura"] {
+  content:url(https://i.imgur.com/02w493R.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/458-'] .image-decor img {
+  content:url(https://cdn.myanimelist.net/images/characters/5/304145.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/13783-'] .image-decor img {
+  content:url(https://i.ibb.co/6YWtw5g/494977.png);
+}
+.b-catalog_entry-tooltip img[alt*="Takashi Natsume"] {
+  content:url(https://i.ibb.co/6YWtw5g/494977.png);
+}
+.b-catalog_entry-tooltip img[alt*="Revy"] {
+  content:url(https://cdn.myanimelist.net/images/characters/5/304145.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/497-'] .image-decor img {
+  content:url(https://69.media.tumblr.com/c0a08f2aa8601a76eeb48dbf3e9639fa/tumblr_pljsj6qfAJ1vla2m2o8_250.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Saber"] {
+  content:url(https://69.media.tumblr.com/c0a08f2aa8601a76eeb48dbf3e9639fa/tumblr_pljsj6qfAJ1vla2m2o8_250.jpg);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Edward Elric"] {
+    content: url(https://desu.shikimori.one/system/user_images/original/100971/520823.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Edward Elric"] {
+  content:url(https://desu.shikimori.one/system/user_images/original/100971/520823.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/90181-'] .image-decor img {
+  content:url(https://cdn.myanimelist.net/images/characters/12/275292.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Megumi Katou"] {
+  content:url(https://cdn.myanimelist.net/images/characters/12/275292.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/28-'] .image-decor img {
+  content:url(https://moe.shikimori.one/system/user_images/original/100971/486432.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Kurapika"] {
+  content:url(https://moe.shikimori.one/system/user_images/original/100971/486432.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/3212'] .image-decor img {
+  content:url(https://i.ibb.co/VxmSFgB/dJs0cVy.png);
+}
+.b-catalog_entry-tooltip img[alt*="Coyote Starrk"] {
+  content:url(https://i.ibb.co/VxmSFgB/dJs0cVy.png);
+}
+.b-catalog_entry .cover[href *= 'characters/94941'] .image-decor img {
+  content:url(https://media.discordapp.net/attachments/472313197836107780/582723374199865361/cBv0Gya.png);
+}
+.b-catalog_entry-tooltip img[alt*="Chino Kafuu"] {
+  content:url(https://media.discordapp.net/attachments/472313197836107780/582723374199865361/cBv0Gya.png);
+}
+.b-catalog_entry .cover[href *= 'characters/38005-'] .image-decor img {
+  content:url(https://i.ibb.co/mbPT915/38005.png);
+}
+.b-catalog_entry-tooltip img[alt*="Homura Akemi"] {
+  content:url(https://i.ibb.co/mbPT915/38005.png);
+}
+.b-catalog_entry .cover .image-decor img[alt*="Ginko"] {
+    content: url(https://dere.shikimori.one/system/user_images/original/363043/800669.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Ginko"] {
+    content: url(https://dere.shikimori.one/system/user_images/original/363043/800669.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/146736-'] .image-decor img {
+  content:url(https://i.ibb.co/zskLbHB/ZxKsFZE.png);
+}
+.b-catalog_entry-tooltip img[alt*="Shinobu Kochou"] {
+  content:url(https://i.ibb.co/zskLbHB/ZxKsFZE.png);
+}
+.b-catalog_entry .cover[href *= 'characters/159771-'] .image-decor img {
+  content:url(https://media.discordapp.net/attachments/472313197836107780/607372780987744257/erjpSnU.png);
+}
+.b-catalog_entry-tooltip img[alt*="Mio Minato"] {
+  content:url(https://media.discordapp.net/attachments/472313197836107780/607372780987744257/erjpSnU.png);
+}
+.b-catalog_entry .cover[href *= 'characters/109995-'] .image-decor img {
+  content:url(https://media.discordapp.net/attachments/472313197836107780/571874797588578306/jvYPr88.png);
+}
+.b-catalog_entry-tooltip img[alt*="Akira Mado"] {
+  content:url(https://media.discordapp.net/attachments/472313197836107780/571874797588578306/jvYPr88.png);
+}
+.b-catalog_entry .cover[href *= 'characters/87275-'] .image-decor img {
+  content:url(https://i.ibb.co/r6jqWML/3499315.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Ken Kaneki"] {
+  content:url(https://i.ibb.co/r6jqWML/3499315.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/378-'] .image-decor img {
+  content:url(https://i.pinimg.com/474x/e7/8b/19/e78b196221f7428adffe4976dad0bcb9.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Rei Yasuda"] {
+  content:url(https://s4.anilist.co/file/anilistcdn/staff/large/n120056-M0gg1LZQlEib.png);
+}
+.b-catalog_entry-tooltip img[alt*="Akari Mizunashi"] {
+  content:url(https://i.pinimg.com/474x/e7/8b/19/e78b196221f7428adffe4976dad0bcb9.jpg);
+}
+.b-catalog_entry .cover[href *= 'people/28753-'] .image-decor img {
+  content:url(https://s4.anilist.co/file/anilistcdn/staff/large/n120056-M0gg1LZQlEib.png);
+}
+.b-catalog_entry-tooltip img[alt*="Aimer"] {
+  content:url(https://s4.anilist.co/file/anilistcdn/staff/large/n107859-0x6NJZ8dmZbp.jpg);
+}
+.b-catalog_entry .cover[href *= 'people/12859-'] .image-decor img {
+  content:url(https://s4.anilist.co/file/anilistcdn/staff/large/n107859-0x6NJZ8dmZbp.jpg);
+}
+.b-catalog_entry .cover[href *= 'characters/2007-'] .image-decor img {
+  content: url(https://i.ibb.co/K6DgZsP/d0df12f933b3fabae4f6767c0224dff51f70b3c1.jpg);
+}
+.b-catalog_entry-tooltip img[alt*="Shikamaru Nara"] {
+  content: url(https://i.ibb.co/K6DgZsP/d0df12f933b3fabae4f6767c0224dff51f70b3c1.jpg);
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/497-'] .title:after {
+    content: 'Artoria Pendragon';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/497-'] .title > span {
+    display: none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/87275-'] .title:after {
+    content: 'One-Eyed King';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/87275-'] .title > span {
+    display: none;
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/497-']:after {
+    content: 'Artoria Pendragon';
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/497-'] > span {
+    display: none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/1747-'] .title:after {
+    content: 'Moonlight Magician';
+}
+.b-catalog_entry .cover .image-decor img[alt*="Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen"], .b-db_entry > .c-image img[alt*="Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen"], .p-profiles-show .cc-favourites img[alt*="Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen"], .p-profiles-favourites .cc-favourites:last-child img[alt*="Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen"], .b-catalog_entry-tooltip img[alt*="Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen"], .p-profiles-show .about a img[alt*="Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen"] {
+    content: url(//moe.shikimori.one/system/user_images/original/100971/562462.jpg);
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/1747-'] .title > span {
+    display: none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/112997-'] .title:after {
+    content: 'Eto Yoshimura';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/112997-'] .title > span {
+    display: none;
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/458-'] .title:after {
+    content: 'Rebecca';
+}
+.p-profiles .cover[data-tooltip_url *= 'characters/458-'] .title > span {
+    display: none;
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/112997-']:after {
+    content: 'Eto Yoshimura';
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/112997-'] > span {
+    display: none;
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/458-']:after {
+    content: 'Rebecca';
+}
+.b-catalog_entry-tooltip .inner a.name[href *= 'characters/458-'] > span {
+    display: none;
+}
+.b-catalog_entry .cover .title.two_lined, .b-catalog_entry .cover .title, .p-user_rates-index .l-content .order-control {
+    text-align: center;
+}
+.b-catalog_entry .cover .image-decor img {
+    border: 1px solid #ddd;
+    filter: brightness(88%) grayscale(40%);
+}
+.b-catalog_entry .cover .image-decor img:hover {
+    border: 1px solid #ddd;
+    filter: brightness(100%);
+    transition: 0.3s ease-in-out;
+}
+.cc-favourites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.b-breadcrumbs > span::after {
+    content: '»';
+    color: #9E9E9E;
+}
+.b-options-floated.mobile-desktop {
+    margin-bottom: 10px;
+    justify-content: center;
+    text-transform: uppercase; 
+}
+.b-options-floated.mylist.mobile-desktop a::after,
+.b-options-floated.mylist.mobile-desktop .link::after {
+  display: none;
+}
+.p-user_rates-index .l-content .b-options-floated span::before,
+.p-user_rates-index .l-content .b-options-floated span::after {
+  display: none;
+}
+.b-options-floated.mobile-desktop {
+    position: inherit;
+    text-align: center;
+    z-index: 10;
+}
+.b-options-floated.mobile-desktop a {
+    display: initial;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #000;
+    padding: 0.5rem 0.6rem;
+    margin: 0.2rem 0.6rem;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.b-options-floated.mobile-desktop a:hover {
+    border: 1px solid #427a44;
+    color: #427a44;
+}
+.b-options-floated.mobile-desktop a.selected {
+    background: #427a44;
+    color: #fff;
+    border: 1px solid #427a44;
+}
+.b-options-floated.mobile-desktop a.selected:hover {
+    background: #58a35a;
+    color: #fff;
+    border: 1px solid #58a35a;
+}
+.p-user_rates-index .l-content .b-options-floated span {
+    display: inline;
+    border-left: 1px solid #ddd;
+    padding: 2px 6px;
+    margin-left: 4px;
+    white-space: normal;
+}
+.p-user_rates-index .l-content .b-options-floated span[class*="action"] {
+  color: #000;
+  background: #fff;
+  margin: 0;
+  display: inline;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 1px 3px;
+  white-space: normal;
+  transition: 0.2s ease;
+}
+.p-user_rates-index .l-content .b-options-floated span[class*="action"]:hover {
+  color: #58a35a;
+  border-color: #58a35a;
+}
+.b-options-floated a:after, .b-options-floated .link:after {
+  display: none;
+}
+.b-catalog_entry-tooltip .inner a.name {
+  color: #427a44;
+  transition: 0.2s ease;
+}
+.b-catalog_entry-tooltip .inner a.name:hover {
+  color: #58a35a;
+}
+.b-add_to_list.planned .trigger, .b-add_to_list.planned .option, .b-add_to_list.completed .trigger, .b-add_to_list.completed .option, .b-add_to_list.dropped .trigger, .b-add_to_list.dropped .option, .b-add_to_list.on_hold .trigger, .b-add_to_list.on_hold .option, .b-add_to_list.watching .trigger, .b-add_to_list.watching .option, .b-add_to_list.rewatching .trigger, .b-add_to_list.rewatching .option {
+    margin-bottom: 3px;
+    border: 2px solid #ddd;
+    color: #000;
+    background: transparent;
+    padding: 6px 8px;
+    border-radius: 2px;
+    text-decoration: none !important;
+    transition: 0.25s ease;
+}
+.b-catalog_entry-tooltip .b-add_to_list .trigger, .b-catalog_entry-tooltip .b-add_to_list .add-trigger, .b-catalog_entry-tooltip .b-add_to_list .remove-trigger {
+    max-width: none;
+}
+.b-catalog_entry-tooltip .b-add_to_list .trigger {
+    font-size: 13px;
+    line-height: 25px;
+}
+.b-db_entry-variant-list_item > .info .b-user_rate .b-add_to_list .trigger,
+.b-db_entry-variant-list_item > .info .b-user_rate .b-add_to_list .option {
+  font-size: 12px;
+  padding: 0 10px;
+  border-left-width: 2px;
+  line-height: 2.5;
+}
+.b-add_to_list .trigger .text,
+.b-add_to_list .option .text {
+  text-decoration: none !important;
+}
+.b-add_to_list.planned .trigger,
+.b-add_to_list.planned .option,
+.b-add_to_list.completed .trigger,
+.b-add_to_list.completed .option,
+.b-add_to_list.dropped .trigger,
+.b-add_to_list.dropped .option,
+.b-add_to_list.on_hold .trigger,
+.b-add_to_list.on_hold .option,
+.b-add_to_list.watching .trigger,
+.b-add_to_list.watching .option,
+.b-add_to_list.rewatching .trigger,
+.b-add_to_list.rewatching .option {
+  margin-bottom: 3px;
+  border: 2px solid #ddd;
+  color: #000;
+  background: transparent;
+  padding: 6px 8px; 
+  border-radius: 2px;
+  text-decoration: none !important;
+  transition: .25s ease;
+}
+.b-add_to_list.planned .option:hover,
+.b-add_to_list.completed .option:hover,
+.b-add_to_list.dropped .option:hover,
+.b-add_to_list.on_hold .option:hover,
+.b-add_to_list.watching .option:hover,
+.b-add_to_list.rewatching .option:hover {
+  color: #427a44;
+  border-color: #427a44;
+  background: #fff;
+}
+.b-add_to_list.planned .trigger:hover,
+.b-add_to_list.on_hold .trigger:hover {
+  color: var(--t1);
+  border-color: initial;
+  background: rgba(0, 0, 0, .1);
+}
+
+.b-add_to_list.completed .trigger:hover {
+  color: #419541;
+  border-color: initial;
+  background: rgba(65, 149, 65, .1);
+}
+
+.b-add_to_list.dropped .trigger:hover {
+  color: #ff0610;
+  border-color: initial;
+  background: rgba(255, 0, 0, .1);
+}
+
+.b-add_to_list.watching .trigger:hover,
+.b-add_to_list.rewatching .trigger:hover {
+  color: #176093;
+  border-color: initial;
+  background: rgba(23, 96, 147, .1);
+}
+
+.b-add_to_list .option.remove-trigger:hover {
+  color: #f10b0b;
+  border-color: initial;
+  background: rgba(255, 0, 0, .1);
+}
+.b-tag[href] {
+    background-color: #fff;
+    border: 1px solid #ddd !important;
+}
+.b-tag, .b-db_entry>.c-about .additional-links .line-container>a {
+    padding: 1px 4px !important;
+    margin: 2px 4px 2px 0;
+    border-radius: 0;
+    color: inherit;
+    line-height: 18px !important;
+    transition: 0.16s cubic-bezier(0.4, 0, 0.6, 1);
+}
+.b-tag[href]:hover {
+    border-color: #427a44;
+    background-color: #427a44;
+    color: #fff;
+}
+.headline, .subheadline, .b-stats_bar .title, .p-profiles .profile-head .c-info .c-additionals b, .p-profiles-show .achievements .header, .red, .b-errors .subheadline, .midheadline {
+    font-family: 'IBM Plex Sans';
+}
+.b-anime_status_tag.released {
+    background-color: transparent;
+    color: #4e7750;
+}
+.p-user_rates-index .b-collection_search .field input:focus {
+  border-color: 427a44;
+  box-shadow: inset 0 0 0 1px #ddd;
+}
+.p-user_rates-index .list-groups .summary.lines {
+    font-family: 'IBM Plex Sans';
+    text-align: center;
+}
+.p-user_rates-index .list-lines .selectable, .p-userlist_comparer .comparer table .selectable {
+    transition: 0.2s ease-in-out;
+}
+.p-user_rates-index .list-lines .selectable:hover, .p-userlist_comparer .comparer table .selectable:hover {
+    background: #c5edbe;
+}
+.tooltip-inner {
+    border: 1px solid #ddd;
+}
+.b-catalog_entry-tooltip .image {
+    border: 2px solid #ddd;
+}
+.p-profiles .profile-head .c-brief .avatar {
+  position: relative;
+}
+.p-profiles .profile-head .c-brief .avatar::before {
+  content: '';
+  position: absolute;
+  box-shadow: 0 0 2px 2px #ddd, inset 0 0 2px #ddd;
+  width: 100%;
+  padding-bottom: 100%;
+  background: url(https://i.ibb.co/8cdVbsh/chrome-2020-06-11-13-56-36.png) top center / cover;
+  border-radius: 2px;
+}
+
+.p-profiles .profile-head .c-brief .avatar img {
+  opacity: 0;
+}
